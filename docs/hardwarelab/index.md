@@ -1,6 +1,6 @@
 # Durham HPC Hardware Lab
 
-The Durham HPC Hardware Lab is hosted by the [COSMA HPC facility](https://cosma.readthedocs.io) and provides Durham and UK researchers with access to cutting edge technologies and facilities.
+The Durham HPC Hardware Lab provides Durham and UK researchers with access to cutting edge technologies and facilities.
 
 These include:
 
@@ -22,6 +22,11 @@ To make use of these facilities, please apply via [SAFE](https://safe.epcc.ed.ac
 
 - do009: DINE
 - do015: DINE2
+  
+# Durham HPC Hardware Lab
+
+The Durham HPC Hardware Lab is hosted by the [COSMA HPC facility](https://cosma.readthedocs.io) and provides Durham and UK researchers with access to cutting edge technologies and facilities.
+
 - do016: NVIDIA GPUs
 - do017: Intel GPUs
 - do018: AMD GPUs
