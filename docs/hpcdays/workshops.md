@@ -24,15 +24,28 @@ This session is for the DiRAC RSEs to present their work to the UK HPC community
 
 ## Wednesday, 4th June 2025 
 
-### <h2 id="WHPC">Women in HPC (WHPC)</h2>
+### <h2 id="WHPC">Women in HPC (WHPC) - The EDI Equation: Getting the Balance Wrong</h2>
 **Convener: Eleanor Broadway (EPCC)**
 - 09:45 - 10:30 
 
-Session 1 of 2. 
+**In order to drive change and impact around equality, diversity and inclusion (EDI) we need a finely tuned balance of:**
+* Passion: People who care deeply and take action  
+* Lived experience: Those who are directly affected to provide input
+* Diversity of voices to ensure suitability for all 
+* Institutional buy-in: Support from leadership, feeding into career progression to incentivise engagement.  
+* Funding and resources
+* Accountability and accurate reporting on success of initatives
+ 
+But, when this balance tips the wrong way, we can see an unsustainable over-reliance on volunteer-driven initiatives with a lack of institutional buy-in and, ultimately, missed opportunities for driving real and impactful progress. 
 
-Organised by representatives from the Women in High Performance Computing (WHPC) community, this session will explore new, sustainable and realistic strategies for improving and supporting the diversity in our community. Don’t miss this opportunity to be part of the conversation on overcoming our current barriers to change, exploring the crucial role of funders and leaders, and discovering how we can all contribute to a more inclusive future in HPC and beyond.
+Organised by representatives from the Women in High Performance Computing (WHPC) community, this panel session will discuss where here EDI efforts in HPC are falling short and explore how we can rebalance the equation — together.
 
-More details coming soon! 
+Our panelists are: 
+* Cristin Merritt, Alces Flight Ltd 
+* Jeremy Cohen, Imperial College London 
+* More to be announced!
+
+**This workshop consists of two parts. The second, taking place on Friday, will be informed by and extend on this discussion.**
 
 
 ### <h2 id="Weather">HPC in Weather & Climate Research</h2>
@@ -195,15 +208,24 @@ in the UK or internationally. We will also try to include at least one presentat
 international partner to bring insights from outside the UK.
 
 
-### <h2 id="WHPC">Women in HPC (WHPC)</h2>
+### <h2 id="WHPC">Women in HPC (WHPC) - The EDI Equation: Getting the Balance Wrong</h2>
 **Convener: Eleanor Broadway (EPCC)**
 - 11:00 - 12:30 
 
-Session 2 of 2. 
+**In order to drive change and impact around equality, diversity and inclusion (EDI) we need a finely tuned balance of:**
+* Passion: People who care deeply and take action  
+* Lived experience: Those who are directly affected to provide input
+* Diversity of voices to ensure suitability for all 
+* Institutional buy-in: Support from leadership, feeding into career progression to incentivise engagement.  
+* Funding and resources
+* Accountability and accurate reporting on success of initatives
+ 
+But, when this balance tips the wrong way, we can see an unsustainable over-reliance on volunteer-driven initiatives with a lack of institutional buy-in and, ultimately, missed opportunities for driving real and impactful progress. 
 
-Organised by representatives from the Women in High Performance Computing (WHPC) community, this session will explore new, sustainable and realistic strategies for improving and supporting the diversity in our community. Don’t miss this opportunity to be part of the conversation on overcoming our current barriers to change, exploring the crucial role of funders and leaders, and discovering how we can all contribute to a more inclusive future in HPC and beyond.
+Organised by representatives from the Women in High Performance Computing (WHPC) community, this second session will bring the conversation to you! **In the first part, taking place prior to this on Wednesday, we will host a panel discussion from representatives of the community to discuss getting the balance right as volunteers for EDI efforts in HPC.** Don't worry, we will provide a complete summary, so please come along even if you missed the first session. This second session will be a group discussion, finding strategies to address these problems in the day-to-day, and advocate for small tangible changes.  
 
-More details coming soon! 
+Finally, in the third part of our session, **Mike Simpson (Newcastle University)** will lead a focused conversation on mental health around volunteering for EDI initatives. EDI work is often driven by deeply personal motivations, the emotional weight of this can take a toll and it's important to look after yourself. We want to help support you in this as well as advancing our community to improve the state of EDI.
+
 
 
 ### <h2 id="CoSeC">CoSeC</h2>

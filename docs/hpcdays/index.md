@@ -35,9 +35,9 @@ Please register to join us at the Durham HPC Days 2025 [here](https://pay.durham
   <td> 9:00 </td>
   <td> </td>
   <td rowspan="2"> Tutorial: <a href="tutorials.html#lustre">Lustre</a> <br /><br />  Tutorial: <a href="tutorials.html#amd">AMD GPUs</a> <br /><br /> Workshop: <a href="workshops.html#biosciences">Computational Biosciences</a></td>
-  <td> Keynote: <a href="keynotes.html#Merritt">Finding the Fulcrum: Rethinking Supercomputing at Scale</a> (Cristin Merritt)</td>
-  <td> Keynote: <a href="keynotes.html#Neumann">T.B.A.</a> (Philipp Neumann) </td>
-  <td> Keynote: <a href="keynotes.html#Clough">T.B.A.</a> (Katy Clough) </td>
+  <td> Keynote: <a href="https://durham.readthedocs.io/en/latest/hpcdays/keynotes.html#cristin-merritt-chief-marketing-officer---alces-flight-ltd">Finding the Fulcrum: Rethinking Supercomputing at Scale</a> (Cristin Merritt)</td>
+  <td> Keynote: <a href="https://durham.readthedocs.io/en/latest/hpcdays/keynotes.html#prof-dr-philipp-neumann">T.B.A.</a> (Philipp Neumann) </td>
+  <td> Keynote: <a href="keynotes.html#dr-katy-clough-stfc-ernest-rutherford-research-fellow">T.B.A.</a> (Katy Clough) </td>
   <td rowspan=13> Social </td>
 </tr>
 <tr>
@@ -99,7 +99,7 @@ Please register to join us at the Durham HPC Days 2025 [here](https://pay.durham
   <td />
   <td />
   <td>Industry scavenger hunt</td>
-  <td><a href="keynotes.html#meetandgreet">EPSRC Early Career Research: Meet and greet with the funder</a><br /><br /><a href="workshops.html#hpc-rse-sig-meet-up-1630-1800">HPC RSE SIG meetup</a> <br />(informal cont)</td>
+  <td><a href="keynotes.html#christian-oganbule-epsrc">EPSRC Early Career Research: Meet and greet with the funder</a><br /><br /><a href="workshops.html#hpc-rse-sig-meet-up-1630-1800">HPC RSE SIG meetup</a> <br />(informal cont)</td>
 </tr>
 </table>
 

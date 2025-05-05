@@ -1,6 +1,6 @@
 # Keynote Speakers
 
-## <h2 id="Merritt">Cristin Merritt (Chief Marketing Officer - Alces Flight Ltd.)</h2>
+## Cristin Merritt (Chief Marketing Officer - Alces Flight Ltd.)
 <img width="200px" src="https://hanami-project.com/wp-content/uploads/2024/08/14.png" />
 
 ### Finding the Fulcrum: Rethinking Supercomputing at Scale
@@ -36,7 +36,7 @@ keynote—reminding us that scaling supercomputing is as much about people as it
 performance.
 
 
-## <h2 id="Neumann">Prof Dr Philipp Neumann</h2>
+## Prof Dr Philipp Neumann
 <img width="200px" src="https://www.desy.de/sites2009/site_www-desy/content/e410/e123090/e340114/Philipp-Neumann-DESY-Leitender-Wissenschaftler-header_ger.jpg" />
 
 ### Title: T.B.A.
@@ -53,7 +53,7 @@ Philipp Neumann's research focuses on high performance computing for molecular d
 
 
 
-## <h2 id="Gruber">Thomas Gruber (Regionales RechenZentrum Erlangen - RRZE)</h2>
+## Thomas Gruber (Regionales RechenZentrum Erlangen - RRZE)
 <img width="200px" src="https://hpc.fau.de/files/2021/03/thomas-gruber_2020.jpg" />
 
 ### Unleash the control freak in yourself for fun and profit - and for science!
@@ -95,7 +95,7 @@ research.
 During his apprenticeship at the Erlangen Regional Computing Center (RRZE), the IT service provider for the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Thomas Gruber collected experience with all kinds of clustering approaches. Afterwards, he studied Computer Science at RWTH Aachen University with emphasis on parallel programming and operating system kernel development. At the same time, he worked as a research assistant for the HPC group of the RWTH IT center. After receiving his M. Sc. degree, he went back to RRZE to work for the HPC group. Since 2021, he works in the Software & Tools division at Erlangen National High Performance Computing Center (NHR@FAU). Thomas Gruber leads the development of the performance tool suite LIKWID, which comprises easy-to-use tools for hardware performance monitoring, affinity control and micro-benchmarking. He also works on projects involving monitoring and analysis of hardware performance data. He is actively involved in tutorials and lectures about performance analysis and optimization, where he presents the LIKWID tools and leads hands-on exercises.
 
 
-## <h2 id="Clough">Dr Katy Clough (STFC Ernest Rutherford Research Fellow)</h2>
+## Dr Katy Clough (STFC Ernest Rutherford Research Fellow)
 <img width="200px" src="https://www.physics.ox.ac.uk/sites/default/files/styles/scale_crop_732/public/user_photos/Teddy_Hall_KClough.JPG?itok=5DsTgICH" />
 
 ### Title: T.B.A.
@@ -110,7 +110,7 @@ T.B.A.
 
 Katy's research focuses on using numerical solutions to understand the consequences of Einstein's theory of general relativity, in particular concerning black hole environments and inhomogeneities in the early universe. She is a member of the Geometry, Analysis and Gravitation group in the School of Mathematical Sciences.
 
-## <h2 id="meetandgreet">Christian Oganbule (EPSRC)</h2>
+## Christian Oganbule (EPSRC)
 
 <img width="200px" src="https://media.licdn.com/dms/image/v2/D4E03AQH1WCPjdzw35A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718271272055?e=1751500800&v=beta&t=edewrsZY5LfYJikDW8JMZdn3ttppbJ6_Q58q7HB8z1I" />
 

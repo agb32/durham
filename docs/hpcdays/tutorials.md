@@ -66,9 +66,7 @@ This will be a hands-on exploration of the new next-gen AMD Fortran and the C an
 What kind of complex, real-world language constructs can these compilers handle? We look at many cases in C, C++, and Fortran. Bring your complex reproducers in Fortran and C++ and we'll see if we can break the compilers.
 
 
-### Codeplay: Accelerate your code on GPUs and more using C++ and SYCL
-<a label="SYCL" />
-
+### <h2 id="SYCL">Codeplay: Accelerate your code on GPUs and more using C++ and SYCL</h2>
 **Presenter: t.b.c. (Codeplay)**
 - 13:30 - 15:00 - Session 1
 - 15:00 - 16:30 - Coffee break & Opening Ceremony
