@@ -24,11 +24,12 @@ This session is for the DiRAC RSEs to present their work to the UK HPC community
 
 ## Wednesday, 4th June 2025 
 
-### <h2 id="WHPC">Women in HPC (WHPC) - The EDI Equation: Getting the Balance Wrong</h2>
+### <h2 id="WHPC">Women in HPC (WHPC)</h2>
 **Convener: Eleanor Broadway (EPCC)**
 - 09:45 - 10:30 
 
-**In order to drive change and impact around equality, diversity and inclusion (EDI) we need a finely tuned balance of:**
+**The EDI Equation: Getting the Balance Wrong**
+In order to drive change and impact around equality, diversity and inclusion (EDI) we need a finely tuned balance of:
 * Passion: People who care deeply and take action  
 * Lived experience: Those who are directly affected to provide input
 * Diversity of voices to ensure suitability for all 
@@ -208,11 +209,12 @@ in the UK or internationally. We will also try to include at least one presentat
 international partner to bring insights from outside the UK.
 
 
-### <h2 id="WHPC">Women in HPC (WHPC) - The EDI Equation: Getting the Balance Wrong</h2>
+### <h2 id="WHPC">Women in HPC (WHPC)</h2>
 **Convener: Eleanor Broadway (EPCC)**
 - 11:00 - 12:30 
 
-**In order to drive change and impact around equality, diversity and inclusion (EDI) we need a finely tuned balance of:**
+**The EDI Equation: Getting the Balance Wrong**
+In order to drive change and impact around equality, diversity and inclusion (EDI) we need a finely tuned balance of:
 * Passion: People who care deeply and take action  
 * Lived experience: Those who are directly affected to provide input
 * Diversity of voices to ensure suitability for all 
