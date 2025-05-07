@@ -39,13 +39,13 @@ performance.
 ## Prof Dr Philipp Neumann
 <img width="200px" src="https://www.desy.de/sites2009/site_www-desy/content/e410/e123090/e340114/Philipp-Neumann-DESY-Leitender-Wissenschaftler-header_ger.jpg" />
 
-### Title: T.B.A.
+### Title: Molecular Simulation in Process Engineering: Impressions from the Era of Exascale Computing and Data Science
 
 **Thursday, 5th June 2025, 9:00 - 9:45**
 
 ### Abstract
 
-T.B.A.
+For more than a decade, a consortium formed by experts in scientific computing, HPC and process engineering jointly develop solutions for efficient molecular dynamics simulations. In my talk, I will provide a recap of research and scientific software developments, tying together challenges from applications and computing -- leading to the current state of our simulation software technology in the era of exascale computing and data science. This involves topics such as load balancing, automated algorithm selection and coupled multiscale systems, all of which have been explored and covered in the open-source software packages ls1 mardyn, AutoPas and MaMiCo.
 
 ### Short bio
 
@@ -98,13 +98,13 @@ During his apprenticeship at the Erlangen Regional Computing Center (RRZE), the 
 ## Dr Katy Clough (STFC Ernest Rutherford Research Fellow)
 <img width="200px" src="https://www.physics.ox.ac.uk/sites/default/files/styles/scale_crop_732/public/user_photos/Teddy_Hall_KClough.JPG?itok=5DsTgICH" />
 
-### Title: T.B.A.
+### Title: Challenges and Opportunities in HPC for Numerical Relativity
 
 **Friday, 6th June 2025, 09:00 - 09:45**
 
 ### Abstract
 
-T.B.A.
+Numerical relativity is a set of tools for modelling the evolution of dynamical spacetimes in strong gravity regimes. The canonical example of our simulations is a binary black hole merger, where the characterisation of the associated gravitational wave signals is essential for interpreting observational data from the LVK observatories. The same simulations allow us to study physics beyond General Relativity and the Standard Model, including the cosmological singularity, modified gravity, dark matter environments and hypothetical alien warp drives. HPC is essential for these studies and as a result the transition to GPUs presents both challenges and opportunities for our field. In this talk I will give an overview of the current status, and highlight the discovery potential that advances in HPC can unlock.     
 
 ### Short bio
 

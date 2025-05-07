@@ -3,11 +3,15 @@
 ## Tuesday, 3rd June 2025
 
 ### <h2 id="biosciences">Computational Biosciences</h2>
-**Convener: T.B.A.** 
-- 9:00 - 10:30 and 11:00 - 12:30 
+**Conveners: Christopher Marcotte (Durham) and Gokberk Kabacaoglu (Durham)** 
+- 9:30 - 10:30 and 11:00 - 12:30 
 
-More details coming soon! 
+5x25-minute talks
 
+Speakers: 
+- Maria Secrier (University College London)
+- Tyler Shendruk (University of Edinburgh)
+- Ulrik Beierholm (Durham)
 
 
 ### <h2 id="DiRAC-RSEs">DiRAC RSEs</h2>

@@ -38,7 +38,7 @@ Please register to join us at the Durham HPC Days 2025 [here](https://pay.durham
   <td> Keynote: <a href="https://durham.readthedocs.io/en/latest/hpcdays/keynotes.html#cristin-merritt-chief-marketing-officer---alces-flight-ltd">Finding the Fulcrum: Rethinking Supercomputing at Scale</a> (Cristin Merritt)</td>
   <td> Keynote: <a href="https://durham.readthedocs.io/en/latest/hpcdays/keynotes.html#prof-dr-philipp-neumann">T.B.A.</a> (Philipp Neumann) </td>
   <td> Keynote: <a href="keynotes.html#dr-katy-clough-stfc-ernest-rutherford-research-fellow">T.B.A.</a> (Katy Clough) </td>
-  <td rowspan=13> Social </td>
+  <td rowspan=13> <a href="social.html">Social</a> </td>
 </tr>
 <tr>
   <td> 9:45 </td>
@@ -105,6 +105,8 @@ Please register to join us at the Durham HPC Days 2025 [here](https://pay.durham
 
 
 ## Supporters
+
+![Sponsors](../images/logos.png)
 
 If you would like to sponsor the event, please contact us!
 
