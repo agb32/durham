@@ -109,12 +109,26 @@ Our speakers are:
 ### HPC/HTC in High-Energy Physics
 **Conveners: Enrico Bothmann (CERN), Luigi del Debbio (Edinburgh), Marek Schoenherr (Durham)**
 - 13:30 - 15:00
+  This session focusses on developments for the Worldwide LHC Computing Grid (WLCG), its prospects and challenges.
 
 Speakers:
-- Maria Girone (CERN)
-- Dave Britton (Glasgow)
-- Davide Constanzo (Sheffield)
-- Manuel Griffels (KIT)
+- 13:30 Manuel Giffels (KIT)
+   <details>
+       <summary>"Transforming HEP Computing in Germany -- Paving the way for the efficient utilisation of HPC systems"</summary>
+     Germany is undergoing a significant transformation in the landscape of High Energy Physics (HEP) computing. This presentation outlines the strategic migration of WLCG Tier-2 compute resources from dedicated university-based infrastructures to the National High-Performance Computing (NHR) centres. A cornerstone of this transition is the COBalD/TARDIS framework, which enables dynamic resource provisioning and facilitates seamless integration of heterogeneous HPC systems into the WLCG. Following a brief introduction to the Worldwide LHC Computing Grid (WLCG), with a particular emphasis on its structure and role within Germany, the presentation will explore the architecture and progress of the ongoing migration, share practical insights from experiences, and outline future directions.
+   </details>
+- 13:52 Dave Britton (Glasgow)
+   <details>
+       <summary>WLCG Overview</summary>
+   </details>
+- 14:15 Maria Girone / David Southwick (CERN)
+   <details>
+       <summary>HPC for WLCG</summary>
+   </details>
+- 14:37 Davide Constanzo (Sheffield)
+   <details>
+       <summary>Software for WLCG</summary>
+   </details>
 
 
 ## Thursday, 5 June 2025
@@ -166,11 +180,24 @@ Speakers:
 ### HPC/HTC in High-Energy Physics
 **Conveners: Enrico Bothmann (CERN), Luigi del Debbio (Edinburgh), Marek Schoenherr (Durham)**
 - 9:45 - 10:30
+  This session focusses on the use of HPC and generative AI technologies 
+  for lattice QCD calculations
 
 Speakers:
-- Gurtej Kanwar (Edinburgh)
-- Roy Stegman (Edinburgh)
-- Antonin Portelli (Edinburgh)
+- 09:45 Gurtej Kanwar (Edinburgh)
+   <details>
+       <summary>"Generative AI for Lattice QCD calculations"</summary>
+   </details>
+
+- 10:00 Roy Stegman (Edinburgh)
+   <details>
+       <summary>"Energy usage and technical design of Lattice QCD calculatons"</summary>
+   </details>
+
+- 10:15 Antonin Portelli (Edinburgh)
+   <details>
+       <summary>tbc</summary>
+   </details>
 
 
 ### Benchmarking Symposium: Benchmarking of HPC systems for simulation and AI
@@ -323,9 +350,28 @@ Finally, in the third part of our session, Mike Simpson (Newcastle University) w
 ### HPC/HTC in High-Energy Physics
 **Convener: Enrico Bothmann (CERN), Luigi del Debbio (Edinburgh), Marek Schoenherr (Durham)**
 - 13:30 - 15:00
+  This session focusses on the use of machine learning technoligies and GPU 
+  off-loading in Monte-Carlo event generation and simulation.
 
 Speakers:
-- Daniel Maitre (Durham)
-- Enrico Bothmann (CERN)
-- Konrad Helms (Goettingen)
-- Daniele Massaro (CERN)
+- 13:30 Daniel Maitre (Durham)
+   <details>
+       <summary>"Neural Networks for Matrix Element emulation"</summary>
+   </details>
+
+- 13:52 Konrad Helms (Goettingen)
+   <details>
+       <summary></summary>
+   </details>
+
+- 14:15 Enrico Bothmann (CERN)
+   <details>
+       <summary>"Portable collider event generation with PEPPER 🌶️"</summary>
+       Collision simulations at high energies using Monte-Carlo event generators are a backbone of the physics programme of current and future particle physics experiments at the High Energy Frontier. The computational cost of these simulations is significant, and it will increase dramatically for the upcoming "High-Luminosity" update of the Large Hadron Collider at CERN. It is therefore desirable to be able to offload Monte-Carlo event generation to HPC facilities which increasingly rely on GPU acceleration. In this talk I present PEPPER, a new portable parton-level event generator with HPC and GPU support. It can be run on a variety of CPU and GPU architectures of today’s rapidly changing HPC landscape, and delivers 1-2 orders of magnitude faster event generation throughput for the computationally most relevant physics processes.
+   </details>
+
+- 14:37 Daniele Massaro (CERN)
+   <details>
+       <summary>"Data parallelism in MadGraph: hardware acceleration with GPUs and SIMD CPUs"</summary>
+       The MadGraph5_aMC@NLO generator is a widely used tool for simulating high-energy particle collisions, and it is a key component of the LHC experiments' software stack. Recently, a new plugin of the code, CUDACPP, has been released along with the latest version of the code. The CUDACPP plugin represents the first endeavour on the path to hardware-accelerated event generation, opening MadGraph5_aMC@NLO to the world of GPUs and vector CPU instructions. Achieving this goal required the design of a new architecture of the code, and several steps of test and validation across many physics processes. At the same time, many tests have been carried out on the experimental side, providing feedback on the performance of the code and its usability. In this talk, we will start from presenting the original status of the code, detailing the main bottlenecks and the main strategies used to tackle them. Additionally, the main design choices will be introduced, followed by the results of performance and profiling tests. We will conclude with a discussion on the future developments and improvements that are planned for the next releases of the code, involving mainly the support of next-to-leading-order processes.
+   </details>
