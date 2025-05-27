@@ -361,7 +361,8 @@ Speakers:
 
 - 13:52 Konrad Helms (Goettingen)
    <details>
-       <summary></summary>
+       <summary>"From Code to Collisions: Machine Learning-Driven Phase Space Sampling for Event Generation in High-Energy Physics"</summary>
+       As we advance toward the next generation of particle collision experiments, there is a growing need for faster and more resource-friendly simulation of collision events in particle physics. This presentation highlights one of the main challenges in event generation: the integration of the transition matrix element. Many common software libraries currently utilize Monte Carlo integration techniques for this purpose. Recent progress in generative models in the form of continuous normalizing flows, trained using conditional flow matching, offers the potential to improve integration efficiency significantly. This presentation will demonstrate the application of continuous normalizing flows in neural importance sampling and discuss strategies for efficiently integrating functions with recursive structures.
    </details>
 
 - 14:15 Enrico Bothmann (CERN)
