@@ -43,26 +43,14 @@ There would be an opportunity to discuss how users’ individual applications co
 **Presenters: Robert Esnouf, Gareth Wilson**
 - 09:00-10:00 - Talks
 - 09:00-9:05 - Welcome
-- 09:05-9:25 - Paul Ingram, Red Oak Consulting, Lustre PFL
-- 09:25-9:45 - David Ford, Oxford, Tiering to tape
-- 09:45-10:05 - TBC
-- 10:10-10:30 - Account sign up for Darshan Tutorial
-  - *Please bring a laptop with internet access and SSH client*
+- 09:05-9:30 - Paul Ingram, Red Oak Consulting, Lustre PFL
+- 09:30-9:55 - David Ford, Oxford, Tiering to tape
+- 09:55-10:20 - Gwen Dawes, Lustre at Cambridge
+- 10:20-10:30 - Panel Q&A
 - 10:30-11:00 - Coffee break
-- 11:00-12:30 - Darshan introduction and tutorial - Rich Mansfield, DDN.
+- 11:00-12:30 - Lustre discussion <s>Darshan introduction and tutorial - Rich Mansfield, DDN.</s>
 
-Boost Your Code's Performance with Darshan! Lustre User Group (LUG) UK Summer Workshop @ Durham HPC Days.
-
-Join us for the LUG UK Summer Workshop at Durham HPC Days, featuring
-an interactive tutorial on I/O profiling with Darshan to help you
-learn to optimize your code's I/O performance, plus talks from Lustre
-Users and Experts.
-
-What's in it for you?
-- Learn to profile your code: Discover how Darshan can reveal your application's I/O bottlenecks.
-- Optimize your I/O: Gain practical skills to improve data read/write efficiency for faster execution.
-- Lustre User Insights: Hear from experienced Lustre users sharing their tips and tricks.
-- Networking: Connect with fellow HPC enthusiasts and experts.
+Learn about Lustre installations at various sites, and discuss your Lustre woes with experienced users.
 
 
 
