@@ -18,9 +18,25 @@ Join us for 5 x 25-minute talks from the following speakers:
 **Convener: Ilektra Christidi (UCL)**
 - 13:30 - 15:00 and 16:30 - 18:00
 
-Join us for 4 x 20-minute talks, speakers to be confirmed.
-
 This session is for the DiRAC RSEs to present their work to the UK HPC community, as well as catch up with each other and other DiRAC people that might want to join. Come join us to see how DiRAC RSEs accelerate science in particle physics, astrophysics, and cosmology, by promoting good software development practices, optimising software running on the DiRAC sites, and assisting researchers in implementing new functionality and using accelerators in their codes.
+
+Agenda:
+- Simon Burbidge (Leicester) & Ilektra Christidi (UCL) - 15 min
+  - Intro: The DiRAC RSE team and what we can do for your research
+- Nicolin Govender & Connor Aird (UCL) - 15 min
+  - Evaluation of an implict stellar hydrodynamics code (Sparse Matrix) for GPU acceleration
+- Muhammad Asif (Leicester) - 15 min
+  - Optimising gauge calculations in GRID via the RAC16 call
+- Julianna Kwan (Cambridge) - 15 min
+  - AMRex for portability and its use in GRTeclyn
+- Gokmen Kilic (DUrham) - 15 min
+  - DiRAC RSE support for SWIFT
+- Nicolin Govender (UCL) - 5 min
+  - Parallel neighbour finding algorithm
+- Simon Burbidge (Leicester) - 5 min
+  - Thoughts about mixed precision
+- Ilektra Christidi (UCL) - 5 min
+  - Outro: Audience interaction & pairing with RSEs
 
 **This workshop consists of two parts, and the second part (16:30 - 18:00) is for DiRAC RSEs only.**
 
