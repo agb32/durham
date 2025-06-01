@@ -3,7 +3,7 @@
 ## The UK Centre of Excellence for the Characterisation and Co-Design of Systems, Hardware and Enabling Software
 
 
-**Convener:**  
+**Convener:** Jeremy Yates, Alastair Basden
 **Slot:** Wednesday, 15:30-16:15\
 **Location:** MCS 3052
 
