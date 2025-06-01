@@ -185,7 +185,7 @@ facilities
   <td>
     <a href="keynotes.html#christian-oganbule-epsrc">EPSRC Early Career Research: Meet and greet with the funder</a> (MCS2050)
     <br /><div style="color:LightGrey;font-size=50%">and</div>
-    <div style="color:LightGrey;font-size=50%">and</div><a href="workshops.html#hpc-rse-sig-meet-up">HPC RSE SIG meetup</a> <br />(Continued, MCS2068)
+    <a href="workshops.html#hpc-rse-sig-meet-up">HPC RSE SIG meetup</a> <br />(Continued, MCS2068)
     <br /><div style="color:LightGrey;font-size=50%">and</div>
     Food van and refreshments
   </td>
