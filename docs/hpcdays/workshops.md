@@ -348,20 +348,26 @@ Organised by representatives from the Women in High Performance Computing (WHPC)
 
 Finally, in the third part of our session, Mike Simpson (Newcastle University) will lead a focused conversation on mental health around volunteering for EDI initiatives. EDI work is often driven by deeply personal motivations, the emotional weight of this can take a toll and it's important to look after yourself. We want to help support you in this as well as advancing our community to improve the state of EDI.
 
-### CoSeC
+### CoSeC & Creating a cohesive distributed Digital Research Infrastructure 
+
 **Conveners: Stephen Longshaw (UKRI STFC), Damian Jones (UKRI STFC)**
 - 13:30 - 15:00 and 15:30 - 17:00
 
-13:30 – 14:00 – Introducing CoSeC and the Collaborative Computational Community Model (Stephen Longshaw)
+**Talks**
 
-14:00 – 14:15 – Applied AI for the Digital Humanities (CCP-AHC; Eamonn Bell / Jeyan Thiyagalingam)
+- 13:30 – 14:00 – Introducing CoSeC and the Collaborative Computational Community Model (Stephen Longshaw)
+- 14:00 – 14:15 – Applied AI for the Digital Humanities (CCP-AHC; Eamonn Bell / Jeyan Thiyagalingam)
+- 14:15 – 14:30 – Computational Biology (Martyn Winn – joining remotely)
+- 14:30 – 14:45 – Computational Engineering (CCP-NTH, CCP-Turbulence, UKTC; Wei Wang)
+- 14:45 – 15:00 – Computational Materials and Molecular Science (Marcello Puligheddu / Rajany RV)
 
-14:15 – 14:30 – Computational Biology (Martyn Winn – joining remotely)
+**Panel: Creating a cohesive distributed Digital Research Infrastructure**
 
-14:30 – 14:45 – Computational Engineering (CCP-NTH, CCP-Turbulence, UKTC; Wei Wang)
+Chair: Marion Weinzierl
 
-14:45 – 15:00 – Computational Materials and Molecular Science (Marcello Puligheddu / Rajany RV)
+Panel: Katy Clough; Mark Wilkinson; Afia Masood; Nick Brown, Stephen Longshaw, Tobias Weinzierl
 
+The panel will kick off with a discussion of some key topics around a cohesive digital research infrastructure. After that, the audience will be given the opportunity to ask the panel further questions.
 
 ### HPC/HTC in High-Energy Physics
 **Convener: Enrico Bothmann (CERN), Luigi del Debbio (Edinburgh), Marek Schoenherr (Durham)**
