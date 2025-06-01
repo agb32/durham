@@ -118,6 +118,8 @@ facilities
     N8 CIR Steering Group (by invitation only, MCS2050)
   </td>
   <td> 
+    Welcome note: Matthew Johnson (Head of Computer Science)
+    <br /><div style="color:LightGrey;font-size=50%">and</div> 
     Keynote: <a href="dri.html">Digital Research Infrastructure</a> <br /> (Afia Masood, MCS0001) 
     <br /><div style="color:LightGrey;font-size=50%">and</div> 
     <a href="dri.html">UKRI DRI</a> (MCS0001) 
