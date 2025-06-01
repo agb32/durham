@@ -363,6 +363,9 @@ Finally, in the third part of our session, Mike Simpson (Newcastle University) w
 
 **Panel: Creating a cohesive distributed Digital Research Infrastructure**
 
+Chair: Marion Weinzierl
+Panel: Katy Clough; Mark Wilkinson; Afia Masood; Nick Brown, Stephen Longshaw, Tobias Weinzierl
+
 
 ### HPC/HTC in High-Energy Physics
 **Convener: Enrico Bothmann (CERN), Luigi del Debbio (Edinburgh), Marek Schoenherr (Durham)**
