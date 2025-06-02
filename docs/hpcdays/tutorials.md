@@ -40,7 +40,7 @@ There would be an opportunity to discuss how users’ individual applications co
 ## Tuesday, 3rd June 2025 
 
 ### Lustre User Group: Darshan profiling on Lustre
-**Presenters: Robert Esnouf, Gareth Wilson**
+**Presenters: Robert Esnouf, Alastair Basden**
 - 09:00-10:00 - Talks
 - 09:00-9:05 - Welcome
 - 09:05-9:30 - Paul Ingram, Red Oak Consulting, Lustre PFL
