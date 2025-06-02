@@ -189,9 +189,10 @@ Speakers:
        <summary>"Generative AI for Lattice QCD calculations"</summary>
    </details>
 
-- 10:00 Roy Stegman (Edinburgh)
+- 10:00 Roy Stegeman (Edinburgh)
    <details>
-       <summary>"Energy usage and technical design of Lattice QCD calculatons"</summary>
+       <summary>"Determining the structure of the proton with Machine Learning"</summary>
+       Predictions at proton colliders such as the LHC require an accurate and precise knowledge of the structure of the colliding protons in terms of their constituent quarks and gluons. In this talk We will review the methodology used by NNPDF collaboration to solve the inverse problem of extracting the parton distribution functions from a finite set of data, along with an estimate of their uncertainty, and the opportunities provided by deploying these fits on GPUs.
    </details>
 
 - 10:15 Antonin Portelli (Edinburgh)
