@@ -50,3 +50,5 @@ DH1 3LE
 ## Parking
 
 If you would like a visitor parking permit, please provide name, car reg details, and the times you'd like the permit for, to Alastair, at least a few days in advance.  There may not be enough spaces, so some walking may be required.  However, vehicle access up to the venue is possible, for dropping off kit.
+
+Requested parking permits should be available to collect from the Stockton Road security logde, DH1 3LE.
