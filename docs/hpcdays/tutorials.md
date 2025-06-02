@@ -45,7 +45,7 @@ There would be an opportunity to discuss how users’ individual applications co
 - 09:00-9:05 - Welcome
 - 09:05-9:30 - Paul Ingram, Red Oak Consulting, Lustre PFL
 - 09:30-9:55 - David Ford, Oxford, Tiering to tape
-- 09:55-10:20 - Gwen Dawes, Lustre at Cambridge
+- 09:55-10:20 - Gwen Dawes, Filesystems for AI workloads: Linux and the IO Bottleneck
 - 10:20-10:30 - Panel Q&A
 - 10:30-11:00 - Coffee break
 - 11:00-12:30 - Lustre discussion <s>Darshan introduction and tutorial - Rich Mansfield, DDN.</s>
