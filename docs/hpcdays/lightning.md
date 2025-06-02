@@ -34,7 +34,7 @@ Brief introductions and technology primers to a general HPC audience, showcasing
 
 During the panel session, the audience will be have the chance to ask questions to the sponsors on relevant topics.
 
-You can [join remotely here](https://durham.readthedocs.io/)
+You can [join remotely here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YThhZjY2YTMtZTA3NS00ZDg2LWEzMjQtNjFmZjkyNDZjODc4%40thread.v2/0?context=%7b%22Tid%22%3a%227250d88b-4b68-4529-be44-d59a2d8a6f94%22%2c%22Oid%22%3a%22174fe4a1-ea76-4bc7-90e6-90976cc2117a%22%7d)
 
 ## Scavenger hunt
 
