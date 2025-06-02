@@ -55,6 +55,7 @@ There would be an opportunity to discuss how users’ individual applications co
 
 Learn about Lustre installations at various sites, and discuss your Lustre woes with experienced users.
 
+The Darshan profiling tutorial has been cancelled due to unavailability of staff.  Therefore, a LUG discussion will be had instead.
 
 
 ### AMD GPUs: Simplify your HPC Application Port to GPUs - OpenMP and Managed Memory on AMD MI300A and MI300X
