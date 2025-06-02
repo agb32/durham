@@ -205,9 +205,10 @@ Speakers:
        <summary>"Generative AI for Lattice QCD calculations"</summary>
    </details>
 
-- 10:00 Roy Stegman (Edinburgh)
+- 10:00 Roy Stegeman (Edinburgh)
    <details>
-       <summary>"Energy usage and technical design of Lattice QCD calculatons"</summary>
+       <summary>"Determining the structure of the proton with Machine Learning"</summary>
+       Predictions at proton colliders such as the LHC require an accurate and precise knowledge of the structure of the colliding protons in terms of their constituent quarks and gluons. In this talk We will review the methodology used by NNPDF collaboration to solve the inverse problem of extracting the parton distribution functions from a finite set of data, along with an estimate of their uncertainty, and the opportunities provided by deploying these fits on GPUs.
    </details>
 
 - 10:15 Antonin Portelli (Edinburgh)
@@ -383,7 +384,8 @@ Speakers:
 
 - 13:52 Konrad Helms (Goettingen)
    <details>
-       <summary></summary>
+       <summary>"From Code to Collisions: Machine Learning-Driven Phase Space Sampling for Event Generation in High-Energy Physics"</summary>
+       As we advance toward the next generation of particle collision experiments, there is a growing need for faster and more resource-friendly simulation of collision events in particle physics. This presentation highlights one of the main challenges in event generation: the integration of the transition matrix element. Many common software libraries currently utilize Monte Carlo integration techniques for this purpose. Recent progress in generative models in the form of continuous normalizing flows, trained using conditional flow matching, offers the potential to improve integration efficiency significantly. This presentation will demonstrate the application of continuous normalizing flows in neural importance sampling and discuss strategies for efficiently integrating functions with recursive structures.
    </details>
 
 - 14:15 Enrico Bothmann (CERN)
