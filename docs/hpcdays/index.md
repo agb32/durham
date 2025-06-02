@@ -118,6 +118,8 @@ facilities
     N8 CIR Steering Group (by invitation only, MCS2050)
   </td>
   <td> 
+    Welcome note: Matthew Johnson (Head of Computer Science)
+    <br /><div style="color:LightGrey;font-size=50%">and</div> 
     Keynote: <a href="dri.html">Digital Research Infrastructure</a> <br /> (Afia Masood, MCS0001) 
     <br /><div style="color:LightGrey;font-size=50%">and</div> 
     <a href="dri.html">UKRI DRI</a> (MCS0001) 
@@ -173,12 +175,20 @@ facilities
 </tr>
 <tr>
   <td>18:30</td>
-  <td />
-  <td />
-  <td><a href="lightning.html#scavenger-hunt">Industry Scavenger Hunt</a></td>
+  <td> Light dinner and refreshments </td>
+  <td> Food van and refreshments </td>
+  <td>
+    <a href="lightning.html#scavenger-hunt">Industry Scavenger Hunt</a>
+    <br /><div style="color:LightGrey;font-size=50%">and</div>
+    Food van and refreshments
+  </td>
   <td>
     <a href="keynotes.html#christian-oganbule-epsrc">EPSRC Early Career Research: Meet and greet with the funder</a> (MCS2050)
-    <br /><div style="color:LightGrey;font-size=50%">and</div><a href="workshops.html#hpc-rse-sig-meet-up">HPC RSE SIG meetup</a> <br />(Continued, MCS2068)</td>
+    <br /><div style="color:LightGrey;font-size=50%">and</div>
+    <a href="workshops.html#hpc-rse-sig-meet-up">HPC RSE SIG meetup</a> <br />(Continued, MCS2068)
+    <br /><div style="color:LightGrey;font-size=50%">and</div>
+    Food van and refreshments
+  </td>
 </tr>
 </table>
 
