@@ -135,7 +135,7 @@
 <tr>
 <td>14:30 - 14:50</td>
 <td>GPU offloads for gravity calculations in SWIFT cosmology code</td>
-<td>Sarah Johnson</td>
+<td>Sarah Johnston</td>
 <td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#gpu-offloads-for-gravity-calculations-in-swift-cosmology-code">details</a></td>
 </tr>
 
@@ -221,7 +221,7 @@ This presentation examines the adaptation of a likelihood function calculation f
 **Abstract:** Discrete-event systems (DES) are essentially sequential in their behavior that represents an obstacle for fast simulating them on HPC involving mass-parallel processing facilities such as multicore CPUs or GPUs. We are absorbed in simulating behavior of Sleptsov nets, which are proven Turing-complete and are applied recently as a graphical language of concurrent programming in a wide range of domain. Placetransition nets introduced by Carl Petri fire a single transition at a step that makes HPC only applicable for parallel computing of the fireable transition set and for firing the chosen transition at a step. To speed-up the process on GPU, we use a matrix of threads to calculate the firing multiplicity of arcs, with reduction of minimum to compute the vector of firing multiplicity of transitions; then we use a vector of threads to fire a transition. Applying Sleptsov firing rule with a multiple firing of a transition at a step, we speed-up the process exponentially. We obtain the utmost performance, combining Sletpsov rule with Salwicki rule to fire the maximal multiset of fireable transitions at a step. Though, the maximal multiset choice is a rather hard task to be implemented at a step. We keep a good balance of the step computation complexity applying ad-hoc heuristics. A series of benchmarks obtained for CPUs and GPUs confirm robustness of the developed algorithms. For modern GPUs, we experienced considerable limitations of the global synchronization with regard to the grid size that requires using a few kernels to simulate a Sleptsov net step for big nets. The multiple firing of a transition (a multichannel transition), was re-invented after years under the name of “exhaustive use of rule” that allowed researchers to obtain exponential speed-up for spiking neural P systems, multiset rewriting systems, DNA computing, and other DESs. 
 
 ### GPU offloads for gravity calculations in SWIFT cosmology code
-**Who:** Sarah Johnson, Durham University
+**Who:** Sarah Johnston, Durham University
 
 **Abstract:** To be compliant with modern heterogeneous HPC systems, large astronomy codes are needing to move towards GPU compatibility. SWIFT (SPH With Inter-dependent Fine-grained Tasking) is a versatile, open-source astronomy code used for a range of research areas in astronomy including galaxy formation, planetary impacts, and cosmology. A significant portion of SWIFT’s runtime is dedicated to gravity calculations. In gravity n-body codes, each particle (representing a celestial object) interacts with every other particle based on gravitational forces, making the calculations computationally intensive. However, the repetitive and non-interdependent nature of these n-body interactions makes them ideal candidates for GPU acceleration.
 

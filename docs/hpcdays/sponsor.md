@@ -24,7 +24,7 @@ You will have a table top where you can set up a stand.  Feel free to bring a ba
 
 ## Treasure hunt
 
-There will be a treasure hunt for attendees (including sponsors, if desired) to do, which will encourage interaction with the sponsors.  They will need to ask you a question or get information from your stand to complete the answers, and so help to encourage interaction.
+There will be a treasure hunt for attendees (including sponsors, if desired) to do, which will encourage interaction with the sponsors.  They will need to ask you a question or get information from your stand to complete the answers, and so help to encourage interaction.  This will take place on Wednesday.
 
 ## Attendees
 

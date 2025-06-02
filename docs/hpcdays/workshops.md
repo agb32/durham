@@ -18,9 +18,25 @@ Join us for 5 x 25-minute talks from the following speakers:
 **Convener: Ilektra Christidi (UCL)**
 - 13:30 - 15:00 and 16:30 - 18:00
 
-Join us for 4 x 20-minute talks, speakers to be confirmed.
-
 This session is for the DiRAC RSEs to present their work to the UK HPC community, as well as catch up with each other and other DiRAC people that might want to join. Come join us to see how DiRAC RSEs accelerate science in particle physics, astrophysics, and cosmology, by promoting good software development practices, optimising software running on the DiRAC sites, and assisting researchers in implementing new functionality and using accelerators in their codes.
+
+Agenda:
+- Simon Burbidge (Leicester) & Ilektra Christidi (UCL) - 15 min
+  - Intro: The DiRAC RSE team and what we can do for your research
+- Nicolin Govender & Connor Aird (UCL) - 15 min
+  - Evaluation of an implict stellar hydrodynamics code (Sparse Matrix) for GPU acceleration
+- Muhammad Asif (Leicester) - 15 min
+  - Optimising gauge calculations in GRID via the RAC16 call
+- Julianna Kwan (Cambridge) - 15 min
+  - AMRex for portability and its use in GRTeclyn
+- Gokmen Kilic (DUrham) - 15 min
+  - DiRAC RSE support for SWIFT
+- Nicolin Govender (UCL) - 5 min
+  - Parallel neighbour finding algorithm
+- Simon Burbidge (Leicester) - 5 min
+  - Thoughts about mixed precision
+- Ilektra Christidi (UCL) - 5 min
+  - Outro: Audience interaction & pairing with RSEs
 
 **This workshop consists of two parts, and the second part (16:30 - 18:00) is for DiRAC RSEs only.**
 
@@ -333,20 +349,26 @@ Organised by representatives from the Women in High Performance Computing (WHPC)
 
 Finally, in the third part of our session, Mike Simpson (Newcastle University) will lead a focused conversation on mental health around volunteering for EDI initiatives. EDI work is often driven by deeply personal motivations, the emotional weight of this can take a toll and it's important to look after yourself. We want to help support you in this as well as advancing our community to improve the state of EDI.
 
-### CoSeC
+### CoSeC & Creating a cohesive distributed Digital Research Infrastructure 
+
 **Conveners: Stephen Longshaw (UKRI STFC), Damian Jones (UKRI STFC)**
 - 13:30 - 15:00 and 15:30 - 17:00
 
-13:30 – 14:00 – Introducing CoSeC and the Collaborative Computational Community Model (Stephen Longshaw)
+**Talks**
 
-14:00 – 14:15 – Applied AI for the Digital Humanities (CCP-AHC; Eamonn Bell / Jeyan Thiyagalingam)
+- 13:30 – 14:00 – Introducing CoSeC and the Collaborative Computational Community Model (Stephen Longshaw)
+- 14:00 – 14:15 – Applied AI for the Digital Humanities (CCP-AHC; Eamonn Bell / Jeyan Thiyagalingam)
+- 14:15 – 14:30 – Computational Biology (Martyn Winn – joining remotely)
+- 14:30 – 14:45 – Computational Engineering (CCP-NTH, CCP-Turbulence, UKTC; Wei Wang)
+- 14:45 – 15:00 – Computational Materials and Molecular Science (Marcello Puligheddu / Rajany RV)
 
-14:15 – 14:30 – Computational Biology (Martyn Winn – joining remotely)
+**Panel: Creating a cohesive distributed Digital Research Infrastructure**
 
-14:30 – 14:45 – Computational Engineering (CCP-NTH, CCP-Turbulence, UKTC; Wei Wang)
+Chair: Marion Weinzierl
 
-14:45 – 15:00 – Computational Materials and Molecular Science (Marcello Puligheddu / Rajany RV)
+Panel: Katy Clough; Mark Wilkinson; Afia Masood; Nick Brown, Stephen Longshaw, Tobias Weinzierl
 
+The panel will kick off with a discussion of some key topics around a cohesive digital research infrastructure. After that, the audience will be given the opportunity to ask the panel further questions.
 
 ### HPC/HTC in High-Energy Physics
 **Convener: Enrico Bothmann (CERN), Luigi del Debbio (Edinburgh), Marek Schoenherr (Durham)**
