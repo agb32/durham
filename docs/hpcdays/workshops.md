@@ -337,7 +337,7 @@ application of benchmark codes in system co-design, procurement or health-checki
 
 **10:00-10:15 Adam Tuft** (Durham) - "Performance Modelling of Detrimental Task Execution Patterns in Mainstream OpenMP Runtimes" 
 
-**10:15-10:30** Panel discussion (continuned)
+**10:15-10:30 Panel discussion** (continued)
 
 **10:30** End
 
