@@ -333,10 +333,13 @@ The goals of this workshop are to:
 application of benchmark codes in system co-design, procurement or health-checking.
 2. support the development and sharing of best practice in the area of benchmarking
 
-We will invite speakers from across the benchmarking activities mentioned above and will also
-actively seek presentations from other individuals and groups with relevant experience either
-in the UK or internationally. We will also try to include at least one presentation by an
-international partner to bring insights from outside the UK.
+**09:45-10:00 Tuomas Koskela** (UCL) - "The Reframe framework"
+
+**10:00-10:15 Adam Tuft** (Durham) - "Performance Modelling of Detrimental Task Execution Patterns in Mainstream OpenMP Runtimes" 
+
+**10:15-10:30** Panel discussion (continuned)
+
+**10:30** End
 
 
 ### Women in HPC (WHPC)
