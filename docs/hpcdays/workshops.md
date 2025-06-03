@@ -88,12 +88,6 @@ Our speakers are:
       We describe the CANARI HPC climate modelling workflow on ARCHER2 and JASMIN and discuss what it takes to run a modest climate modelling experiment.
    </details>
 
-- Ben Went, Met Office:
-   <details>
-       <summary>"Using PSyclone, a domain specific compiler to parallelise the Met Office weather and Climate model with OpenMP"</summary>
-      tbc
-   </details>
-
 - Nell Hartney, University of Exeter:
    <details>
        <summary>"Incorporating an automatically differentiable dynamical core in training machine learning models for weather and climate."</summary>
@@ -114,7 +108,13 @@ Our speakers are:
        <summary>"Accelerating UKCA by predicting timesteps with FTorch"</summary>
       The United Kingdom Chemistry and Aerosols (UKCA) model is a community atmospheric chemistry and aerosol microphysics model, which forms part of the Met Office's weather forecasting system. It is also a key part of the UK Earth System Model (UKESM), whose outputs feed into IPCC reports. UKCA is a particularly expensive part of the Met Office's model, so significant reductions to its computational cost would be welcome. The chemistry component of UKCA (the most expensive) uses an implicit timestepping scheme in which each iteration starts from a default, large timestep size. In each iteration, an attempt is made to solve the nonlinear system over several grid-boxes in the spatial domain, but in many cases this fails at the default timestep size. If so, the timestep size is repeatedly halved and the solver re-run until convergence is achieved. In this talk, we propose a method for predicting the timestep that will be required in advance,  thereby avoiding wasted computation in the attempts to run the chemistry model with timestep sizes that are too large. We utilise a simple machine learning (ML) based approach, coupled into UKCA using FTorch - a Fortran interface for the popular Python-based ML tool, PyTorch. Further, we make use of FTorch's recently added online training functionality, in order to avoid archiving training data that would have no clear other purpose.
    </details>
-
+   
+- Ben Went, Met Office:
+   <details>
+       <summary>"Using PSyclone, a domain specific compiler to parallelise the Met Office weather and Climate model with OpenMP"</summary>
+      Momentum LFRic (A weather and Climate model developed by the MetOffice and partners) utilises an unstructured mesh and a tool named Psyclone, (a Domain Specific compiler for DSLs) to manage optimisations and communications across it’s code base.  LFRic also utilises existing code from the UM (The current Model), be it for physics, chemistry and aerosols, etc. However, existing optimisations in these codes are currently unaltered. Both codebases use differing data structures. LFRic uses a single dimension array, where the domain partition is grouped by levels, whereas UM codes using multidimensional arrays (following the pattern i, j, k). The change from a structured to an unstructured mesh in the model means that this structural difference can lead to occurrences where existing OpenMP optimisations present in UM source used by LFRic are no longer parallelising the work. PSyclone allows us to modify all loops in the existing files and update them. We can use OpenMP COLLAPSE to circumvent this issue, preserving existing optimisation intent and optimising for LFRic. Optimisations for GPU are also being explored (but not in this talk) which will also utilise PSyclone for modifying the source, maintaining consistent optimisation methods across the codebase which are also extensible.
+   </details>
+   
 - Justs Zarins, EPCC:
    <details>
        <summary>"Exploring Dataflow Architectures for Improved Efficiency in Earth System Models"</summary>
