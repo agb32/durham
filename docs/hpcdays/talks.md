@@ -52,9 +52,9 @@
   
 <tr>
 <td>9:45 - 10:05</td>
-<td>Benchmarking ML applications</td>
-<td>Adrian Jackson</td>
-<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#benchmarking-ml-applications">details</a></td>
+<td>Driving energy efficiency of operation with wind turbine modelling</td>
+<td>Nick Brown</td>
+<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#driving-energy-efficiency-of-operation-with-wind-turbine-modelling">details</a></td>
 </tr>
 
 <tr>
@@ -92,9 +92,9 @@
 
 <tr>
 <td>11:40 - 12:00</td>
-<td>Driving energy efficiency of operation with wind turbine modelling</td>
-<td>Nick Brown</td>
-<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#driving-energy-efficiency-of-operation-with-wind-turbine-modelling">details</a></td>
+<td>Benchmarking ML applications</td>
+<td>Adrian Jackson</td>
+<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#benchmarking-ml-applications">details</a></td>
 </tr>
 
 </table>
