@@ -380,7 +380,7 @@ Finally, in the third part of our session, Mike Simpson (Newcastle University) w
 
 Chair: Marion Weinzierl
 
-Panel: Katy Clough; Mark Wilkinson; Afia Masood; Nick Brown, Stephen Longshaw, Tobias Weinzierl
+Panel: Katy Clough; Mark Wilkinson; Afia Masood; Nick Brown, Stephen Longshaw, Tobias Weinzierl, Karina Rodriguez Echavarria
 
 The panel will kick off with a discussion of some key topics around a cohesive digital research infrastructure. After that, the audience will be given the opportunity to ask the panel further questions.
 
