@@ -219,7 +219,8 @@ Speakers:
 
 - 10:15 Antonin Portelli (Edinburgh)
    <details>
-       <summary>tbc</summary>
+       <summary>"Physics-focused system design"</summary>
+       In this talk, we present the physics-focused approach taken by the STFC DiRAC facility to design the Tursa supercomputer. I will summarise how lattice QCD benchmarks, based on the Grid library, were used during the procurement process as well as for optimising system energy efficiency in production. This approach enabled Tursa to deliver scientific results from the first days of its production cycle and can be extended across research fields in the future.
    </details>
 
 
