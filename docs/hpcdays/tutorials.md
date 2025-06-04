@@ -40,7 +40,7 @@ There would be an opportunity to discuss how users’ individual applications co
 ## Tuesday, 3rd June 2025 
 
 ### Lustre User Group: Darshan profiling on Lustre
-**Presenters: Robert Esnouf, Gareth Wilson**
+**Presenters: Robert Esnouf, Alastair Basden**
 - 09:00-10:00 - Talks
 - 09:00-9:05 - Welcome
 - 09:05-9:30 - Paul Ingram, Red Oak Consulting, Lustre PFL
@@ -50,8 +50,12 @@ There would be an opportunity to discuss how users’ individual applications co
 - 10:30-11:00 - Coffee break
 - 11:00-12:30 - Lustre discussion <s>Darshan introduction and tutorial - Rich Mansfield, DDN.</s>
 
+[LUG Teams session](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Mjc0YjlkMjEtMmQyYi00ZjlhLThmN2QtMjllNGY2YTRlMTcw%40thread.v2/0?context=%7b%22Tid%22%3a%227250d88b-4b68-4529-be44-d59a2d8a6f94%22%2c%22Oid%22%3a%22174fe4a1-ea76-4bc7-90e6-90976cc2117a%22%7d)
+
+
 Learn about Lustre installations at various sites, and discuss your Lustre woes with experienced users.
 
+The Darshan profiling tutorial has been cancelled due to unavailability of staff.  Therefore, a LUG discussion will be had instead.
 
 
 ### AMD GPUs: Simplify your HPC Application Port to GPUs - OpenMP and Managed Memory on AMD MI300A and MI300X

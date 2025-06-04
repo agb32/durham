@@ -59,9 +59,9 @@ In order to drive change and impact around equality, diversity and inclusion (ED
 * Funding and resources
 * Accountability and accurate reporting on success of initatives
 
-But, when this balance tips the wrong way, we can see an unsustainable over-reliance on volunteer-driven initiatives with a lack of institutional buy-in and, ultimately, missed opportunities for driving real and impactful progress. 
+But, when this balance tips the wrong way, we can see an unsustainable over-reliance on volunteer-driven initiatives with a lack of institutional buy-in and, ultimately, missed opportunities for driving real and impactful progress.
 
-Organised by representatives from the Women in High Performance Computing (WHPC) community, this panel session will emphasise the importance of acknowledging the emotional toll and limitations of volunteer-led EDIA efforts, advocating for honest dialogue and a shift toward collective responsibility and practical strategies for redistributing the work. It also calls for a forward-looking approach centred on sustainable, inclusive change. Let's explore how we can rebalance the equation. 
+Organised by representatives from the Women in High Performance Computing (WHPC) community, this panel session will emphasise the importance of acknowledging the emotional toll and limitations of volunteer-led EDIA efforts, advocating for honest dialogue and a shift toward collective responsibility and practical strategies for redistributing the work. It also calls for a forward-looking approach centred on sustainable, inclusive change. Let's explore how we can rebalance the equation.
 
 Our panelists are:
 
@@ -84,14 +84,8 @@ Our speakers are:
 - Greenville Lister, NCAS:
    <details>
        <summary>"The CANARI Large Ensemble climate modelling workflow."</summary>
-      In tandem with technical developments in climate/Earth-System modelling, the vast majority of HPC resources is still consumed by running established models with relatively mature workflows on current platforms. 
+      In tandem with technical developments in climate/Earth-System modelling, the vast majority of HPC resources is still consumed by running established models with relatively mature workflows on current platforms.
       We describe the CANARI HPC climate modelling workflow on ARCHER2 and JASMIN and discuss what it takes to run a modest climate modelling experiment.
-   </details>
-
-- Ben Went, Met Office:
-   <details>
-       <summary>"Using PSyclone, a domain specific compiler to parallelise the Met Office weather and Climate model with OpenMP"</summary>
-      tbc
    </details>
 
 - Nell Hartney, University of Exeter:
@@ -113,6 +107,12 @@ Our speakers are:
    <details>
        <summary>"Accelerating UKCA by predicting timesteps with FTorch"</summary>
       The United Kingdom Chemistry and Aerosols (UKCA) model is a community atmospheric chemistry and aerosol microphysics model, which forms part of the Met Office's weather forecasting system. It is also a key part of the UK Earth System Model (UKESM), whose outputs feed into IPCC reports. UKCA is a particularly expensive part of the Met Office's model, so significant reductions to its computational cost would be welcome. The chemistry component of UKCA (the most expensive) uses an implicit timestepping scheme in which each iteration starts from a default, large timestep size. In each iteration, an attempt is made to solve the nonlinear system over several grid-boxes in the spatial domain, but in many cases this fails at the default timestep size. If so, the timestep size is repeatedly halved and the solver re-run until convergence is achieved. In this talk, we propose a method for predicting the timestep that will be required in advance,  thereby avoiding wasted computation in the attempts to run the chemistry model with timestep sizes that are too large. We utilise a simple machine learning (ML) based approach, coupled into UKCA using FTorch - a Fortran interface for the popular Python-based ML tool, PyTorch. Further, we make use of FTorch's recently added online training functionality, in order to avoid archiving training data that would have no clear other purpose.
+   </details>
+
+- Ben Went, Met Office:
+   <details>
+       <summary>"Using PSyclone, a domain specific compiler to parallelise the Met Office weather and Climate model with OpenMP"</summary>
+      Momentum LFRic (A weather and Climate model developed by the MetOffice and partners) utilises an unstructured mesh and a tool named Psyclone, (a Domain Specific compiler for DSLs) to manage optimisations and communications across it’s code base.  LFRic also utilises existing code from the UM (The current Model), be it for physics, chemistry and aerosols, etc. However, existing optimisations in these codes are currently unaltered. Both codebases use differing data structures. LFRic uses a single dimension array, where the domain partition is grouped by levels, whereas UM codes using multidimensional arrays (following the pattern i, j, k). The change from a structured to an unstructured mesh in the model means that this structural difference can lead to occurrences where existing OpenMP optimisations present in UM source used by LFRic are no longer parallelising the work. PSyclone allows us to modify all loops in the existing files and update them. We can use OpenMP COLLAPSE to circumvent this issue, preserving existing optimisation intent and optimising for LFRic. Optimisations for GPU are also being explored (but not in this talk) which will also utilise PSyclone for modifying the source, maintaining consistent optimisation methods across the codebase which are also extensible.
    </details>
 
 - Justs Zarins, EPCC:
@@ -159,6 +159,16 @@ Speakers:
 
 - Chris Johnson (EPCC)
 
+  - *Title*: EPCC eCSE Software Development Programmes
+
+  - *Abstract*: Since the beginning of the ARCHER service in 2013 and continuing throughout the ARCHER2 service, EPCC has run an eCSE (embedded Computational Science and Engineering) software development programme, so far awarding around 190 projects a total of around 2100 person months of effort (175 staff years!). The initial calls were focussed mainly on the hardware of ARCHER and ARCHER2 meaning that most of the development was CPU based. More recently we opened 2 highly popular calls for GPU-based software development. As an introduction to the talks which follow, which will describe specific eCSE projects from the recent GPU calls, I will describe the evolution of the eCSE programme and some of the highlights.
+
+- Jason McEven (UCL)
+
+  - *Title*: Differentiable and Accelerated Spherical Transforms
+
+  - *Abstract*: Many fields of science and engineering, in both academic and industrial settings, encounter data on spherical manifolds. The diversity of applications is quite remarkable, ranging from geophysics, exoplanets, and climate science, to early and late Universe cosmology, to biomedical imaging and molecular chemistry, and far beyond, such as gravitational waves and computer vision. While a number of codes are available to compute spherical harmonic transforms, for example, existing codes are not suitable for many modern scientific computing applications since they do not support automatic differentiation or GPU acceleration. We have developed the `s2x` suite of open-source spherical codes, with interfaces in both JAX and PyTorch, providing both automatic differentiation and GPU acceleration to facilitate differentiable programming workflows or AI models and to leverage the high-throughput of modern hardware accelerators. The suite includes [`s2fft`](https://github.com/astro-informatics/s2fft) for spherical harmonic transforms and Wigner transforms (Fourier transforms on the sphere and rotation group), [`s2wav`](https://github.com/astro-informatics/s2wav) for spherical wavelet transforms, [`s2scat`](https://github.com/astro-informatics/s2scat) for spherical scattering transforms (a powerful latent space for generative models), and [`s2ai`](https://github.com/astro-informatics/s2ai) for spherical AI models that exhibit excellent rotational equivariance properties. In this talk I will overview these codes and their underlying mathematical methods and computational algorithms. I will also touch briefly on the use of these codes for generative modelling of cosmological fields. We actively encourage new contributors for the `s2x` code suite and run [all-contributors](https://allcontributors.org/) to ensure all efforts are recognised -- don't hesitate to get in touch if you're interested or would just like to know more!
+
 - Nick Brown (EPCC)
 
 - Chris Cantwell (Imperial College London)
@@ -167,11 +177,6 @@ Speakers:
 
   - *Abstract*: Nektar++ is a parallel and scalable C++ framework for the high-fidelity solution of partial differential equations using spectral/hp element methods. These methods provide a rich discretisation space, capable of efficiently and accurately capturing transient dynamics across a wide range of scales in highly complex geometries. The software is used in a wide range of application areas, including aeronautical, automotive and environmental engineering, the energy sector, and biomedicine. Initially developed nearly 20 years ago in a "CPU era", it has recently seen substantial development investment in transitioning the code to support heterogeneous technologies which form the basis of current and future HPC platforms. In this talk, I will share the key design decisions we have made, the algorithmic and implementation challenges we faced and our approach to addressing them, summarise our current performance on these modern platforms, and finally outline our vision for future developments.
 
-- Jason McEven (UCL)
-
-  - *Title*: Differentiable and Accelerated Spherical Transforms
-
-  - *Abstract*: Many fields of science and engineering, in both academic and industrial settings, encounter data on spherical manifolds. The diversity of applications is quite remarkable, ranging from geophysics, exoplanets, and climate science, to early and late Universe cosmology, to biomedical imaging and molecular chemistry, and far beyond, such as gravitational waves and computer vision. While a number of codes are available to compute spherical harmonic transforms, for example, existing codes are not suitable for many modern scientific computing applications since they do not support automatic differentiation or GPU acceleration. We have developed the `s2x` suite of open-source spherical codes, with interfaces in both JAX and PyTorch, providing both automatic differentiation and GPU acceleration to facilitate differentiable programming workflows or AI models and to leverage the high-throughput of modern hardware accelerators. The suite includes [`s2fft`](https://github.com/astro-informatics/s2fft) for spherical harmonic transforms and Wigner transforms (Fourier transforms on the sphere and rotation group), [`s2wav`](https://github.com/astro-informatics/s2wav) for spherical wavelet transforms, [`s2scat`](https://github.com/astro-informatics/s2scat) for spherical scattering transforms (a powerful latent space for generative models), and [`s2ai`](https://github.com/astro-informatics/s2ai) for spherical AI models that exhibit excellent rotational equivariance properties. In this talk I will overview these codes and their underlying mathematical methods and computational algorithms. I will also touch briefly on the use of these codes for generative modelling of cosmological fields. We actively encourage new contributors for the `s2x` code suite and run [all-contributors](https://allcontributors.org/) to ensure all efforts are recognised -- don't hesitate to get in touch if you're interested or would just like to know more!
 
 - Sebastien Lemaire (EPCC)
 
@@ -196,7 +201,7 @@ Speakers:
 ### HPC/HTC in High-Energy Physics
 **Conveners: Enrico Bothmann (CERN), Luigi del Debbio (Edinburgh), Marek Schoenherr (Durham)**
 - 9:45 - 10:30
-  This session focusses on the use of HPC and generative AI technologies 
+  This session focusses on the use of HPC and generative AI technologies
   for lattice QCD calculations
 
 Speakers:
@@ -218,7 +223,7 @@ Speakers:
    </details>
 
 
-### Benchmarking Symposium: Benchmarking of HPC systems for simulation and AI
+## Benchmarking Symposium: Benchmarking of HPC systems for simulation and AI
 **Conveners: DiRAC, ExCALIBUR, UKRI Living Benchmarks**
 **Lead: Mark Wilkinson**
 - 16:30 - 18:00
@@ -243,10 +248,16 @@ The goals of this workshop are to:
 application of benchmark codes in system co-design, procurement or health-checking.
 2. support the development and sharing of best practice in the area of benchmarking
 
-We will invite speakers from across the benchmarking activities mentioned above and will also
-actively seek presentations from other individuals and groups with relevant experience either
-in the UK or internationally. We will also try to include at least one presentation by an
-international partner to bring insights from outside the UK.
+
+**16:30 Garth Wells** (Cambridge) - "The UKRI Living Benchmarks Project"
+
+**16:50 Jeyan Thiyagalingam** (STFC SciML group) – "AI benchmarks" 
+
+**17:05 Mark Wilkinson** (DiRAC, Leicester) – "DiRAC co-design and benchmarking" 
+
+**17:20 Panel discussion**
+
+**18:00 End**
 
 
 ### HPC RSE SIG Meet-up
@@ -323,10 +334,13 @@ The goals of this workshop are to:
 application of benchmark codes in system co-design, procurement or health-checking.
 2. support the development and sharing of best practice in the area of benchmarking
 
-We will invite speakers from across the benchmarking activities mentioned above and will also
-actively seek presentations from other individuals and groups with relevant experience either
-in the UK or internationally. We will also try to include at least one presentation by an
-international partner to bring insights from outside the UK.
+**09:45-10:00 Tuomas Koskela** (UCL) - "The Reframe framework"
+
+**10:00-10:15 Adam Tuft** (Durham) - "Performance Modelling of Detrimental Task Execution Patterns in Mainstream OpenMP Runtimes" 
+
+**10:15-10:30 Panel discussion** (continued)
+
+**10:30** End
 
 
 ### Women in HPC (WHPC)
@@ -344,13 +358,13 @@ In order to drive change and impact around equality, diversity and inclusion (ED
 * Funding and resources
 * Accountability and accurate reporting on success of initatives
 
-But, when this balance tips the wrong way, we can see an unsustainable over-reliance on volunteer-driven initiatives with a lack of institutional buy-in and, ultimately, missed opportunities for driving real and impactful progress. 
+But, when this balance tips the wrong way, we can see an unsustainable over-reliance on volunteer-driven initiatives with a lack of institutional buy-in and, ultimately, missed opportunities for driving real and impactful progress.
 
-Organised by representatives from the Women in High Performance Computing (WHPC) community, this panel session will emphasise the importance of acknowledging the emotional toll and limitations of volunteer-led EDIA efforts, advocating for honest dialogue and a shift toward collective responsibility and practical strategies for redistributing the work. It also calls for a forward-looking approach centred on sustainable, inclusive change. Don't worry, we will provide a complete summary, so please come along even if you missed the first session. This second session will be a group discussion, we want to hear your opinions on this issue and work together to find sustainable solutions. 
+Organised by representatives from the Women in High Performance Computing (WHPC) community, this panel session will emphasise the importance of acknowledging the emotional toll and limitations of volunteer-led EDIA efforts, advocating for honest dialogue and a shift toward collective responsibility and practical strategies for redistributing the work. It also calls for a forward-looking approach centred on sustainable, inclusive change. Don't worry, we will provide a complete summary, so please come along even if you missed the first session. This second session will be a group discussion, we want to hear your opinions on this issue and work together to find sustainable solutions.
 
 Finally, in the third part of our session, Mike Simpson (Newcastle University) will lead a focused conversation on mental health around volunteering for EDI initiatives. EDI work is often driven by deeply personal motivations, the emotional weight of this can take a toll and it's important to look after yourself. We want to help support you in this as well as advancing our community to improve the state of EDI.
 
-### CoSeC & Creating a cohesive distributed Digital Research Infrastructure 
+### CoSeC & Creating a cohesive distributed Digital Research Infrastructure
 
 **Conveners: Stephen Longshaw (UKRI STFC), Damian Jones (UKRI STFC)**
 - 13:30 - 15:00 and 15:30 - 17:00
@@ -374,7 +388,7 @@ The panel will kick off with a discussion of some key topics around a cohesive d
 ### HPC/HTC in High-Energy Physics
 **Convener: Enrico Bothmann (CERN), Luigi del Debbio (Edinburgh), Marek Schoenherr (Durham)**
 - 13:30 - 15:00
-  This session focusses on the use of machine learning technoligies and GPU 
+  This session focusses on the use of machine learning technoligies and GPU
   off-loading in Monte-Carlo event generation and simulation.
 
 Speakers:

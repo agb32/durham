@@ -52,9 +52,9 @@
   
 <tr>
 <td>9:45 - 10:05</td>
-<td>Benchmarking ML applications</td>
-<td>Adrian Jackson</td>
-<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#benchmarking-ml-applications">details</a></td>
+<td>Driving energy efficiency of operation with wind turbine modelling</td>
+<td>Nick Brown</td>
+<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#driving-energy-efficiency-of-operation-with-wind-turbine-modelling">details</a></td>
 </tr>
 
 <tr>
@@ -92,9 +92,9 @@
 
 <tr>
 <td>11:40 - 12:00</td>
-<td>Driving energy efficiency of operation with wind turbing modelling</td>
-<td>Nick Brown</td>
-<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#driving-energy-efficiency-of-operation-with-wind-turbing-modelling">details</a></td>
+<td>Benchmarking ML applications</td>
+<td>Adrian Jackson</td>
+<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#benchmarking-ml-applications">details</a></td>
 </tr>
 
 </table>
@@ -194,7 +194,7 @@ The session also addresses key research challenges, including the need for high-
 
 **Abstract:** We 'all need HPC', therefore we all need to power HPC systems. But with significant environmental impact from the production of hardware and cooling alone, it is crucial to consider and try to minimise the greenhouse gas requirements from the compute itself in order to be sustainable. To this end, we present work to develop further the Python package CATS, the Climate-Aware Task Scheduler (https://github.com/GreenScheduler/cats), which schedules tasks to minimise the total estimated carbon intensity of the electricity grid for the job duration using real-time data from the UK's National Grid ESO API. While Version 1 of the tool, released last summer, was designed for use with the 'at' command hence targeted smaller-scale tasks on local machines, the upcoming Version 2 will integrate with Slurm for application in HPC and HTC. The aspiration is to soon work with systems administrators at volunteer centres to incorporate CATS Version 2 into key UK systems to provide users with the option to intelligently time shift their jobs through use of a 'green' queue or similar. We outline progress towards this goal.
 
-### Driving energy efficiency of operation with wind turbing modelling
+### Driving energy efficiency of operation with wind turbine modelling
 **Who:** Nick Brown, EPCC
 
 **Abstract:** TBC
