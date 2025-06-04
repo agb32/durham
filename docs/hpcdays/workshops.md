@@ -203,6 +203,7 @@ Speakers:
 - 09:45 Gurtej Kanwar (Edinburgh)
    <details>
        <summary>"Generative AI for Lattice QCD calculations"</summary>
+       Lattice QCD calculations provide valuable ab-initio inputs to study the Standard Model of particle physics. While Lattice QCD has made tremendous progress via large-scale Monte Carlo simulations, improved simulation resolutions are needed to access new quantities and further control systematic errors. I will summarize ongoing efforts to apply generative AI methods to solve this bottleneck, with particular emphasis on the computational challenges and opportunities of the generative AI approach.
    </details>
 
 - 10:00 Roy Stegeman (Edinburgh)
