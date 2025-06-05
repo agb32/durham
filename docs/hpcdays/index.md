@@ -1,6 +1,6 @@
 # Durham HPC Days 2025
 **2nd - 7th June 2025**\
-**Durham University, [Department of Computer Science](location.md), Durham, UK**
+**[Location:](location.md) Durham University, [Department of Computer Science](location.md), Durham, UK**
 
 Consult the [HPC Days 2025 landing page](https://www.durham.ac.uk/research/institutes-and-centres/data-science/events-/durham---hpc-days/) for related information on the registration, the submission of presentations, sponsors, and further travel advice.
 
