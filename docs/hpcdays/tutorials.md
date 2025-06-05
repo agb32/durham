@@ -15,8 +15,8 @@ The FTorch (https://github.com/Cambridge-ICCS/FTorch) approach makes use of the 
 This approach avoids data copies and the need for a Python runtime, both of which can be problematic for HPC.
 
 In this tutorial, attendees will:
-- Learn how to create, manipulate, and interrogate FTorch tensors.
 - Write an ML model using PyTorch and load it for inference in Fortran using FTorch.
+- Learn how to create, manipulate, and interrogate FTorch tensors.
 - Experiment with FTorch's newly added automatic differentiation functionality.
 - Hear about ongoing and future work on enabling online training.
 
@@ -40,30 +40,22 @@ There would be an opportunity to discuss how users’ individual applications co
 ## Tuesday, 3rd June 2025 
 
 ### Lustre User Group: Darshan profiling on Lustre
-**Presenters: Robert Esnouf, Gareth Wilson**
+**Presenters: Robert Esnouf, Alastair Basden**
 - 09:00-10:00 - Talks
 - 09:00-9:05 - Welcome
-- 09:05-9:25 - Paul Ingram, Red Oak Consulting, Lustre PFL
-- 09:25-9:45 - David Ford, Oxford, Tiering to tape
-- 09:45-10:05 - TBC
-- 10:10-10:30 - Account sign up for Darshan Tutorial
-  - *Please bring a laptop with internet access and SSH client*
+- 09:05-9:30 - Paul Ingram, Red Oak Consulting, Lustre PFL
+- 09:30-9:55 - David Ford, Oxford, Tiering to tape
+- 09:55-10:20 - Gwen Dawes, Filesystems for AI workloads: Linux and the IO Bottleneck
+- 10:20-10:30 - Panel Q&A
 - 10:30-11:00 - Coffee break
-- 11:00-12:30 - Darshan introduction and tutorial - Rich Mansfield, DDN.
+- 11:00-12:30 - Lustre discussion <s>Darshan introduction and tutorial - Rich Mansfield, DDN.</s>
 
-Boost Your Code's Performance with Darshan! Lustre User Group (LUG) UK Summer Workshop @ Durham HPC Days.
+[LUG Teams session](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Mjc0YjlkMjEtMmQyYi00ZjlhLThmN2QtMjllNGY2YTRlMTcw%40thread.v2/0?context=%7b%22Tid%22%3a%227250d88b-4b68-4529-be44-d59a2d8a6f94%22%2c%22Oid%22%3a%22174fe4a1-ea76-4bc7-90e6-90976cc2117a%22%7d)
 
-Join us for the LUG UK Summer Workshop at Durham HPC Days, featuring
-an interactive tutorial on I/O profiling with Darshan to help you
-learn to optimize your code's I/O performance, plus talks from Lustre
-Users and Experts.
 
-What's in it for you?
-- Learn to profile your code: Discover how Darshan can reveal your application's I/O bottlenecks.
-- Optimize your I/O: Gain practical skills to improve data read/write efficiency for faster execution.
-- Lustre User Insights: Hear from experienced Lustre users sharing their tips and tricks.
-- Networking: Connect with fellow HPC enthusiasts and experts.
+Learn about Lustre installations at various sites, and discuss your Lustre woes with experienced users.
 
+The Darshan profiling tutorial has been cancelled due to unavailability of staff.  Therefore, a LUG discussion will be had instead.
 
 
 ### AMD GPUs: Simplify your HPC Application Port to GPUs - OpenMP and Managed Memory on AMD MI300A and MI300X
@@ -81,7 +73,7 @@ What kind of complex, real-world language constructs can these compilers handle?
 **Presenter: Duncan McBain (Codeplay)**
 - 13:30 - 15:00 - Session 1
 - 15:00 - 16:30 - Coffee break & Opening Ceremony
-- 16:30 - 17:00 - Session 2
+- 16:30 - 18:00 - Session 2
 
 Parallel programming can be used to take advantage of heterogeneous architectures including GPUs, FPGAs, XPUs, IPUs, TPUs or special units on CPUs to significantly increase the performance of applications. SYCL is an open standard programming model that is defined by the industry and lets developers support many of these processors from different vendors using a single code base and only modern standard C++ code.
 

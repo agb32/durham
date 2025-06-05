@@ -52,16 +52,16 @@
   
 <tr>
 <td>9:45 - 10:05</td>
-<td>Benchmarking ML applications</td>
-<td>Adrian Jackson</td>
-<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#benchmarking-ml-applications">details</a></td>
+<td>Driving energy efficiency of operation with wind turbine modelling</td>
+<td>Nick Brown</td>
+<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#driving-energy-efficiency-of-operation-with-wind-turbine-modelling">details</a></td>
 </tr>
 
 <tr>
 <td>10:05 - 10:25</td>
-<td>Understanding Embeddings in Machine Learning: A Business, Engineering, and Technical Overview</td>
-<td>Pahuldeep Singh Walia</td>
-<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#understanding-embeddings-in-machine-learning-a-business-engineering-and-technical-overview">details</a></td>
+<td>AI for Green HPC: How Machine Learning is Transforming Energy Efficiency</td>
+<td>Fawada Qaiser</td>
+<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#ai-for-green-hpc-how-machine-learning-is-transforming-energy-efficiency">details</a></td>
 </tr>
 
 </table>
@@ -90,20 +90,11 @@
 <td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#advancing-cats-the-climate-aware-task-scheduler-for-hpc-and-htc-application">details</a></td>
 </tr>
 
-
 <tr>
 <td>11:40 - 12:00</td>
-<td>AI for Green HPC: How Machine Learning is Transforming Energy Efficiency</td>
-<td>Fawada Qaiser</td>
-<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#ai-for-green-hpc-how-machine-learning-is-transforming-energy-efficiency">details</a></td>
-</tr>
-
-
-<tr>
-<td>12:00 - 12:20</td>
-<td>Driving energy efficiency of operation with wind turbing modelling</td>
-<td>Nick Brown</td>
-<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#driving-energy-efficiency-of-operation-with-wind-turbing-modelling">details</a></td>
+<td>Benchmarking ML applications</td>
+<td>Adrian Jackson</td>
+<td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#benchmarking-ml-applications">details</a></td>
 </tr>
 
 </table>
@@ -144,7 +135,7 @@
 <tr>
 <td>14:30 - 14:50</td>
 <td>GPU offloads for gravity calculations in SWIFT cosmology code</td>
-<td>Sarah Johnson</td>
+<td>Sarah Johnston</td>
 <td><a href="https://durham.readthedocs.io/en/latest/hpcdays/talks.html#gpu-offloads-for-gravity-calculations-in-swift-cosmology-code">details</a></td>
 </tr>
 
@@ -184,10 +175,14 @@ In this talk I will discuss how we are approaching the ongoing commissioning of 
 
 **Abstract:** TBC
 
-### Understanding Embeddings in Machine Learning: A Business, Engineering, and Technical Overview
-**Who:** Pahuldeep Singh Walia
+### AI for Green HPC: How Machine Learning is Transforming Energy Efficiency
+**Who:** Fawada Qaiser, Durham University
 
-**Abstract:** TBC
+**Abstract:** As High-Performance Computing (HPC) scales to meet increasing computational demands, energy efficiency has become a critical challenge, both for sustainability and operational costs. Traditional power management techniques, such as static power capping and uniform cooling strategies, often fail to adapt to dynamic workloads, leading to inefficiencies. This talk explores how Artificial Intelligence (AI) and Machine Learning (ML) are revolutionizing energy efficiency in HPC by enabling predictive modelling, reinforcement learning-based optimization, and adaptive workload scheduling.
+
+AI-driven predictive energy models leverage real-time telemetry and historical data to forecast power usage, allowing for proactive energy-saving strategies. Case studies from leading supercomputing facilities highlight how reinforcement learning and neural networks enhance power-aware job scheduling, cooling management, and dynamic power adjustments for CPUs, GPUs, and accelerators. Additionally, ML-driven auto-tuning techniques optimise the performance-energy trade-off in real time, balancing computational efficiency with power consumption.
+
+The session also addresses key research challenges, including the need for high-resolution power monitoring, algorithm scalability, and hardware-software co-design for energy-aware AIHPC integration. The talk provides insights into cutting-edge AI solutions that are driving energyefficient HPC operations, ultimately contributing to greener and more cost-effective computing infrastructures.
 
 ### HPC waste heat storage: the ICHS project at Durham University
 **Who:** Paul Walker, Durham University
@@ -199,16 +194,7 @@ In this talk I will discuss how we are approaching the ongoing commissioning of 
 
 **Abstract:** We 'all need HPC', therefore we all need to power HPC systems. But with significant environmental impact from the production of hardware and cooling alone, it is crucial to consider and try to minimise the greenhouse gas requirements from the compute itself in order to be sustainable. To this end, we present work to develop further the Python package CATS, the Climate-Aware Task Scheduler (https://github.com/GreenScheduler/cats), which schedules tasks to minimise the total estimated carbon intensity of the electricity grid for the job duration using real-time data from the UK's National Grid ESO API. While Version 1 of the tool, released last summer, was designed for use with the 'at' command hence targeted smaller-scale tasks on local machines, the upcoming Version 2 will integrate with Slurm for application in HPC and HTC. The aspiration is to soon work with systems administrators at volunteer centres to incorporate CATS Version 2 into key UK systems to provide users with the option to intelligently time shift their jobs through use of a 'green' queue or similar. We outline progress towards this goal.
 
-### AI for Green HPC: How Machine Learning is Transforming Energy Efficiency
-**Who:** Fawada Qaiser, Durham University
-
-**Abstract:** As High-Performance Computing (HPC) scales to meet increasing computational demands, energy efficiency has become a critical challenge, both for sustainability and operational costs. Traditional power management techniques, such as static power capping and uniform cooling strategies, often fail to adapt to dynamic workloads, leading to inefficiencies. This talk explores how Artificial Intelligence (AI) and Machine Learning (ML) are revolutionizing energy efficiency in HPC by enabling predictive modelling, reinforcement learning-based optimization, and adaptive workload scheduling.
-
-AI-driven predictive energy models leverage real-time telemetry and historical data to forecast power usage, allowing for proactive energy-saving strategies. Case studies from leading supercomputing facilities highlight how reinforcement learning and neural networks enhance power-aware job scheduling, cooling management, and dynamic power adjustments for CPUs, GPUs, and accelerators. Additionally, ML-driven auto-tuning techniques optimise the performance-energy trade-off in real time, balancing computational efficiency with power consumption.
-
-The session also addresses key research challenges, including the need for high-resolution power monitoring, algorithm scalability, and hardware-software co-design for energy-aware AIHPC integration. The talk provides insights into cutting-edge AI solutions that are driving energyefficient HPC operations, ultimately contributing to greener and more cost-effective computing infrastructures.
-
-### Driving energy efficiency of operation with wind turbing modelling
+### Driving energy efficiency of operation with wind turbine modelling
 **Who:** Nick Brown, EPCC
 
 **Abstract:** TBC
@@ -235,7 +221,7 @@ This presentation examines the adaptation of a likelihood function calculation f
 **Abstract:** Discrete-event systems (DES) are essentially sequential in their behavior that represents an obstacle for fast simulating them on HPC involving mass-parallel processing facilities such as multicore CPUs or GPUs. We are absorbed in simulating behavior of Sleptsov nets, which are proven Turing-complete and are applied recently as a graphical language of concurrent programming in a wide range of domain. Placetransition nets introduced by Carl Petri fire a single transition at a step that makes HPC only applicable for parallel computing of the fireable transition set and for firing the chosen transition at a step. To speed-up the process on GPU, we use a matrix of threads to calculate the firing multiplicity of arcs, with reduction of minimum to compute the vector of firing multiplicity of transitions; then we use a vector of threads to fire a transition. Applying Sleptsov firing rule with a multiple firing of a transition at a step, we speed-up the process exponentially. We obtain the utmost performance, combining Sletpsov rule with Salwicki rule to fire the maximal multiset of fireable transitions at a step. Though, the maximal multiset choice is a rather hard task to be implemented at a step. We keep a good balance of the step computation complexity applying ad-hoc heuristics. A series of benchmarks obtained for CPUs and GPUs confirm robustness of the developed algorithms. For modern GPUs, we experienced considerable limitations of the global synchronization with regard to the grid size that requires using a few kernels to simulate a Sleptsov net step for big nets. The multiple firing of a transition (a multichannel transition), was re-invented after years under the name of “exhaustive use of rule” that allowed researchers to obtain exponential speed-up for spiking neural P systems, multiset rewriting systems, DNA computing, and other DESs. 
 
 ### GPU offloads for gravity calculations in SWIFT cosmology code
-**Who:** Sarah Johnson, Durham University
+**Who:** Sarah Johnston, Durham University
 
 **Abstract:** To be compliant with modern heterogeneous HPC systems, large astronomy codes are needing to move towards GPU compatibility. SWIFT (SPH With Inter-dependent Fine-grained Tasking) is a versatile, open-source astronomy code used for a range of research areas in astronomy including galaxy formation, planetary impacts, and cosmology. A significant portion of SWIFT’s runtime is dedicated to gravity calculations. In gravity n-body codes, each particle (representing a celestial object) interacts with every other particle based on gravitational forces, making the calculations computationally intensive. However, the repetitive and non-interdependent nature of these n-body interactions makes them ideal candidates for GPU acceleration.
 

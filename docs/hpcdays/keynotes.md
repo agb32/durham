@@ -1,5 +1,18 @@
 # Keynote Speakers
 
+
+## Rich Knepper (CASC)
+<img width="200px" src="https://news.cornell.edu/sites/default/files/styles/story_thumbnail_xlarge/public/2024-10/knepper_head_shot.jpg?itok=bA8FjQUo" />
+
+### The changing shape of science funding in the U.S.
+
+**Tuesday, 3rd June 2025, 15:45 - 16:30**
+
+## Abstract
+
+Since the new U.S. leadership took office in January 2025, a number of sweeping changes have been announced that, as presented, would drastically change the landscape of scientific funding and discovery. Rich Knepper, Chair of the Coalition for Academic Scientific Computation discusses the background of these changes, immediate impacts, responses from the scientific and university community, and potential new directions.
+
+
 ## Cristin Merritt (Chief Marketing Officer - Alces Flight Ltd.)
 <img width="200px" src="https://hanami-project.com/wp-content/uploads/2024/08/14.png" />
 
