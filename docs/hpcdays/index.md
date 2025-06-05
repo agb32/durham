@@ -89,7 +89,7 @@ location
   <td> 
     Workshop: <a href="workshops.html#ecse-session">eCSE Session</a> (MCS2068) 
     <br /><div style="color:LightGrey;font-size=50%">and</div>
-    <a href="dri.html">UKRI DRI</a> (MCS0001) 
+    <a href="dri.html#supporting-digital-research-technical-professionals-drtps-projects-opportunities-and-challenges">UKRI DRI: Supporting digital Research Technical Professionals (dRTPs): Projects, opportunities and challenges</a> (MCS0001) 
   </td>
   <td> 
     Workshop: <a href="workshops.html#numerical-relativity">Numerical Relativity</a> (MCS0001)  
@@ -121,9 +121,9 @@ location
   <td> 
     Welcome note: Matthew Johnson (Head of Computer Science)
     <br /><div style="color:LightGrey;font-size=50%">and</div> 
-    Keynote: <a href="dri.html">Digital Research Infrastructure</a> <br /> (Afia Masood, MCS0001) 
+    Keynote: <a href="dri.html#keynote-the-uk-s-digital-research-infrastructure">The UK's Digital Research Infrastructure</a> <br /> (Afia Masood, MCS0001) 
     <br /><div style="color:LightGrey;font-size=50%">and</div> 
-    <a href="dri.html">UKRI DRI</a> (MCS0001) 
+    <a href="dri.html#kick-off-the-uk-s-knowledge-exchange-grant-and-accelerate-computing-initiatives">UKRI DRI: Kick-off: The UK's Knowledge Exchange Grant and Accelerate Computing initiatives</a> (MCS0001) 
   </td>
   <td> 
     Workshop: <a href="workshops.html#cosec">CoSeC</a> (MCS0001) 
