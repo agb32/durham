@@ -1,6 +1,6 @@
 # Location for HPC Days
 
-Department of Computer Science, Upper Mountjoy.
+Department of Computer Science, Upper Mountjoy, Stockton Road, DH1 3LE.
 
 ![Location](../images/cslocation.png)
 
