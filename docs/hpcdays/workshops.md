@@ -368,23 +368,28 @@ Finally, in the third part of our session, Mike Simpson (Newcastle University) w
 ### CoSeC & Creating a cohesive distributed Digital Research Infrastructure
 
 **Conveners: Stephen Longshaw (UKRI STFC), Damian Jones (UKRI STFC)**
-- 13:30 - 15:00 and 15:30 - 17:00
+- 13:30 - 15:00 (talks) and 15:30 - 16:30 (panel)
 
 **Talks**
 
 - 13:30 – 14:00 – Introducing CoSeC and the Collaborative Computational Community Model (Stephen Longshaw)
-- 14:00 – 14:15 – Applied AI for the Digital Humanities (CCP-AHC; Karina Rodriguez Echavarria)
+- 14:00 – 14:15 – Applied AI for the Digital Humanities (CCP-AHC; Karina Rodriguez Echavarria / Jeyan Thiyagalingam)
 - 14:15 – 14:30 – Computational Biology (Martyn Winn – joining remotely)
 - 14:30 – 14:45 – Computational Engineering (CCP-NTH, CCP-Turbulence, UKTC; Wei Wang)
 - 14:45 – 15:00 – Computational Materials and Molecular Science (Marcello Puligheddu / Rajany RV)
 
+
 **Panel: Creating a cohesive distributed Digital Research Infrastructure**
 
-Chair: Marion Weinzierl
+- Chair: Marion Weinzierl
 
-Panel: Katy Clough; Mark Wilkinson; Afia Masood; Nick Brown, Stephen Longshaw, Tobias Weinzierl, Karina Rodriguez Echavarria
+- Panel: Katy Clough; Mark Wilkinson; Afia Masood; Nick Brown, Karina Rodriguez Echavarria, Tobias Weinzierl
+
+ 
+The basic idea is to discuss how (and whether?) it is possible for us to create a DRI using the distributed funding approach – i.e. funding the infrastructure as lots of smaller projects (relatively) that need to interoperate to be a single cohesive overall infrastructure.
 
 The panel will kick off with a discussion of some key topics around a cohesive digital research infrastructure. After that, the audience will be given the opportunity to ask the panel further questions.
+
 
 ### HPC/HTC in High-Energy Physics
 **Convener: Enrico Bothmann (CERN), Luigi del Debbio (Edinburgh), Marek Schoenherr (Durham)**
