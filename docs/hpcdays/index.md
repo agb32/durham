@@ -13,6 +13,7 @@ workshops
 contribute
 social
 facilities
+location
 ```
 
 ![HPCDays](../images/HPC-days-pic.png)
@@ -194,7 +195,7 @@ facilities
 
 ## Online participation and AV
 
-Most of our events will be streamed live, and the [registration](https://www.canva.com/design/DAGoFjE29xE/L3GYz3LL3ZLcomD9ArYXig/view) for the individual session is open now.
+Most of our events will be streamed live, and the [registration](https://www.canva.com/design/DAGoFjE29xE/L3GYz3LL3ZLcomD9ArYXig/view) for the individual sessions is open now.
 Can we please advise that all speakers register for their respective session as well, so we can simply start individual presentations via screen share.
 
 ## Sponsors and Supporters
