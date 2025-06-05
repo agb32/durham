@@ -88,7 +88,7 @@ facilities
   <td> 
     Workshop: <a href="workshops.html#ecse-session">eCSE Session</a> (MCS2068) 
     <br /><div style="color:LightGrey;font-size=50%">and</div>
-    <a href="dri.html">UKRI DRI</a> (MCS0001) 
+    <a href="dri.html#session-2">UKRI DRI: Supporting digital Research Technical Professionals (dRTPs): Projects, opportunities and challenges</a> (MCS0001) 
   </td>
   <td> 
     Workshop: <a href="workshops.html#numerical-relativity">Numerical Relativity</a> (MCS0001)  
@@ -120,9 +120,9 @@ facilities
   <td> 
     Welcome note: Matthew Johnson (Head of Computer Science)
     <br /><div style="color:LightGrey;font-size=50%">and</div> 
-    Keynote: <a href="dri.html">Digital Research Infrastructure</a> <br /> (Afia Masood, MCS0001) 
+    Keynote: <a href="dri.html#session-3">The UK's Digital Research Infrastructure</a> <br /> (Afia Masood, MCS0001) 
     <br /><div style="color:LightGrey;font-size=50%">and</div> 
-    <a href="dri.html">UKRI DRI</a> (MCS0001) 
+    <a href="dri.html#session-4">UKRI DRI: Kick-off: The UK's Knowledge Exchange Grant and Accelerate Computing initiatives</a> (MCS0001) 
   </td>
   <td> 
     Workshop: <a href="workshops.html#cosec">CoSeC</a> (MCS0001) 

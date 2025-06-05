@@ -1,5 +1,6 @@
 # Digital Research Infrastructure
 
+<a id='session-1'></a>
 ## The UK Centre of Excellence for the Characterisation and Co-Design of Systems, Hardware and Enabling Software
 
 
@@ -19,6 +20,7 @@ This session describes the progress made towards such a Centre of Excellence.
 
 ## Thursday
 
+<a id='session-2'></a>
 ### Supporting digital Research Technical Professionals (dRTPs): Projects, opportunities and challenges
 
 **Convener:** Weronika Filinger (EPCC)\
@@ -37,6 +39,7 @@ UKRI’s Digital Research Infrastructure programme is supporting a range of proj
 - <a href="https://www.ccpahc.ac.uk/">CCP-AHC</a> - Eamonn Bell, Durham University
 
 
+<a id='session-3'></a>
 ## Keynote: The UK's Digital Research Infrastructure
 
 **Presenter:** Afia Masood (UKRI)\
@@ -45,6 +48,7 @@ UKRI’s Digital Research Infrastructure programme is supporting a range of proj
 
 **Abstract:** This talk will give an overview of the UK's DRI programme, its ambition and grants funded so far.
 
+<a id='session-4'></a>
 ## Kick-off: The UK's Knowledge Exchange Grant and Accelerate Computing initiatives
 
 **Convener:** Helen Cooper, Nick Brown, Tobias Weinzierl\
