@@ -373,7 +373,7 @@ Finally, in the third part of our session, Mike Simpson (Newcastle University) w
 **Talks**
 
 - 13:30 – 14:00 – Introducing CoSeC and the Collaborative Computational Community Model (Stephen Longshaw)
-- 14:00 – 14:15 – Applied AI for the Digital Humanities (CCP-AHC; Eamonn Bell / Jeyan Thiyagalingam)
+- 14:00 – 14:15 – Applied AI for the Digital Humanities (CCP-AHC; Karina Rodriguez Echavarria)
 - 14:15 – 14:30 – Computational Biology (Martyn Winn – joining remotely)
 - 14:30 – 14:45 – Computational Engineering (CCP-NTH, CCP-Turbulence, UKTC; Wei Wang)
 - 14:45 – 15:00 – Computational Materials and Molecular Science (Marcello Puligheddu / Rajany RV)
@@ -382,7 +382,7 @@ Finally, in the third part of our session, Mike Simpson (Newcastle University) w
 
 Chair: Marion Weinzierl
 
-Panel: Katy Clough; Mark Wilkinson; Afia Masood; Nick Brown, Stephen Longshaw, Tobias Weinzierl
+Panel: Katy Clough; Mark Wilkinson; Afia Masood; Nick Brown, Stephen Longshaw, Tobias Weinzierl, Karina Rodriguez Echavarria
 
 The panel will kick off with a discussion of some key topics around a cohesive digital research infrastructure. After that, the audience will be given the opportunity to ask the panel further questions.
 
