@@ -57,6 +57,7 @@ location
 </tr>
 <tr>
   <td> 11:00 </td>
+
   <td> </td>
   <td> </td>
   <td> </td>
