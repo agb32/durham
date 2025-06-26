@@ -1,6 +1,6 @@
 # Sponsor and Supporter information
 
-If you are sponsoring and supporting HPC Days 2025, THANK YOU VERY MUCH!  We would not be able to run the event without you!
+If you are sponsoring and supporting HPC Days 2026, THANK YOU VERY MUCH!  We would not be able to run the event without you!
 
 This page will hopefully include the information that you need to make a success of the event, but if there is information missing please contact us.
 
