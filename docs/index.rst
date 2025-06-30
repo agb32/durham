@@ -13,9 +13,10 @@ Contents
    ichs/index
    hardwarelab/index
    hpcdays/index
+   netdrive/index
 
 Durham University is a leading High Performance Computing provider to
 the UK research community.
 
-<tiny>[Contributions](hpcdays/contribute.html) to this documentation
-are welcome.</tiny>
+
+:doc:`hpcdays/contribute`
