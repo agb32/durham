@@ -42,7 +42,7 @@ location
   <td> </td>
   <td> </td>
   <td> </td>
-  <td rowspan=13> <a href="social.html">Join us for our Saturday Social!</a> </td>
+  <td rowspan=11> <a href="social.html">Join us for our Saturday Social!</a> </td>
 </tr>
 <tr>
   <td> 9:45 </td>
