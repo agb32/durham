@@ -55,7 +55,7 @@ the ability to exploit the full national JANET network capacity and performance.
 7. Investigate workflow integration with batch schedulers and private object storage (including the DiRAC StorJ private cloud storage)
 8. Consider sustainability aspects, such as vendor lock-in (up-front and lifetime costs) and standards compliance.
 
-# Community
+## Community
 
 We have selected four representative, topical, data-intensive case
 studies, which will place significant demands on DRI in coming years,
@@ -82,7 +82,7 @@ are efficient. We will provide training materials in data transfer,
 and aim to offer a data transfer workshop at the HPC Days 2026
 conference.
 
-# More information
+## More information
 
 For more information please see the individual [work packages](workpackages.md)
 

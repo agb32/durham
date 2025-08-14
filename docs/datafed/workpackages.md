@@ -1,6 +1,6 @@
 # Work packages
 
-## WP!: Requirements capture and landscape review
+## WP1: Requirements capture and landscape review
 
 We will perform a landscape review of requirements from widely
 different communities (e.g., Royce Institute, Rosalind Franklin
