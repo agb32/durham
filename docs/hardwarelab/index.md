@@ -42,6 +42,6 @@ A lot of information about the Durham HPC Hardware Lab is hosted by the [COSMA H
 
 A list of [historical hardware](historic.md) (now retired) is maintained.
 
-# External hardware laboratory facilities
+## External hardware laboratory facilities
 
 There are a number of other [hardware lab facilities around the UK](ukwide.md).  Please feel free to add to this list.
