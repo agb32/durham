@@ -1,5 +1,12 @@
 # NetworkPlus Federated Compute Services data federation project
 
+User-driven large-scale data movement at UKRI DRI sites!
+
+```{toctree}
+workpackages
+```
+
+
 ## Overview
 
 This project looks at large scale data movement between, into and out
