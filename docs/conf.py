@@ -49,7 +49,7 @@ html_context = {
     'github_user': 'agb32',
     'github_repo': 'durham',
     'github_version': 'main/docs/',
-    'conf_py_path': '/source', 
+#    'conf_py_path': '/source/', 
 }
 
 
