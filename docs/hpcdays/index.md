@@ -2,7 +2,7 @@
 **15th - 19th June 2026**\
 **[Location:](location.md) Durham University, [Department of Computer Science](location.md), Durham, UK**
 
-Consult the [HPC Days 2025 landing page](https://www.durham.ac.uk/research/institutes-and-centres/data-science/events-/durham---hpc-days/) for information related to the 2025 event.
+Consult the [HPC Days 2025 landing page](https://www.durham.ac.uk/research/institutes-and-centres/data-science/events-/durham---hpc-days/) for information related to the 2025 event. We also host [detailed information on last year's edition](https://durham.readthedocs.io/en/latest/hpcdays2025/index.html) in on this site.
 
 ```{toctree}
 :hidden:
