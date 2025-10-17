@@ -4,6 +4,9 @@ We are running two fully-funded [NetDRIVE](https://eng.ox.ac.uk/netdrive) summer
 
 If you would like to be notified when the application form goes live, please enter your details [here](https://forms.office.com/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUNVpGQVpVSzRTVlBCQTlTTVFWVkhWTTVFWi4u).
 
+To apply for a place on the 2026 summer school, [please use this form](https://forms.office.com/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUN0hRTURJM0daWDdORUVNTjVJQ0NINTNBWi4u)
+
+
 [2026 Summer School](ss2026.md) **15th-19th June 2026, Durham**
 
 [2027 Summer School](ss2027.md) **March 2027 TBC, Edinburgh**
