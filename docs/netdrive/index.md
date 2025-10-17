@@ -2,9 +2,9 @@
 
 We are running two fully-funded [NetDRIVE](https://eng.ox.ac.uk/netdrive) summer schools for PhD students, focused around Net-Zero and responsible research when using Digital Research Infrastructure.  These will be during the summer of 2026, and spring of 2027.
 
-If you would like to be notified when the application form goes live, please enter your details [here](https://forms.office.com/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUNVpGQVpVSzRTVlBCQTlTTVFWVkhWTTVFWi4u).
+If you would like to be notified when the application form goes live, please enter your details [here](https://forms.office.com/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUNVpGQVpVSzRTVlBCQTlTTVFWVkhWTTVFWi4u){:target="_blank"}.
 
-To apply for a place on the 2026 summer school, [please use this form](https://forms.office.com/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUN0hRTURJM0daWDdORUVNTjVJQ0NINTNBWi4u)
+To apply for a place on the 2026 summer school, [please use this form](https://forms.office.com/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUN0hRTURJM0daWDdORUVNTjVJQ0NINTNBWi4u){:target="_blank"}
 
 
 [2026 Summer School](ss2026.md) **15th-19th June 2026, Durham**
