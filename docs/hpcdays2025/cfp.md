@@ -3,8 +3,8 @@
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ===============================================================
                   Call for presentations
-                      HPC Days 2026
-               Durham, 15 June – 19 June 2026
+                      HPC Days 2024
+               Durham, 2 June – 7 June 2025
 ===============================================================
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
@@ -12,9 +12,9 @@
 **Submission deadline:** 1st of April, AoE \
 **Notification deadline:** 10th of April 
 
-## Theme: HPC
+## Theme: AI and simulations - We all need HPC
 
-Theme description to follow.
+As we continue to progress further into the exascale era it is becoming clearer that, despite people's claims, there is really no gap between HPC and AI. Both these areas require high-performance, rely on the same hardware technologies and often require staff with similar skillsets. Consequently, HPC can be thought of as underpinning both simulation of scientific computing workloads and AI, and we are all in the same boat. However, different communities have different needs around how the HPC infrastructure is used and provided, which then also affect each other. Following this “difference but common interests” theme, we aim to bring disciplines to Durham which have typically been underrepresented in previous years. There are many challenging issues shared between communities but are potentially solved in different ways, and hence we aim for HPC Days 2025 to explore these, identify synergies and shared solutions.
 
 <!-- Call for presentations
 ---------------------- -->
@@ -38,7 +38,7 @@ As HPC is a large community that encompasses many different roles, we welcome bo
 Submission details
 ------------------
 
-We request submission of an abstract, approximate length 300 words which will be peer reviewed via the EasyChair system at [https://easychair.org/conferences/?conf=hpcdays26](https://easychair.org/conferences/?conf=hpcdays25).
+We request submission of an abstract, approximate length 300 words which will be peer reviewed via the EasyChair system at [https://easychair.org/conferences/?conf=hpcdays25](https://easychair.org/conferences/?conf=hpcdays25).
 
 **Successful presentations will be required to register and attend the conference in-person.**
 

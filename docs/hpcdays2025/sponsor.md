@@ -1,16 +1,12 @@
 # Sponsor and Supporter information
 
-If you are sponsoring and supporting HPC Days 2026, THANK YOU VERY MUCH!  We would not be able to run the event without you!
+If you are sponsoring and supporting HPC Days 2025, THANK YOU VERY MUCH!  We would not be able to run the event without you!
 
 This page will hopefully include the information that you need to make a success of the event, but if there is information missing please contact us.
 
-## The event
-
-The event is taking place in the Department of Computer Science, Stockton Road, Durham, DH1 3LE.  Food and refreshments will be available throughout.  
-
 ## Attendance and registration
 
-You are welcome to attend as little or as much of the event as you wish.  Registration has now closed, but if you forgot to register, please still let us know and we will add you to the list, so that we know roughly when to expect you and can cater for you!
+You are welcome to attend as little or as much of the event as you wish.  Please [register here](https://pay.durham.ac.uk/event-durham/durham-hpc-days-2025) so that we know roughly when to expect you, and can cater for you!
 
 The key day to attend is the Wednesday afternoon/evening when the sponsor session will be.  We expect that most sponsors will arrive on Wednesday and depart on Thursday.  However, some will likely stay for the full week, which is very welcome.
 
@@ -50,5 +46,3 @@ DH1 3LE
 ## Parking
 
 If you would like a visitor parking permit, please provide name, car reg details, and the times you'd like the permit for, to Alastair, at least a few days in advance.  There may not be enough spaces, so some walking may be required.  However, vehicle access up to the venue is possible, for dropping off kit.
-
-Requested parking permits should be available to collect from the Stockton Road security logde, DH1 3LE.

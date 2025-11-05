@@ -8,13 +8,27 @@ Brief introductions and technology primers to a general HPC audience, showcasing
 
 16:30 - Introduction
 
-16:40 - Vendor presentations
+16:40 - Vespertec
 
-17:35 - Panel session
+16:45 - VAST
+
+16:50 - OCF
+
+16:55 - Hammerspace
+
+17:00 - DDN
+
+17:05 - Cornelis Networks
+
+17:10 - Cambridge RCS
+
+17:15 - Atempo
+
+17:20 - AMD / Dell
+
+17:25 - Panel session
 
 During the panel session, the audience will be have the chance to ask questions to the sponsors on relevant topics.
-
-You can [join remotely here](https://teams.microsoft.com/)
 
 ## Scavenger hunt
 

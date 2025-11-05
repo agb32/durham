@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'durham'
-copyright = '2024, Durham'
+copyright = '2024-2025, Durham'
 author = 'durham'
 
 release = '0.1'
@@ -17,6 +17,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    "sphinx.ext.githubpages",
+    "sphinx_rtd_theme",
     'myst_parser',
 ]
 
@@ -47,12 +49,13 @@ html_theme_options = {
 # Show the edit this file.  Didn't work.
 #html_show_sourcelink = True
 
-#html_context = {
-#    'display_github': True
-#    'github_user': 'agb32'
-#    'github_repo': 'durham'
-#    'github_version': 'main/docs/'
-#}
+html_context = {
+    'display_github': True,
+    'github_user': 'agb32',
+    'github_repo': 'durham',
+    'github_version': 'main/docs/',
+#    'conf_py_path': '/source/', 
+}
 
 
 # -- Options for EPUB output
