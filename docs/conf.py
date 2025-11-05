@@ -30,6 +30,11 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+# List of source directory to ignore 
+exclude_patterns = [
+    'cpu/sapphire-rapids.md'
+]
+
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
