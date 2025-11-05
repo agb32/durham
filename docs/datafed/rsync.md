@@ -9,7 +9,7 @@ Rsync is a standard tool for data transfer, and widely used for small volumes of
 
 | | Durham | Edinburgh |
 | --- | --- | --- |
-| Durham | | [80Mbps]() |
+| Durham | | 80Mbps |
 | Edinburgh | | |
 
 ## Transfer details and parameters
