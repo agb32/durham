@@ -9,7 +9,7 @@ Rsync is a standard tool for data transfer, and widely used for small volumes of
 
 | | Durham | Edinburgh |
 | --- | --- | --- |
-| Durham | | [80Mbps](rsync.html#durham-to-tursa-edinburgh) |
+| Durham | | [80Mbps](#durham-to-tursa-edinburgh) |
 | Edinburgh | | |
 
 (from location in colum to location in row)
