@@ -5,7 +5,7 @@
 Our Sapphire Rapids are configured to hold Ponte Vecchio GPUs (PVCs). Therefore, they are accessible as part of our Intel GPU nodes.
 
 - Node name: gi001
-- Permissions: [Intel GPU group](access.md)
+- Permissions: [Intel GPU group](../access.md)
 - Access mode (Slurm group): direct login through ssh from login8.cosma.dur.ac.uk (*)
 
 (*) The nodes are given out FCFS, i.e. please check prior to any benchmarking that nobody else is currently using the node.
