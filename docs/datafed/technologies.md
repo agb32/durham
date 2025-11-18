@@ -15,6 +15,7 @@ We will also investigate other technologies such as:
 - [EU datahub](https://datahub.egi.eu/)
 - [OneData](https://github.com/onedata)
 - [EU Open Science Cloud](https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/open-science/european-open-science-cloud-eosc_en)
+- [EUDat](https://eudat.eu/)
 
 
 With these, we will provide some input into the UK DRI federation landscape survey, but not seek to implement or test.
