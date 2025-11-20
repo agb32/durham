@@ -20,6 +20,10 @@ We will also investigate other technologies such as:
 
 With these, we will provide some input into the UK DRI federation landscape survey, but not seek to implement or test.
 
+There are also various technical tools and settings that can help improve performance.  For example:
+
+- [Setting the MTU size](mtu.md)
+
 # Use cases
 
 ## VIRGO
