@@ -4,6 +4,15 @@ Globus is widely used by HPC systems to transfer data between systems.
 
 It has a concept of a [research data portal](https://docs.globus.org/guides/recipes/modern-research-data-portal/) which is a design pattern for providing secure and high performance access to research data.
 
+## Transfer rates
+
+| | Durham | Edinburgh |
+| --- | --- | --- |
+| Durham | | [970MB/s](#cosma-archer2-transfer-tests) |
+| Edinburgh | [994MB/s](#cosma-archer2-transfer-tests) | |
+
+(from location in column to location in row)
+
 ## Subscriptions
 
 Globus offers a free subscription tier for limited control of data transfer.  However, higher performance transfers are available with a paid subscription.
