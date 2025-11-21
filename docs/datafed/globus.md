@@ -29,10 +29,12 @@ The table below shows the data transfers performed and the transfer rates achiev
 
 | Date/time | Source | Destination | Number of files | Size of each file (GB) | Transfer rate (MB/s) |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| MTU 1500 
 | 29/10/2025 11:50 | COSMA | ARCHER2 | 50 | 100 | 815.08 |
 | 31/10/2025 22:05 | ARCHER2 | COSMA | 50 | 100 | 916.13 |
 | 05/11/2025 07:40 | COSMA | ARCHER2 | 500 | 10 | 970.24 |
 | 05/11/2025 12:44 | ARCHER2 | COSMA | 500 | 10 | 994.09 |
+| MTU 9000
 | 12/11/2025 09:45 | COSMA | ARCHER2 | 500 | 10 | 914.34 |
 | 12/11/2025 11:23 | ARCHER2 | COSMA | 500 | 10 | 944.99 |
 | 13/11/2025 07:08 | COSMA | ARCHER2 | 50 | 100 | 860.15 |
