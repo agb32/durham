@@ -1,6 +1,6 @@
 # Data transfer technologies
 
-We are investigating a number of data transfer technologies, with significant emphasis on the user perspective and ease of use.  We will capture information about where these can be used, what performance is likely to be achieved, and how they should be used to speed up data transfer
+We are investigating a number of data transfer technologies, with significant emphasis on the user perspective and ease of use.  We will capture information about where these can be used, what performance is likely to be achieved, and how they should be used to speed up data transfer.  
 
 These include:
 
@@ -8,6 +8,8 @@ These include:
 - [Rclone](rclone.md)
 - [Globus](globus.md)
 - [RUCIO](rucio.md)
+
+This documentation is collaborative: if you have measurements or information which can be added, please do so.
 
 We will also investigate other technologies such as:
 
