@@ -24,6 +24,8 @@ There are also various technical tools and settings that can help improve perfor
 
 - [Setting the MTU size](mtu.md)
 
+
+
 # Use cases
 
 ## VIRGO
@@ -54,3 +56,16 @@ possible choice.
 ## Tessera
 
 The [Tessera](https://github.com/ucam-eo/tessera) project requires a large data volume, based at Cambridge.
+
+# Tips
+
+Some simple tips and tricks to aid data transfer
+
+## Small files
+
+Improved performance can often be achieved by tarring many small files into a larger one before transfer.
+
+## Source and destination file systems
+
+Selecting the correct file system at either end can help with transfer speed - slow file systems may not be able to keep up with the network transfer.
+
