@@ -25,7 +25,7 @@ An introduction to the Net Zero challenge by one of the co-founders of eXtinctio
 
 ## Tuesday (PM): Making change
 
-### Tuesday 13:30 - Keynote: Sufficiency, Carolyn Lord
+### Tuesday 13:30 - Keynote: Sufficiency, TBC
 ### Tuesday 14:00 - Case study: My route to becoming a sustainability champion, Jessica Hartley
 ### Tuesday 14:30 - Communication: Poster preparation introductory session
 ### Tuesday 15:30 - Break
@@ -44,7 +44,7 @@ An introduction to the Net Zero challenge by one of the co-founders of eXtinctio
 
 ## Wednesday (PM): Influencing data centre sustainability and procurement
 
-### Wednesday 13:30 - Keynote: UKRI procurement, Martin Farley
+### Wednesday 13:30 - Keynote: UKRI procurement, TBC
 ### Wednesday 14:00 - Talk: Understanding the procurement process
 ### Wednesday 14:30 - Talk: Sustainable data centres
 ### Wednesday 15:00 - Engagement: Lifestyle choices

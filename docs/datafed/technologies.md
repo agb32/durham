@@ -59,6 +59,12 @@ possible choice.
 
 The [Tessera](https://github.com/ucam-eo/tessera) project requires a large data volume, based at Cambridge.
 
+This project is producing a 1PB AI model from the 200PB Sentinal 1 and 2 data.  The data processing is open source.  Chunks of satellite data are downloaded and modelled to a 10x10m square, covering the whole planet, delivering 1PB of inference data.
+
+This project is currently the largest user of the DAWN AI system, and can saturate the University of Cambridge external network link.
+
+The raw data is hosted on Azure, and a [custom Python script](https://github.com/ucam-eo/tessera/blob/alpha_version_1.0/tessera_preprocessing/s1_s2_downloader.sh)  is used for downloading the data to the Cambridge CSD3 system, based on urllib3 and the Python requests library.
+
 # Tips
 
 Some simple tips and tricks to aid data transfer
