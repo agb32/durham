@@ -14,6 +14,8 @@ Waste heat sources, for example from a data centre, can be used to heat the mine
  - This warmer water is then reinjected into the second seam.
  - Water will flow between the two seams, dispersing the heat throughout the mine.
 
+![The concept](ichsConcept.png)
+
 
 ## Preliminary investigations
 
