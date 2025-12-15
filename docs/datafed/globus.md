@@ -19,6 +19,30 @@ Globus offers a free subscription tier for limited control of data transfer.  Ho
 
 There is potentially some issues related to commercial companies having University accounts (e.g. spin-offs and close collaborators) who would then have access to Globus through a University subscription.  The details here need to be ascertained.  Similarly, how the transfer of data to commercial partners can be managed needs to be determined.
 
+### Globus availability on UK HPC facilities
+
+The table below shows the availability of Globus at major HPC providers in the UK, as determined from public information such as documentation and the presence of discoverable Globus endpoints. This table represents the best of our knowledge at the present time but may not be completely correct or comprehensive.
+
+| HPC facility | Globus available | Paid subscription | Parallelism configured |
+| --- | --- | --- | --- |
+| ARCHER2 (EPCC) | Yes | Standard | Yes |
+| Cirrus (EPCC) | Yes | Standard | Yes |
+| Tursa (DiRAC) | Yes | Standard | Yes |
+| Baskerville (Birmingham) | Yes | Standard | Yes |
+| UCL RDSS | Yes | Standard | Yes |
+| University of York | Yes | High assurance | No |
+| Apocrita (QMUL) | Yes | Standard | No |
+| COSMA (Durham) | Yes | No | No |
+| CSD3 (Cambridge) | Not publicly | Unknown | Unknown |
+| Isambard (GW4) | No | n/a | n/a |
+| Sulis (HPC Midlands) | No | n/a | n/a |
+| JADE (Oxford) | No | n/a | n/a |
+| MMM | No | n/a | n/a |
+| NI-HPC | No | n/a | n/a |
+| Bede (EPSRC) | No | n/a | n/a |
+
+Some sites have a paid Globus licence but do not appear to have configured their endpoint to support parallel transfers (using the `Maximum Concurrency`, `Preferred Concurrency`, `Maximum Parallelism` and `Preferred Parallelism` settings). This is denoted by a "No" in the right hand column of the table. CSD3 is thought to have a Globus endpoint, but it is not currently documented, or discoverable through the Globus search functionality.
+
 ## COSMA/ARCHER2 Transfer Tests
 
 In late October and early November 2025, various data transfer tests were performed between COSMA in Durham and ARCHER2 in Edinburgh, using Globus. System administrators in Edinburgh planned to enable MTU 9000 (so-called "Jumbo" ethernet frames) and were interested to see whether this would make a difference to the observed transfer rates in and out of the site. Durham, which already had jumbo frames enabled, was identified as a good candidate for testing and this also fitted well with the data federation project's goal of investigating different data transfer technologies.
@@ -43,3 +67,55 @@ The table below shows the data transfers performed and the transfer rates achiev
 The first four transfers were performed before MTU 9000 was enabled at Edinburgh, the last four after. There was no obvious performance improvement from this configuration change, with the transfers both before and after running at similar speeds in the range 800-1000MB/s. It is likely that other bottlenecks in the network were more significant than this setting.
 
 Transfers from ARCHER2 to COSMA were generally slightly faster than those in the other direction, though given the relatively small number of transfers performed, this may have just been coincidence. Surprisingly the transfers of 500 smaller files were noticeably faster than those of 50 larger files; this may relate to how Globus handles transfers internally. Possibly the larger number of files offers more opportunity for parallelism.
+
+## Globus Command Line Interface Usage
+
+Globus transfers can be initiated and monitored through the Globus web interface available at [https://app.globus.org](https://app.globus.org). However, for some use cases (particularly when scripting and automation are desired), the command line interface may be more suitable. This can easily be installed through `pip`:
+
+```
+pip install globus-cli
+```
+
+Once installed, it is necessary to log in to the Globus service before transfers can be managed. To do this, run:
+
+```
+globus login
+```
+
+This will direct you to a URL on the Globus website where you can authenticate with Globus and grant permission for the command line client to access your account.
+
+In order to interact with Globus endpoints, it is necessary to have their UUIDs. These can be found via the Globus web interface by searching for the endpoint, clicking on the three dots to the right of its name, and copying the UUID from the bottom of the "Overview" tab that appears. For example, the ARCHER2 endpoint's UUID is `3e90d018-0d05-461a-bbaf-aab605283d21` and COSMA's is `25e7309e-82ed-11e9-bf4e-0e4a062367b8`. It is also possible to find endpoints directly from the CLI using the `globus endpoint search` command.
+
+It may be convenient to store the UUIDs you are working with in environment variables to avoid having to copy and paste them and to make it clear which endpoint subsequent commands are referring to:
+
+```
+export GLOBUS_ENDPOINT_ARCHER2=3e90d018-0d05-461a-bbaf-aab605283d21
+export GLOBUS_ENDPOINT_COSMA=25e7309e-82ed-11e9-bf4e-0e4a062367b8
+```
+
+Once you are logged in and have the endpoint IDs, you can list files available on the endpoint, or in a certain subdirectory of the endpoint:
+
+```
+globus ls $GLOBUS_ENDPOINT_ARCHER2
+globus ls $GLOBUS_ENDPOINT_ARCHER2:/mnt/lustre/a2fs-nvme/work/z19/z19/jamesp-z19/globus/
+```
+
+To initiate a transfer between two endpoints, use the `globus transfer` command. For example, the command below will initiate a transfer of a file called `test1` from ARCHER2 to COSMA:
+
+```
+globus transfer $GLOBUS_ENDPOINT_ARCHER2:/mnt/lustre/a2fs-nvme/work/z19/z19/jamesp-z19/globus/test1 $GLOBUS_ENDPOINT_COSMA:/cosma7/data/ip005/dc-perr3/globus/test1
+```
+
+You can check the status of all your current Globus operations by running:
+
+```
+globus task list
+```
+
+This will show a summary table with the most recent tasks at the top. The first column gives the task ID for each task. You can use this ID to request more detailed information about an individual task:
+
+```
+globus task show f2dc4951-d1df-11f0-bb8c-0221bf474485
+```
+
+These commands are sufficient for initiating transfers and monitoring their progress. However, many other commands are available for more advanced tasks, and these are detailed in the [Globus documentation](https://docs.globus.org/cli/).
