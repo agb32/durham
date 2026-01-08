@@ -16,6 +16,8 @@ Waste heat sources, for example from a data centre, can be used to heat the mine
 
 ![The concept](ichsConcept.png)
 
+![The concept](ichsConceptDiagram.jpg)
+
 
 ## Preliminary investigations
 
