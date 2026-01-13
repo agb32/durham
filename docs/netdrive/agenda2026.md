@@ -179,12 +179,13 @@ A discussion of sustainable use of AI, how to encourage sustainability, what con
 
 ### Friday 09:30 - Communication: Poster session
 
-A poster design session, preparing posters for the NetDRIVE July Edinburgh meeting.
+A poster session, presenting posters to HPC Days attendees and getting feedback.  This session includes lightning talks to introduce the posters.  Updates to the posters can then be made in preparation for presenting them at the NetDRIVE July Edinburgh meeting.
 
 ### Friday 10:30 - Break
 ### Friday 11:00 - Action: Creating a plan
 
-A session devoted to creating an action plan related to your own research.
+A session devoted to creating an action plan related to your own
+research, and updating posters as requred.
 
 ### Friday 12:00 - Close: Future plans and feedback
 

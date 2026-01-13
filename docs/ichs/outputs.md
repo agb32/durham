@@ -10,7 +10,13 @@
 - HPC/AI Advisory Council: Talk, October 2024
 - DiRAC Day: Talk, December 2024
 - CIUK: Talk, December 2024
-
+- HPC Days: Talk, May 2025
+- Geological Society meeting: Talk, September 2025, Newcastle
+- NetDRIVE meeting: Talk, September 2025
+- Durham Energy Days: Talk, November 2025
+- CIUK: Talk, December 2025
+- DiRAC Day: Talk, December 2025
+- EGU: Talk, 2026
 ## Hardware
 
 - Immersion tank: allowing replacement of the ageing COSMA5 cluster with significant CO2 savings.
