@@ -9,6 +9,7 @@ historic
 cpu
 gpu
 dine
+outputs
 ```
 
 The HPC Hardware Lab @Durham provides Durham and UK researchers with access to cutting edge technologies and facilities.
