@@ -6,10 +6,11 @@ It has a concept of a [research data portal](https://docs.globus.org/guides/reci
 
 ## Transfer rates
 
-| | Durham | Edinburgh |
-| --- | --- | --- |
-| Durham | | [970MB/s](#cosma-archer2-transfer-tests) |
-| Edinburgh | [994MB/s](#cosma-archer2-transfer-tests) | |
+| | Durham | Edinburgh | Cambridge |
+| --- | --- | --- | --- |
+| Durham | | [970MB/s](#cosma-archer2-transfer-tests) | |
+| Edinburgh | [994MB/s](#cosma-archer2-transfer-tests) | | [825MB/s](#csd3-archer2-transfer-tests) |
+| Cambridge | | [1008MB/s](#csd3-archer2-transfer-tests) | |
 
 (from location in column to location in row)
 
@@ -67,6 +68,23 @@ The table below shows the data transfers performed and the transfer rates achiev
 The first four transfers were performed before MTU 9000 was enabled at Edinburgh, the last four after. There was no obvious performance improvement from this configuration change, with the transfers both before and after running at similar speeds in the range 800-1000MB/s. It is likely that other bottlenecks in the network were more significant than this setting.
 
 Transfers from ARCHER2 to COSMA were generally slightly faster than those in the other direction, though given the relatively small number of transfers performed, this may have just been coincidence. Surprisingly the transfers of 500 smaller files were noticeably faster than those of 50 larger files; this may relate to how Globus handles transfers internally. Possibly the larger number of files offers more opportunity for parallelism.
+
+## CSD3/ARCHER2 Transfer Tests
+
+We were interested in testing transfer speeds between ARCHER2 and another site in addition to Durham: as Durham does not have a paid Globus licence, it does not allow parallel transfers and we speculated that this may be restricting the transfer performance. CSD3 at Cambridge was selected for this as, like Edinburgh, it does have a paid Globus licence and an endpoint configured to allow parallel transfers.
+
+Setting up authentication for the Cambridge endpoint was a slightly different process from that at Edinburgh and Durham. First it was necessary to notify the local system administrator, Paul Browne, who granted access to Globus to my CSD3 user account. The next step was to create a Globus ID (a distinct entity from a Globus user account) and use this to authenticate with the Cambridge endpoint. While both Edinburgh and Durham handle Globus authentication through their normal user registration systems, Cambridge uses the Globus ID as an intermediary. However, this was straightforward - the email address associated with my Globus ID was matched to the one registered with my CSD3 user account and I was immediately able to access my files via Globus.
+
+Several transfer tests were then performed, as shown in the table below. Note that the number of files and the total volume of data used here were less than for the COSMA/ARCHER2 tests; this was due to more restrictive disk quotas at Cambridge.
+
+| Date/time | Source | Destination | Number of files | Size of each file (GB) | Transfer rate (MB/s) |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| 15/01/2026 11:06 | ARCHER2 | CSD3 | 50 | 10 | 1008.00 |
+| 15/01/2026 11:15 | CSD3 | ARCHER2 | 50 | 10 | 825.12 |
+| 15/01/2026 11:30 | ARCHER2 | CSD3 | 50 | 10 | 855.07 |
+| 15/01/2026 11:43 | CSD3 | ARCHER2 | 50 | 10 | 551.52 |
+
+There was no obvious improvement in transfer rate over the previous Edinburgh/Durham transfers. For the Edinburgh/Cambridge tests the transfer rates seemed more variable, perhaps due to the greater distance between Edinburgh and Cambridge. Overall the rates were about the same as between Edinburgh and Durham, which could suggest the speed is limited by something at or near the Edinburgh end of the link.
 
 ## Globus Command Line Interface Usage
 
