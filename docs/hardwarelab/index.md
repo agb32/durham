@@ -45,4 +45,5 @@ A list of [historical hardware](historic.md) (now retired) is maintained.
 
 ## External hardware laboratory facilities
 
-There are a number of other [hardware lab facilities around the UK](ukwide.md).  Please feel free to add to this list.
+There are a number of other hardware lab facilities around the UK. 
+A good starting point to search for available facilities is the [collection maintained by the SHAREing project](https://shareing-dri.github.io/resources/).
