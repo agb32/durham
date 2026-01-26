@@ -8,6 +8,7 @@ contribute
 historic
 cpu
 gpu
+tenstorrent
 dine
 outputs
 ```
@@ -26,6 +27,7 @@ These include:
   - NVIDIA Grace Hopper
   - AMD MI100, MI210, MI300X
   - Intel Ponte Vecchio
+- [Tenstorrent RISC-V system](https://cosma.readthedocs.io/en/latest/tenstorrent.html)
 - [Composable infrastructure](https://cosma.readthedocs.io/en/latest/composable.html)
 - [Rockport 6D Torus fabric](https://cosma.readthedocs.io/en/latest/rockportlab.html)
 - [Storage laboratory](https://cosma.readthedocs.io/en/latest/storagelab.html)
