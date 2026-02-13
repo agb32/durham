@@ -1,8 +1,16 @@
 # Dataset Generation
 
-Sometimes it is useful to have a large dummy dataset for testing and benchmarking data transfer technologies. To get realistic results, datasets filled with uncompressible random data are preferable to those filled with zeros, as these may be automatically compressed by filesystems or network infrastructure.
+Sometimes it is useful to have a large dummy dataset for testing and
+benchmarking data transfer technologies. To get realistic results,
+datasets filled with uncompressible random data are preferable to those
+filled with zeros, as these may be automatically compressed by
+filesystems or network infrastructure.
 
-The Python script below automates the process of generating a number of files with random contents. It requires Python 3.9 or higher. The random seed can be specified, allowing the datasets to be reproduced if required. The script takes the following arguments. The first three are required and the final two are optional:
+The Python script below automates the process of generating a number of
+files with random contents. It requires Python 3.9 or higher. The random
+seed can be specified, allowing the datasets to be reproduced if
+required. The script takes the following arguments. The first three are
+required and the final two are optional:
 
 - The directory in which to generate the files. This will be created if it does not already exist.
 - The number of files to generate.
@@ -101,4 +109,9 @@ for i in range(num_files):
     f.close()
 ```
 
-Note that generating test data this way is significantly slower than simply copying data out of `/dev/urandom` using a simple Bash command, probably because Python is an interpreted language and its random number generation may not be optimised for this use case. If speed of generation is more important than reproducibility, this script may not be the best solution.
+Note that generating test data this way is significantly slower than
+simply copying data out of `/dev/urandom` using a simple Bash command,
+probably because Python is an interpreted language and its random
+number generation may not be optimised for this use case. If speed of
+generation is more important than reproducibility, this script may not
+be the best solution.
