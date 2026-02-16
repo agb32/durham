@@ -7,21 +7,20 @@ filled with zeros, as these may be automatically compressed by
 filesystems or network infrastructure.
 
 The Python script below automates the process of generating a number of
-files with random contents. It requires Python 3.9 or higher. The random
-seed can be specified, allowing the datasets to be reproduced if
-required. The script takes the following arguments. The first three are
-required and the final two are optional:
+files with random contents. It requires Python 3.9 or higher. The first
+argument is the dataset name. There are 4 preset datasets included,
+which match the ones used so far for our Globus transfer tests.
+Additional datasets can easily be added by appending them to the
+`datasets` dictionary at the top of the script.
 
-- The directory in which to generate the files. This will be created if it does not already exist.
-- The number of files to generate.
-- The size of each file. This may be given in bytes, or a 'K', 'M' or 'G' suffix may be used to denote kilobytes, megabytes or gigabytes.
-- The filename prefix to use. Defaults to 'test'.
-- The random seed to use. Defaults to 0.
+If a second argument is given, this will be the directory name in which
+to generate the files. If it is not given, the dataset name will be used
+for this.
 
 Example usage:
 
 ```bash
-python createdataset.py dataset1 100 10G myfile 42
+python createdataset.py 50x100G my_dir
 ```
 
 To use, copy the code below into a Python file:
@@ -32,21 +31,41 @@ To use, copy the code below into a Python file:
 # Script to generate a set of files filled with pseudorandom numbers.
 # Requires Python 3.9 or newer.
 #
-# Usage: createdataset.py <directory> <number of files> <size of one file> \
-#            [<filename prefix> <random seed>]
+# Usage: createdataset.py <dataset name> [<directory>]
 #
-# directory is the name of the directory in which to create the files.
-# file size may be given in bytes or with a K, M, or G suffix for kilobytes,
-#   megabytes or gigabytes.
-# filename prefix is the stem used for each filename. A numeric suffix will be
-#   appended for each file. This is optional and the default is 'test'.
-# random seed is the seed for the random number generator, to allow reproducibility.
-#   This is optional and the default is zero.
+# The available datasets are given in the dictionary at the top of the script.
 #
 
 import os
 import random
 import sys
+
+datasets = {
+    "50x100G": {
+        "numFiles": 50,
+        "fileSize": "100G",
+        "prefix": "test",
+        "seed": 0
+    },
+    "500x10G": {
+        "numFiles": 500,
+        "fileSize": "10G",
+        "prefix": "test",
+        "seed": 0
+    },
+    "1000x1G": {
+        "numFiles": 1000,
+        "fileSize": "1G",
+        "prefix": "test",
+        "seed": 0
+    },
+    "50x10G": {
+        "numFiles": 50,
+        "fileSize": "10G",
+        "prefix": "test",
+        "seed": 0
+    }
+}
 
 # how many bytes to write to the file at once
 MAX_BLOCK_SIZE = 1000000
@@ -64,22 +83,19 @@ def parse_file_size(szstr):
 
 
 # process arguments
-if len(sys.argv) < 4 or len(sys.argv) > 6:
-    print("Usage: createdataset.py <directory> <number of files> <size of one file> [<filename prefix> <random seed>]")
+dataset_name = sys.argv[1] if len(sys.argv) >= 2 else None
+if dataset_name is None or dataset_name not in datasets or len(sys.argv) > 3:
+    print("Usage: createdataset.py <dataset name> [<directory>]")
+    print("  Available datasets: " + ", ".join(datasets.keys()))
     sys.exit(1)
 
-try:
-    directory = sys.argv[1]
-    num_files = int(sys.argv[2])
-    file_size = parse_file_size(sys.argv[3])
-    prefix = "test"
-    seed = 0
-
-    if len(sys.argv) > 4: prefix = sys.argv[4]
-    if len(sys.argv) > 5: seed = int(sys.argv[5])
-except ValueError:
-    print("Error: file count, file size and random seed must be integer values")
-    sys.exit(1)
+# look up dataset parameters
+dataset = datasets[dataset_name]
+directory = dataset_name if len(sys.argv) < 3 else sys.argv[2]
+num_files = dataset["numFiles"]
+file_size = parse_file_size(dataset["fileSize"])
+prefix = dataset["prefix"]
+seed = dataset["seed"]
 
 # seed the random number generator
 random.seed(seed)
