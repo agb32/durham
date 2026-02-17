@@ -5,6 +5,7 @@ User-driven large-scale data movement at UKRI DRI sites!
 ```{toctree}
 workpackages
 technologies
+dataset_generation
 questionnaire
 features
 ```
