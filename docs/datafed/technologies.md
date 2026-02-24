@@ -9,7 +9,31 @@ These include:
 - [Globus](globus.md)
 - [RUCIO](rucio.md)
 
+## rsync
+
+rsync is a simple tool for transferring directory structures and files between two end points.
+
+## rclone
+
+rclone is a commonly used tool in cloud-land, used to transfer files to and between object stores.
+
+## Globus
+
+Globus is a data transfer management tool which is used to orchestrate data movement between remote sites.
+
+## RUCIO
+
+RUCIO is a policy-driven data management tool which is used to orchestrate data movement between remote sites.
+
+## Dataset generation
+
+We will perform data transfer tests using known, repeatable datasets.  To this end, we provide a [dataset generator](dataset_generator.md) which can be used to  generate the datasets used on any platform such that repeatable tests can be performed.
+
+## Collaborative documentation
+
 This documentation is collaborative: if you have measurements or information which can be added, please do so.
+
+## Other data transfer technologies
 
 We will also investigate other technologies such as:
 
