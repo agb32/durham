@@ -8,9 +8,9 @@ It has a concept of a [research data portal](https://docs.globus.org/guides/reci
 
 | | Durham | Edinburgh | Cambridge |
 | --- | --- | --- | --- |
-| Durham | | [970MB/s](#cosma-archer2-transfer-tests) | [693MB/s](#cosma-csd3-transfer-tests) |
-| Edinburgh | [994MB/s](#cosma-archer2-transfer-tests) | | [825MB/s](#csd3-archer2-transfer-tests) |
-| Cambridge | [599MB/s](#cosma-csd3-transfer-tests) | [1008MB/s](#csd3-archer2-transfer-tests) | |
+| Durham | | [970MB/s](#cosma-archer2-transfer-tests) | [1360MB/s](#cosma-csd3-transfer-tests) |
+| Edinburgh | [994MB/s](#cosma-archer2-transfer-tests) | | [1810MB/s](#csd3-archer2-transfer-tests) |
+| Cambridge | [751MB/s](#cosma-csd3-transfer-tests) | [2220MB/s](#csd3-archer2-transfer-tests) | |
 
 (from location in column to location in row)
 
@@ -86,6 +86,19 @@ Several transfer tests were then performed, as shown in the table below. Note th
 
 There was no obvious improvement in transfer rate over the previous Edinburgh/Durham transfers. For the Edinburgh/Cambridge tests the transfer rates seemed more variable, perhaps due to the greater distance between Edinburgh and Cambridge. Overall the rates were about the same as between Edinburgh and Durham, which could suggest the speed is limited by something at or near the Edinburgh end of the link.
 
+### Further Tests with Parallelism Enabled
+
+A few weeks after our initial transfer tests, the CSD3 Globus endpoint was upgraded to a paid Globus licence with parallelism and mandatory encryption enabled. After this change we ran additional tests to check if the transfer rates had improved.
+
+| Date/time | Source | Destination | Number of files | Size of each file (GB) | Transfer rate (MB/s) |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| 23/02/2026 11:39 | CSD3 | ARCHER2 | 50 | 10 | 1810.00 |
+| 23/02/2026 11:46 | ARCHER2 | CSD3 | 50 | 10 | 2220.00 |
+| 23/02/2026 11:52 | CSD3 | ARCHER2 | 50 | 10 | 1810.00 |
+| 23/02/2026 12:04 | ARCHER2 | CSD3 | 50 | 10 | 2160.00 |
+
+The observed transfer rates had improved significantly, having roughly doubled from their original values. In addition, the rates also appeared to be more consistent than before, although this may have been down to transient factors such as network usage.
+
 ## COSMA/CSD3 Transfer Tests
 
 For completeness, we also tested transfer rates between COSMA and CSD3. As for the CSD3/ARCHER2 tests, the volume of data transferred was restricted by the disk space available at Cambridge.
@@ -98,6 +111,19 @@ For completeness, we also tested transfer rates between COSMA and CSD3. As for t
 | 26/01/2026 11:11 | COSMA | CSD3 | 50 | 10 | 693.73 |
 
 This time the transfer rate was noticeably slower than the previous tests between Edinburgh and Durham or Cambridge. This could be due to the fact that Durham has a slower network link than Edinburgh, as well as not having a paid Globus licence meaning that parallel transfers would not be possible. In addition, transfers from Durham to Cambridge were faster than those in the opposite direction, though given that only two tests were run in each direction, this may have just been coincidence.
+
+### Further Tests with Parallelism Enabled
+
+After parallelism was enabled at Cambridge, we also reran our tests between COSMA and CSD3. While we did not expect the results to have improved as much as the ARCHER2 to CSD3 results due to the lack of paid Globus licence at Durham, we were still interested to see if there was any change.
+
+| Date/time | Source | Destination | Number of files | Size of each file (GB) | Transfer rate (MB/s) |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| 23/02/2026 10:50 | CSD3 | COSMA | 50 | 10 | 750.08 |
+| 23/02/2026 11:05 | COSMA | CSD3 | 50 | 10 | 1340.00 |
+| 23/02/2026 11:14 | CSD3 | COSMA | 50 | 10 | 751.00 |
+| 23/02/2026 11:28 | COSMA | CSD3 | 50 | 10 | 1360.00 |
+
+Interestingly, a significant improvement was again observed, particularly in the Durham to Cambridge direction which saw transfer speeds roughly double relative to the previous tests. As with the tests between Edinburgh and Cambridge, these transfer times appeared to be more consistent across multiple tests than the earlier ones.
 
 ## Globus Command Line Interface Usage
 
