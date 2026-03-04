@@ -1,4 +1,4 @@
-# NetworkPlus Federated Compute Services data federation project
+# Data federation for the NetworkPlus Federated Compute Services
 
 User-driven large-scale data movement at UKRI DRI sites!
 
