@@ -14,13 +14,15 @@ The afternoon of 18th will focus on the Globus suite of tools, including configu
 
 The morning of 19th will focus on user-driven large scale data transfer.
 
-We welcome talks on this topic - please provide details in the [registration form]().
+We welcome talks on this topic - please provide details in the [registration form](https://durham.readthedocs.io/en/latest/datafed/workshop.html).
 
 This workshop is funded by the Data Federation project which is part of [NFCS+](https://nfcs-networkplus.ac.uk/).
 
 ## Registration
 
-Please [register here]()
+Please [register here](https://durham.readthedocs.io/en/latest/datafed/workshop.html).
+
+Registration will close on 10th May, though obviously it would be helpful to sign up earlier!
 
 ## Agenda
 
@@ -41,6 +43,15 @@ Tuesday 19th
 - 09:30 Data sharing workshop
 - 11:00 Refreshments
 - 11:30 Data sharing workshop
-- 13:00 Lunch
-- 14:00 End of workshop
+- 12:30 Lunch
+- 13:30 End of workshop
 
+## Directions
+
+The workshop is a pleasant 25-30 minute walk along the river bank from the train station.
+
+For those coming by car, park at your nearest station and catch a train!
+
+## Hotels
+
+There are many hotels in Durham.
