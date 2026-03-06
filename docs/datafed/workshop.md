@@ -4,7 +4,7 @@
 
 *Location:* Institute for Computational Cosmology, Durham University
  - Room OCW017, Ogden Centre West building, South Road, DH1 3LE
- - [Google maps location](https://www.google.com/maps/place/54%C2%B046'01.8%22N+1%C2%B034'29.4%22W/@54.76718,-1.5797085,17z)
+ - [Google maps location](https://www.google.com/maps/place/54%C2%B046'01.8%22N+1%C2%B034'29.4%22W/@54.76718,-1.5797085,17z){:target="_blank"}
 
 ![Location](../images/ocwBuilding.png)
 
@@ -14,13 +14,13 @@ The afternoon of 18th will focus on the Globus suite of tools, including configu
 
 The morning of 19th will focus on user-driven large scale data transfer.
 
-We welcome talks on this topic - please provide details in the [registration form](https://durham.readthedocs.io/en/latest/datafed/workshop.html).
+We welcome talks on this topic - please provide details in the [registration form](https://durham.readthedocs.io/en/latest/datafed/workshop.html){:target="_blank"}.
 
-This workshop is funded by the Data Federation project which is part of [NFCS+](https://nfcs-networkplus.ac.uk/).
+This workshop is funded by the Data Federation project which is part of [NFCS+](https://nfcs-networkplus.ac.uk/){:target="_blank"}.
 
 ## Registration
 
-Please [register here](https://durham.readthedocs.io/en/latest/datafed/workshop.html).
+Please [register here](https://durham.readthedocs.io/en/latest/datafed/workshop.html){:target="_blank"}.
 
 Registration will close on 10th May, though obviously it would be helpful to sign up earlier!
 
