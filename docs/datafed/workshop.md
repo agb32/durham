@@ -14,13 +14,13 @@ The afternoon of 18th will focus on the Globus suite of tools, including configu
 
 The morning of 19th will focus on user-driven large scale data transfer.
 
-We welcome talks on this topic - please provide details in the [registration form](https://durham.readthedocs.io/en/latest/datafed/workshop.html){:target="_blank"}.
+We welcome talks on this topic - please provide details in the [registration form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUQTlENlBGVklTSks4WUVSOU1SMVBIRUc4RC4u){:target="_blank"}.
 
 This workshop is funded by the Data Federation project which is part of [NFCS+](https://nfcs-networkplus.ac.uk/){:target="_blank"}.
 
 ## Registration
 
-Please [register here](https://durham.readthedocs.io/en/latest/datafed/workshop.html){:target="_blank"}.
+Please [register here](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUQTlENlBGVklTSks4WUVSOU1SMVBIRUc4RC4u){:target="_blank"}.
 
 Registration will close on 10th May, though obviously it would be helpful to sign up earlier!
 
