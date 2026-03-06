@@ -18,6 +18,8 @@ We welcome talks on this topic - please provide details in the [registration for
 
 This workshop is funded by the Data Federation project which is part of [NFCS+](https://nfcs-networkplus.ac.uk/){:target="_blank"}.
 
+We are also setting up a UK Globus users JISCMAIL list - please let Alastair know if you would like to be added to this.
+
 ## Registration
 
 Please [register here](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUQTlENlBGVklTSks4WUVSOU1SMVBIRUc4RC4u){:target="_blank"}.
