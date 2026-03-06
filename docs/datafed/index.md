@@ -2,7 +2,11 @@
 
 User-driven large-scale data movement at UKRI DRI sites!
 
+## Data Federation Workshop
 
+18-19th July, Durham
+
+For more details, and to register, [please see here](workshop.md)
 
 ## Overview
 
