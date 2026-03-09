@@ -24,7 +24,7 @@ We are also setting up a UK Globus users JISCMAIL list - please let Alastair kno
 
 Please [register here](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUQTlENlBGVklTSks4WUVSOU1SMVBIRUc4RC4u){:target="_blank"}.
 
-Registration will close on 10th May, though obviously it would be helpful to sign up earlier!
+Registration will close on 10th May, though obviously it would be helpful to sign up earlier!  Abstracts for talks are due by 1st May.
 
 ## Agenda
 
