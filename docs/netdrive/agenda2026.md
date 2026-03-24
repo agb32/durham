@@ -57,6 +57,8 @@ Start designing your poster for display on Friday, and at a NetDRIVE community m
 
 ### Tuesday 12:00 - Lunch
 
+## Tuesday (PM): Telling a story 
+
 ### Tuesday 13:00 - HPC Days joint session: Node level performance optimisation, Thomas Gruber (Friedrich-Alexander-Universität)
 
 Continuing the HPC Days session around code optimisation.
@@ -121,11 +123,13 @@ Efforts to reuse and store waste HPC heat are discussed.
 
 ### Wednesday 12:00 - Lunch
 
+## Wednesday (PM): Certification, software and choice
+
 ### Wednesday 13:00 - Tour: The DiRAC Machine Room
 
 A tour of the DiRAC@Durham Machine Room which hosts the COSMA HPC facility and the HPC Hardware Lab.  The Machine Room is located approximately 5 minutes walk from the summer school venue.
 
-### Wednesday 13:45 greendisk, Loic Lannelongue (Cambridge University)
+### Wednesday 13:45 GreenDISK, Loic Lannelongue (Cambridge University)
 
 
 This session explores evaluation of codes, and introduces the GreenDisk scheme, which can be applied to any DRI infrastructure from small research labs with one or two servers, up to the largest HPC facilities.
@@ -170,6 +174,9 @@ The Software Carpentries Green Software Use HPC training introduces environmenta
 How can your own usage of computing be made more sustainable?
 
 ### Thursday 12:00 - Lunch
+
+
+## Thursday (PM): Data, markets and monitoring
 
 ### Thursday 13:00 - Practical: FAIR data management and sustainability on JASMIN, and poster preparation, Fatima Chami (JASMIN)
 
