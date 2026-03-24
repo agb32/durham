@@ -1,12 +1,14 @@
 # Detailed agenda
 
-This agenda is subject to change, and will be modified to allow participants to join relevant sessions at the HPC Days meeting, once the timetable for these becomes available.
+This agenda is subject to change.
 
 An [overview and summary](ss2026.md) is available.
 
 ## Monday (PM): The Net Zero Challenge
 
-### Monday 13:30 - Keynote: Introducing the Net Zero challenge, Stuart Basden
+### Monday 13:00 - Welcome, introduction and aims
+
+### Monday 13:30 - Keynote: Introducing the Net Zero challenge, Stuart Basden (co-founder XR, climate activist)
 
 An introduction to the Net Zero challenge by one of the co-founders of eXtinction Rebellion, a global environmental movement using nonviolent civil disobedience to compel government action to avoid climate tipping points.
 
@@ -14,182 +16,229 @@ An introduction to the Net Zero challenge by one of the co-founders of eXtinctio
 
 A group workshop to break the ice between participants and start people thinking about Net Zero, and the impact they can have.
 
-### Monday 15:30 - Break
-### Monday 16:00 - Talk: Net Zero from a DRI context
+### Monday 14:30 - Break
 
-An introduction to the UK's Digital Research Infrastructure, discussing embodied carbon, power consumption and related carbon emissions.  The need for science outputs and research impact, and making the most of facilities are discussed.
+### Monday 15:00 - Facilitation session
 
-### Monday 16:30 - Talk: Communicating change: Getting your message across
+Continued
 
-An introductory session discussing communication styles and how to make your research impactful, in the most climate friendly ways.
+### Monday 15:30 - Talk: Net Zero from a DRI context, Martin Farley (UKRI)
 
-### Monday 17:00 - Communication: Storytelling
+Placing Digital Research Infrastructure into the Net-Zero context.  An introduction to the UK's Digital Research Infrastructure, discussing embodied carbon, power consumption and related carbon emissions.  The need for science outputs and research impact, and making the most of facilities are discussed.
 
-A storytelling session to help develop public outreach skills, with other such sessions throughout the week.
+
+### Monday 16:00 - Break
+
+### Monday 16:30 - Storytelling, Erinma Ochu (UWE, Bristol)
+
+A storytelling session to help develop public outreach skills, with another such sessions later in the week.
 
 ### Monday 18:00 - Evening activity: Climate board games and quiz
 
 Enjoy some food while taking part in some board games and a quiz.
 
-## Tuesday (AM): Understanding the context, carbon literacy, DRI infrastructure, energy markets
+## Tuesday (AM): The role of software
 
-### Tuesday 09:00 - Keynote: Carbon literacy and the DRI infrastructure
+### Tuesday 09:00 - HPC Days joint session: Node level performance optimisation, Thomas Gruber (Friedrich-Alexander-Universität)
 
-This keynote talk will provide a wide-ranging overview of the DRI infrastructure, and how this relates to emissions, providing a basis for carbon literacy, critical thinking and how to develop accurate carbon calculations.
-
-### Tuesday 09:30 - Training: Software Carpentries Green HPC, Andy Turner
-
-The Software Carpentries Green Software Use HPC training introduces environmental sustainability principles in an HPC context, aiding understanding with the scale of emissions from different sources, and the ability to understand the emissions arising from your own work.
+This joint HPC Days session will give an overview of how to get the best performance from hardware.
 
 ### Tuesday 10:30 - Break
-### Tuesday 11:00 - Talk: Energy markets, external pressures, politics and funding, Michael Rudyard
 
-There are many external pressures on HPC and AI systems, which only grow as the size of these systems increase.  This talk will discuss energy markets, politics and funding, and the impact that these can have on Net-Zero goals.
+### Tuesday 11:00 - Talk: Sustainable software - code and carbon optimisation, bugs and the rebound effect, Liz Ing-Simmons (Edinburgh University)
 
-### Tuesday 11:30 - Activity: Design a DRI facility
+This talk will provide insight into code and carbon optimisation, discuss the impact of software bugs, and how the reboud effect impacts Net-Zero.
 
-A team-building game and activity to design a DRI facility meeting certain criteria.
+Developing code to run efficiently is key to reducing emissions.  Advice on how to achieve this is presented, and warnings about the rebound effect given.  Responsible use of HPC systems is also discussed.
 
-### Tuesday 12:30 - Lunch
+### Tuesday 11:20 - Poster design session
 
-## Tuesday (PM): Making change
+Start designing your poster for display on Friday, and at a NetDRIVE community meeting in July.
 
-### Tuesday 13:30 - Keynote: Sufficiency, TBC
+### Tuesday 12:00 - Lunch
 
-Code efficiency improvements can lead us to run more simulations, negating any savings in emissions.  This can be useful, leading to more science.  But there is a balance bewteen more runs, and making do with what you need, i.e. sufficiency.  This talk will discuss sufficiency from a DRI context.
+### Tuesday 13:00 - HPC Days joint session: Node level performance optimisation, Thomas Gruber (Friedrich-Alexander-Universität)
 
-### Tuesday 14:00 - Case study: My route to becoming a sustainability champion, Jessica Hartley
+Continuing the HPC Days session around code optimisation.
 
-NetDRIVE Champion, Jessica Hartley discusses her career route towards becoming a sustainability champion.
+### Tuesday 14:30 - Break
 
-### Tuesday 14:30 - Communication: Poster preparation introductory session
+### Tuesday 15:00 - Storytelling, Erimna Ochu (UWE, Bristol) and Martin Jukes (Oxford University)
 
-Poster design session.  The posters will be displayed at a NetDRIVE meeting in July (Edinburgh), with a prize for the best poster.
+Continuing the storytelling session, focusing on how to make yourself
+heard, helping to draw together knowledge gained from the summer
+school.
 
-### Tuesday 15:30 - Break
-### Tuesday 16:00 - Engagement: Public engagement activities
 
-A session seeking to deliver public engagement skills.
+### Tuesday 16:00 - Break
 
-### Tuesday 18:00 - Evening activity: Boating
+### Tuesday 16:30 - Practical: Optimisation hackathon and poster preparation
 
-Take a trip on the river, and hope it isn't raining!
+A hands-on session exploring code optimisations, with time for poster preparation.
 
-## Wednesday (AM): Connecting emissions with research
+### Tuesday 18:00 - Evening activity: Boating or a Ceilidh
 
-### Wednesday 09:00 - Talk: Societal, environmental and economic benefits verses environmental cost and CO2 offsetting
+Take a trip on the river, and hope it isn't raining!  Or dance the evening away (TBC).
+
+
+## Wednesday (AM): Large facilities
+
+### Wednesday 09:00 - Talk: Societal, environmental and economic benefits verses environmental cost and CO2 offsetting, Martin Juckes (Oxford University)
 
 The balance between science and research outputs, and the environmental cost of HPC can be difficult to achieve, or even determine.  This talk will discuss the societal considerations, the economic benefits of more compute verses the environmental cost, and how we should think about this topic.
 
-### Wednesday 09:30 - Talk: Monitoring and estimating emissions in your workflow, Alex Owen
+### Wednesday 09:30 - Talk: Sustainable use of AI, TBC
 
-Most large HPC facilities will have ways in which the energy consumed by jobs can be estimated and reported, with direct calculation of carbon emissions then possible.  This talk will discuss how these emissions can be monitored and estimated within different workflows.
+How should AI be used sustainably?  Should we avoid it entirely, or does it have some uses?  This talk focuses on the environmental impact of the recent AI boom, and how we can be responsible in our usage of AI.  A discussion of sustainable use of AI, how to encourage sustainability, what constitutes ethical usage, and how to use tools responsibly.
 
-### Wednesday 10:00 - Practical: ARCHER2 monitoring
 
-A practical session looking at monitoring carbon emissions on the ARCHER2 HPC system.
+### Wednesday 09:50 - Talk: The CEDA archive, Fatima Chami (JASMIN)
+
+An introduction to the CEDA data archive, how to access and store data, and how responsible use of data can reduce emissions.
+
+### Wednesday 10:10 - Talk: Data storage at JASMIN, TBC
+
+Storage of data has an environmental impact.  Judicious use of storage can impact both embodied and operational CO2 emissions.  The facilities available at JASMIN are presented, along with efforts in sustainability.
+
 
 ### Wednesday 10:30 - Break
-### Wednesday 11:00 - Practical (continued): ARCHER2 monitoring
 
-A continuation of the previos session, which will also include monitoring on other systems.
+### Wednesday 11:00 - Talk: Sustainable data centres and the ACF, Lorna Smith (EPCC)
 
-### Wednesday 11:45 - Tour: The DiRAC Machine Room
+Data centres are not usually associated with sustainability.  This talk presents ways in which the situation can be improced, and the Advanced Compute Facility at Edinburgh University is given as an example.
+
+### Wednesday 11:15 - Talk: Queen Mary data centre case study, Alex Owen (Queen Mary University London)
+
+The QMUL data centre, which includes heat reuse, is presented.
+
+### Wednesday 11:30 - Talk: The JASMIN data centre, Matt Pritchard (JASMIN)
+
+The JASMIN data centre is discussed.
+
+### Wednesday 11:45 - Talk: Heat storage and reuse, Alastair Basden (Durham)
+
+Efforts to reuse and store waste HPC heat are discussed.
+
+### Wednesday 12:00 - Lunch
+
+### Wednesday 13:00 - Tour: The DiRAC Machine Room
 
 A tour of the DiRAC@Durham Machine Room which hosts the COSMA HPC facility and the HPC Hardware Lab.  The Machine Room is located approximately 5 minutes walk from the summer school venue.
 
-### Wednesday 12:30 - Lunch
+### Wednesday 13:45 greendisk, Loic Lannelongue (Cambridge University)
 
-## Wednesday (PM): Influencing data centre sustainability and procurement
 
-### Wednesday 13:30 - Keynote: UKRI procurement, TBC
+This session explores evaluation of codes, and introduces the GreenDisk scheme, which can be applied to any DRI infrastructure from small research labs with one or two servers, up to the largest HPC facilities.
 
-Procurement of HPC systems is complex, and often rushed in non-ideal conditions.  This talk explores the process, and opportunities for input into system designs, and how environmental credentials can be a key part of th eprocess.
+### Wednesday 14:10 - Practical: Software Sustainability Institute online sustainability evaluation, Kirsty Pringle (EPCC)
 
-### Wednesday 14:00 - Talk: Understanding the procurement process
+Time to start the SSI sustainability evaluation for your research...
 
-An ongoing discussion of procurement, with examples from various large HPC systems.
+### Wednesday 14:30 - Break
 
-### Wednesday 14:30 - Talk: Sustainable data centres
+### Wednesday 15:00 - Continued: Software Sustainability Institute online sustainability evaluation, Kirsty Pringle (EPCC)
 
-Data centres are not usually known to be sustainable.  However, efforts are being made in this direction, and this talk covers some of the key examples and successes so far.
+... And to complete it
 
-### Wednesday 15:00 - Engagement: Lifestyle choices
+### Wednesday 15:30 - Engagement: Lifestyle choices, Lorna, Alastair, Fatima
 
-This session looks at how lifestyle choices can impact carbon emissions, often in surprising ways.
+How can you make life style choices to reduce your environmental impact?  This session provides some ideas, and leads you though ways of thinking about this.
 
-### Wednesday 15:30 - Break
-### Wednesday 16:00 - Communication: Preparation of student briefing document - recommendations for DRI procurement
+### Wednesday 16:00 - Break
 
-This session will see the delivery of a briefing document and recommendations for future DRI procurements.
+### Wednesday 16:30 - HPC Days Scavenger hunt
+
+Join the popular scavenger hunt, with prizes at stake!
 
 ### Wednesday 18:00 - Evening activity: Historic walking tour and restaurant
 
 Take a tour around the historic city of Durham, seeing some little known gems.
 
-### Thursday (AM): Green software engineering
 
-### Thursday 09:00 - Talk: Sustainable software - code and carbon optimisation, bugs and the rebound effect
+## Thursday (AM): Green HPC
 
-Developing code to run efficiently is key to reducing emissions.  Advice on how to achieve this is presented, and warnings about the rebound effect given.  Responsible use of HPC systems is also discussed.
+### Thursday 09:00 - HPC Days joint session: Green HPC, Andy Turner (EPCC)
 
-### Thursday 09:30 - Practical: Software Sustainability Institute online sustainability evaluation and GreenDisk
+The Software Carpentries Green Software Use HPC training introduces environmental sustainability principles in an HPC context, aiding understanding with the scale of emissions from different sources, and the ability to understand the emissions arising from your own work.
 
-This session explores evaluation of codes, and introduces the GreenDisk scheme, which can be applied to any DRI infrastructure from small research labs with one or two servers, up to the largest HPC facilities.
+
 
 ### Thursday 10:30 - Break
-### Thursday 11:00 - Practical: Optimisation hackathon
 
-A code optimisation hackathon with some research software engineer experts to help out, seeking to introduce optimisations into participant codes.
+### Thursday 11:00 - Green HPC follow-up session, Andy Turner (EPCC)
 
-### Thursday 12:30 - Lunch
+How can your own usage of computing be made more sustainable?
 
-## Thursday (PM): Sustainable data management
+### Thursday 12:00 - Lunch
 
-### Thursday 13:30 - Keynote:
-
-TBC
-
-### Thursday 14:00 - Talk: The CEDA archive, Fatima Chami
-
-An introduction to the CEDA data archive, how to access and store data, and how responsible use of data can reduce emissions.
-
-### Thursday 14:30 - Practical: FAIR data management and sustainability on JASMIN
+### Thursday 13:00 - Practical: FAIR data management and sustainability on JASMIN, and poster preparation, Fatima Chami (JASMIN)
 
 A practical session in data management using the JASMIN HPC facility.
 
-### Thursday 15:30 - Break
-### Thursday 16:00 - Communication: Storytelling
+### Thursday 14:00 - Case study: My route to becoming a sustainability champion, Jessica Huntley (STFC)
 
-A storytelling workshop helping to draw together knowledge gained from the summer school.
+NetDRIVE Champion, Jessica Hartley discusses her career route towards becoming a sustainability champion.
 
-### Thursday 17:00 - Engagement: Planning public engagement materials
+### Thursday 14:30 - Break
+
+### Thursday 15:00 - Keynote: Energy markets, external pressures, politics and funding, Michael Rudyard (NetDRIVE champion)
+
+There are many external pressures on HPC and AI systems, which only grow as the size of these systems increase.  This talk will discuss energy markets, politics and funding, and the impact that these can have on Net-Zero goals.
+
+### Thursday 15:30 - Keynote: Monitoring and estimating emissions in your workflow, Alex Owen (Queen Mary University London)
+
+This session will present some of the tools needed to determine emissions corresponding to different jobs and workloads.
+Most large HPC facilities will have ways in which the energy consumed by jobs can be estimated and reported, with direct calculation of carbon emissions then possible. 
+
+
+### Thursday 16:00 - Break
+
+### Thursday 16:30 - Engagement: Planning public engagement materials and activities, Lorna Smith (EPCC)
 
 A practical engagement session looking at how public engagement materials can be developed and used.
 
+
+### Thursday 17:00 - Practical: Laptop and server repair
+
+Gain experience and confidence in repairing hardware, to length lifetime and reduce embodied carbon.
+
 ### Thursday 18:00 - Social evening: Free style
+
 Free time to take part in a social activity of your choice.
 
 
 ## Friday (AM): Advocating for change
 
-### Friday 09:00 - Keynote: Sustainable use of AI, Alastair Basden
+### Friday 09:00 - Keynote: Sufficiency, Carolynne Lord (Centre for Ecology and Hydrology)
 
-A discussion of sustainable use of AI, how to encourage sustainability, what constitutes ethical usage, and how to use tools responsibly.
+Code efficiency improvements can lead us to run more simulations, negating any savings in emissions.  This can be useful, leading to more science.  But there is a balance bewteen more runs, and making do with what you need, i.e. sufficiency.  This talk will discuss sufficiency from a DRI context.
 
-### Friday 09:30 - Communication: Poster session
+### Friday 09:30 - Practical: ARCHER2 monitoring, Lorna Smith (EPCC)
 
-A poster session, presenting posters to HPC Days attendees and getting feedback.  This session includes lightning talks to introduce the posters.  Updates to the posters can then be made in preparation for presenting them at the NetDRIVE July Edinburgh meeting.
+A practical session looking at monitoring carbon emissions on the ARCHER2 HPC system.
 
-### Friday 10:30 - Break
-### Friday 11:00 - Action: Creating a plan
+### Friday 10:30 - Break and poster session
 
-A session devoted to creating an action plan related to your own
-research, and updating posters as requred.
+A poster session, presenting posters to HPC Days attendees and getting feedback.
 
-### Friday 12:00 - Close: Future plans and feedback
+### Friday 11:00 - Activity: Design a DRI facility, Alastair Basden (Durham)
 
-The grand finale, looking at future opportunities to engage with the DRI.
+A fun session focused around designing a new Digital Research Infrastructure facility as a team, while meeting certain criteria.
 
-### Friday 12:30 - Lunch
-And then depart!
+### Friday 11:30 - Closing session: Creating a plan and feedback, Lorna, Alastair, Fatima
+
+The grand finale, a session devoted to creating an action plan related
+to your own research, looking at future opportunities to engage with
+the DRI, and feeding back the summer school experience.
+
+
+
+### Friday 12:00 - Lunch and poster session
+
+### Friday 13:00 - End of summer school
+
+
+
+
+
+
