@@ -8,6 +8,8 @@ An [overview and summary](ss2026.md) is available.
 
 ### Monday 13:00 - Welcome, introduction and aims
 
+Get to know the team and participants, and work out what is going on!
+
 ### Monday 13:30 - Keynote: Introducing the Net Zero challenge, Stuart Basden (co-founder XR, climate activist)
 
 An introduction to the Net Zero challenge by one of the co-founders of eXtinction Rebellion, a global environmental movement using nonviolent civil disobedience to compel government action to avoid climate tipping points.
