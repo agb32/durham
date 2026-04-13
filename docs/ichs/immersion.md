@@ -2,6 +2,9 @@
 
 Immersion cooling of HPC equipment offers a low carbon, energy efficient route for data centre operation.
 
+![The immersion tank](../images/immersiontank.jpg)
+![Servers in the immersion tank](../images/immersionservers.jpg)
+
 ## Details
 
 ### Tank
