@@ -37,6 +37,6 @@ This will allow us to investigate:
 
 We have analysed ground movement around the drilling site over the past decade aided by TerraMotion, and see very little movement at the mm level.
 
-![Ground movement over the wider area 2016-2026](../images/qgisScreenship.png)
-![Ground movement centred on the drilling site 2016-2026](../images/qgisScreenship2.png)
+![Ground movement over the wider area 2016-2026](../images/qgisScreenshot.png)
+![Ground movement centred on the drilling site 2016-2026](../images/qgisScreenshot2.png)
 
