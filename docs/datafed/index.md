@@ -8,7 +8,7 @@ User-driven large-scale data movement at UKRI DRI sites!
 
 For more details, and to register, [please see here](workshop.md)
 
-## Overview
+## Project overview
 
 This project looks at large scale data movement between, into and out
 of UKRI DRI sites, addressing a fundamental impediment in the form of
@@ -98,6 +98,7 @@ For more information please see the individual [work packages](workpackages.md)
 ```{toctree}
 workpackages
 technologies
+zerocopy
 questionnaire
 features
 ```
