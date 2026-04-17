@@ -23,7 +23,7 @@ Example usage:
 python datagenerator.py 50x100G my_dir
 ```
 
-The code is available at [https://gitlab.cosma.dur.ac.uk/cosma/datagenerator](https://gitlab.cosma.dur.ac.uk/cosma/datagenerator)
+The code is available at [https://github.com/agb32/datagenerator](https://github.com/agb32/datagenerator)
 
 
 Note that generating test data this way is significantly slower than
