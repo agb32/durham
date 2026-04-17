@@ -27,7 +27,7 @@ RUCIO is a policy-driven data management tool which is used to orchestrate data 
 
 ## Dataset generation
 
-We will perform data transfer tests using known, repeatable datasets.  To this end, we provide a [dataset generator](dataset_generator.md) which can be used to  generate the datasets used on any platform such that repeatable tests can be performed.
+We will perform data transfer tests using known, repeatable datasets.  To this end, we provide a [dataset generator](dataset_generation.md) which can be used to  generate the datasets used on any platform such that repeatable tests can be performed.
 
 ## Collaborative documentation
 
