@@ -91,37 +91,39 @@ Take a trip on the river, and hope it isn't raining!  Or dance the evening away 
 
 The balance between science and research outputs, and the environmental cost of HPC can be difficult to achieve, or even determine.  This talk will discuss the societal considerations, the economic benefits of more compute verses the environmental cost, and how we should think about this topic.
 
-### Wednesday 09:30 - Talk: Sustainable use of AI, TBC
+### Wednesday 09:15 - Talk: Sustainability in the research context, Ali Bharmal (Durham University)
 
-How should AI be used sustainably?  Should we avoid it entirely, or does it have some uses?  This talk focuses on the environmental impact of the recent AI boom, and how we can be responsible in our usage of AI.  A discussion of sustainable use of AI, how to encourage sustainability, what constitutes ethical usage, and how to use tools responsibly.
+How does research and advancing knowledge align with net-zero efforts?  How can we research responsibly?
 
-
-### Wednesday 09:50 - Talk: The CEDA archive, Fatima Chami (JASMIN)
+### Wednesday 09:30 - Talk: The CEDA archive, Fatima Chami (JASMIN)
 
 An introduction to the CEDA data archive, how to access and store data, and how responsible use of data can reduce emissions.
 
-### Wednesday 10:10 - Talk: Data storage at JASMIN, TBC
+### Wednesday 09:45 - Talk: Data storage at JASMIN, TBC
 
 Storage of data has an environmental impact.  Judicious use of storage can impact both embodied and operational CO2 emissions.  The facilities available at JASMIN are presented, along with efforts in sustainability.
 
-
-### Wednesday 10:30 - Break
-
-### Wednesday 11:00 - Talk: Sustainable data centres and the ACF, Lorna Smith (EPCC)
+### Wednesday 10:00 - Talk: Sustainable data centres and the ACF, Lorna Smith (EPCC)
 
 Data centres are not usually associated with sustainability.  This talk presents ways in which the situation can be improced, and the Advanced Compute Facility at Edinburgh University is given as an example.
 
-### Wednesday 11:15 - Talk: Queen Mary data centre case study, Alex Owen (Queen Mary University London)
+### Wednesday 10:15 - Talk: Queen Mary data centre case study, Alex Owen (Queen Mary University London)
 
 The QMUL data centre, which includes heat reuse, is presented.
 
-### Wednesday 11:30 - Talk: The JASMIN data centre, Matt Pritchard (JASMIN)
+### Wednesday 10:30 - Break
+
+### Wednesday 11:00 - Talk: The JASMIN data centre, Matt Pritchard (JASMIN)
 
 The JASMIN data centre is discussed.
 
-### Wednesday 11:45 - Talk: Heat storage and reuse, Alastair Basden (Durham)
+### Wednesday 11:15 - Talk: Heat storage and reuse, Alastair Basden (Durham)
 
 Efforts to reuse and store waste HPC heat are discussed.
+
+### Wednesday 11:30 - Poster preparation session
+
+Continue working on posters
 
 ### Wednesday 12:00 - Lunch
 
