@@ -47,7 +47,7 @@ Tuesday 19th
 - 09:40 [Globus usage on JASMIN](#globus-usage-on-jasmin), Matt Pritchard
 - 10:00 [Data transfer facilities on COSMA](#data-transfer-facilities-on-cosma), Alastair Basden
 - 10:20 [Globus at the Rosalind Franklin Institute](#globus-at-the-rfi), Dimitrios Bellos
-- 10:40 Exploring Globus and rsync performance, James Perry
+- 10:40 [Exploring Globus and rsync performance](#exploring-globus-and-rsync-performance), James Perry
 - 11:00 Refreshments
 - 11:30 JISC, Janet, network test facilities, perfSonar, Globus test, Tim Chown
 - 11:50 Tuning and measuring network performance, Chris Walker
@@ -87,6 +87,9 @@ Lastly, we released Rosalind Franklin Institute’s GlobusAPI (3). Our RFI-Globu
 4. https://doi.org/10.1038/sdata.2016.18
 5. https://www.go-fair.org/fair-principles 
 
+### Exploring Globus and rsync performance
+
+As part of the NFCS Federated Data Movement project, we have been investigating data transfer technologies, including Globus and rsync, with the aim of providing guidance to users on which technologies might be suitable for their use cases. We tested Globus and rsync between 5 UK HPC sites looking at performance, ease-of-use and other relevant facctors. As part of this work we have also used iperf3 to investigate the bandwidth of the underlying network links, as well as exploring how variations in data size affect transfer speeds.
 
 ## Directions
 

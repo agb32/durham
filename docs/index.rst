@@ -11,7 +11,7 @@ Contents
    :caption: PROJECTS
 
    ichs/index
-   hardwarelab/index
+   HPC Hardware Lab @Durham <https://cosma.readthedocs.io/en/latest/hardwarelab.html>
    hpcdays/index
    netdrive/index
    datafed/index
