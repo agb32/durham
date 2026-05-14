@@ -188,7 +188,18 @@ A practical session in data management using the JASMIN HPC facility.
 
 ### Thursday 14:00 - Case study: My route to becoming a sustainability champion, Jessica Huntley (STFC)
 
-NetDRIVE Champion, Jessica Hartley discusses her career route towards becoming a sustainability champion.
+In this session I will outline my journey to becoming a sustainability
+champion, beginning with the establishment of a departmental green
+group, which I set up in 2022 whilst on the graduate scheme at the
+Science and Technology Facilities Council (STFC). I'll reflect on how
+the group has grown in both size and influence over the years, and
+share some insights into engaging colleagues, raising awareness, and
+sustaining momentum. The talk will also explore my experience of
+advocating for dedicated time to work on sustainable computing
+initiatives, and how this led to securing funding and becoming a
+NetDRIVE champion.
+
+
 
 ### Thursday 14:30 - Break
 
