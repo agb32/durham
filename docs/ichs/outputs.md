@@ -17,6 +17,8 @@
 - CIUK: Talk, December 2025
 - DiRAC Day: Talk, December 2025
 - EGU: Talk, 2026
+- [IEA Mine water energy symposium](https://www.iea-gia.org/mine-water-geothermal-energy), 4 talks, April 2026
+
 ## Hardware
 
 - Immersion tank: allowing replacement of the ageing COSMA5 cluster with significant CO2 savings.
@@ -24,5 +26,8 @@
 ## Publications and popular science articles
 
 - Website
+- "A numerical approach to combined open gallery and porous flow in flooded mine workings"m Wong et al, https://www.sciencedirect.com/science/article/pii/S0196890426005741#d1e1856
+- "Seasonal Thermal Energy Storage in Abandoned Mines:     Transient Numerical Modelling for the ICHS Project,", van Hunen et al, https://doi.org/10.5194/egusphere-egu26-7792
+- "Minewater Geothermal: Mine-groundwater interactions and the effects on Geothermal Resource feasibility", Thomas et al, https://doi.org/10.5194/egusphere-egu26-11577
 
 
