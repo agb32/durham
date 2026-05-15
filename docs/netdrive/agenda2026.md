@@ -12,7 +12,9 @@ Get to know the team and participants, and work out what is going on!
 
 ### Monday 13:30 - Keynote: Introducing the Net Zero challenge, Stuart Basden (co-founder XR, climate activist)
 
-An introduction to the Net Zero challenge by one of the co-founders of eXtinction Rebellion, a global environmental movement using nonviolent civil disobedience to compel government action to avoid climate tipping points.
+Stuart Basden, co-founder of [Extinction Rebellion](https://extinctionrebellion.uk/) (XR) will present recent climate research and planetary heating trajectories.  Drawing from XR's origins - including the 2018-2019 London bridge blockades - he will discuss raising awareness about climate change and democracy.  Basden will compare our current mass extinction event to historical ones like the Permian, then address the emotional toll of climate change, creatig space for participants to process what they have heard and reflect on life's interconnectedness.
+
+XR is a global environmental movement using nonviolent civil disobedience to compel government action to avoid climate tipping points.
 
 ### Monday 14:00 - Facilitation session
 
