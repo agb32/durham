@@ -43,7 +43,7 @@ Tuesday 19th
 
 - 09:00 Arrival and refreshments
 - 09:15 Welcome
-- 09:20 Data sharing at the Vera C Rubin Telescope (LSST), George Beckett
+- 09:20 [Data sharing at the Vera C Rubin Telescope (LSST)](#data-sharing-at-the-vera-c-rubin-telescope), George Beckett
 - 09:40 [Globus usage on JASMIN](#globus-usage-on-jasmin), Matt Pritchard
 - 10:00 [Data transfer facilities on COSMA](#data-transfer-facilities-on-cosma), Alastair Basden
 - 10:20 [Globus at the Rosalind Franklin Institute](#globus-at-the-rfi), Dimitrios Bellos
@@ -56,6 +56,23 @@ Tuesday 19th
 - 13:30 End of workshop
 
 ## Abstracts
+
+### Data sharing at the Vera C Rubin Telescope
+
+The Vera C. Rubin Observatory is a new observatory in Northern Chile which, over the next 10 years, will capture the Legacy Survey of Space and Time (LSST) – the most detailed optical survey of the Southern Sky ever undertaken. The
+observatory is led by the US National Science Foundation and Department of Energy, but involves significant in-kind contributions from various international groups; including a consortium representing all UK astronomy departments, which
+is making one of the largest contributions.
+
+When complete the survey will constitute around 400 Petabytes of images, catalogues, and scientific measurements, which will support the full range of astronomy research: everything from giving unprecedented insight into the make-up of
+dark energy through to cataloguing and measuring tens of thousands of previously undetected asteroids that travel through our solar system.
+
+LSST is also an epic-scale computing challenge and will require a disparate set of data technologies and techniques to extract insight from the survey observations, mixing traditional analysis with leading-edge, artificial-intelligence
+techniques. Astronomers will access the survey via a small number of Data Access Centres including one here in the UK, headquartered in Edinburgh, but with an expectation to exploit services from across UKRI’s Digital Research
+Infrastructure.
+
+In this talk, we describe and quantify some of the key data challenges facing the Rubin-UK team and highlight the opportunities for science to exploit the UK’s leadership-scale academic network and research-computing capabilities.”
+
+
 
 ### Globus usage on JASMIN
 
