@@ -12,6 +12,8 @@ Investigation of large scale data movement and a Globus-focused session.
 
 The afternoon of 18th will focus on the Globus suite of tools, including configuration, installation and usage, and overview of features.
 
+[Globus join link](https://uchicago.zoom.us/j/91593333967?pwd=Y3kmN5TI2BLWYvaQUVoLc96SjaAxB8.1)
+
 The morning of 19th will focus on user-driven large scale data transfer.
 
 We welcome talks on this topic - please provide details in the [registration form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUQTlENlBGVklTSks4WUVSOU1SMVBIRUc4RC4u){:target="_blank"}.
