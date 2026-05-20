@@ -49,15 +49,18 @@ This joint HPC Days session will give an overview of how to get the best perform
 
 ### Tuesday 10:30 - Break
 
-### Tuesday 11:00 - Talk: Sustainable software - code and carbon optimisation, bugs and the rebound effect, Liz Ing-Simmons (Edinburgh University)
+### Tuesday 11:00 - Keynote: GreenDisk, Loic Lannelongue (Cambridge University)
+
+An introduction to the GreenDisk certification scheme, appropriate for everything from labs to national HPC facilities.
+
+This session explores evaluation of codes, and introduces the GreenDisk scheme, which can be applied to any DRI infrastructure from small research labs with one or two servers, up to the largest HPC facilities.
+
+
+### Tuesday 11:25 - Talk: Sustainable software - code and carbon optimisation, bugs and the rebound effect, Liz Ing-Simmons (Edinburgh University)
 
 This talk will provide insight into code and carbon optimisation, discuss the impact of software bugs, and how the reboud effect impacts Net-Zero.
 
 Developing code to run efficiently is key to reducing emissions.  Advice on how to achieve this is presented, and warnings about the rebound effect given.  Responsible use of HPC systems is also discussed.
-
-### Tuesday 11:20 - Poster design session
-
-Start designing your poster for display on Friday, and at a NetDRIVE community meeting in July.
 
 ### Tuesday 12:00 - Lunch
 
@@ -78,13 +81,13 @@ school.
 
 ### Tuesday 16:00 - Break
 
-### Tuesday 16:30 - Practical: Optimisation hackathon and poster preparation
+### Tuesday 16:30 - Practical: Sustainability, Kirsty Pringle (EPCC)
 
-A hands-on session exploring code optimisations, with time for poster preparation.
+A session around sustainability.
 
-### Tuesday 18:00 - Evening activity: Boating or a Ceilidh
+### Tuesday 18:00 - Evening activity: Ceilidh
 
-Take a trip on the river, and hope it isn't raining!  Or dance the evening away (TBC).
+Dance the evening away!
 
 
 ## Wednesday (AM): Large facilities
@@ -93,35 +96,30 @@ Take a trip on the river, and hope it isn't raining!  Or dance the evening away 
 
 The balance between science and research outputs, and the environmental cost of HPC can be difficult to achieve, or even determine.  This talk will discuss the societal considerations, the economic benefits of more compute verses the environmental cost, and how we should think about this topic.
 
-### Wednesday 09:15 - Talk: Sustainability in the research context, Ali Bharmal (Durham University)
+### Wednesday 09:25 - Talk: The JASMIN compute facility, Matt Pritchard (JASMIN, STFC)
 
-How does research and advancing knowledge align with net-zero efforts?  How can we research responsibly?
+An introduction to the JASMIN compute facility, used for environmental sciences.
 
-### Wednesday 09:30 - Talk: The CEDA archive, Fatima Chami (JASMIN)
+
+### Wednesday 09:45 - Talk: The CEDA/JASMIN data archive facility, Matt Pritchard (JASMIN, STFC)
 
 An introduction to the CEDA data archive, how to access and store data, and how responsible use of data can reduce emissions.
 
-### Wednesday 09:45 - Talk: Data storage at JASMIN, TBC
-
 Storage of data has an environmental impact.  Judicious use of storage can impact both embodied and operational CO2 emissions.  The facilities available at JASMIN are presented, along with efforts in sustainability.
 
-### Wednesday 10:00 - Talk: Sustainable data centres and the ACF, Lorna Smith (EPCC)
-
-Data centres are not usually associated with sustainability.  This talk presents ways in which the situation can be improced, and the Advanced Compute Facility at Edinburgh University is given as an example.
-
-### Wednesday 10:15 - Talk: Queen Mary data centre case study, Alex Owen (Queen Mary University London)
+### Wednesday 10:10 - Talk: Queen Mary data centre case study, Alex Owen (Queen Mary University London)
 
 The QMUL data centre, which includes heat reuse, is presented.
 
 ### Wednesday 10:30 - Break
 
-### Wednesday 11:00 - Talk: The JASMIN data centre, Matt Pritchard (JASMIN)
+### Wednesday 11:00 - Talk: Sustainable data centres and the ACF, Lorna Smith (EPCC)
 
-The JASMIN data centre is discussed.
+Data centres are not usually associated with sustainability.  This talk presents ways in which the situation can be improced, and the Advanced Compute Facility at Edinburgh University is given as an example.
 
 ### Wednesday 11:15 - Talk: Heat storage and reuse, Alastair Basden (Durham)
 
-Efforts to reuse and store waste HPC heat are discussed.
+Efforts to reuse and store waste HPC heat are presented.
 
 ### Wednesday 11:30 - Poster preparation session
 
@@ -135,24 +133,19 @@ Continue working on posters
 
 A tour of the DiRAC@Durham Machine Room which hosts the COSMA HPC facility and the HPC Hardware Lab.  The Machine Room is located approximately 5 minutes walk from the summer school venue.
 
-### Wednesday 13:45 GreenDISK, Loic Lannelongue (Cambridge University)
+### Wednesday 13:45 Practical: Environmental impact mapping, Marcia Smith (Lancaster)
 
-
-This session explores evaluation of codes, and introduces the GreenDisk scheme, which can be applied to any DRI infrastructure from small research labs with one or two servers, up to the largest HPC facilities.
-
-### Wednesday 14:10 - Practical: Software Sustainability Institute online sustainability evaluation, Kirsty Pringle (EPCC)
-
-Time to start the SSI sustainability evaluation for your research...
+An interactive session focused on mapping of environmental impacts
 
 ### Wednesday 14:30 - Break
 
-### Wednesday 15:00 - Continued: Software Sustainability Institute online sustainability evaluation, Kirsty Pringle (EPCC)
+### Wednesday 15:00 - (continued) Practical: Environmental impact mapping, Marcia Smith (Lancaster)
 
-... And to complete it
+Continued...
 
-### Wednesday 15:30 - Engagement: Lifestyle choices, Lorna, Alastair, Fatima
+### Wednesday 15:30 - Engagement: Planning public engagement materials and activities, Lorna Smith (EPCC)
 
-How can you make life style choices to reduce your environmental impact?  This session provides some ideas, and leads you though ways of thinking about this.
+Public engagement around Net-Zero is becoming increasingly important, and this session seeks to describe ways in which public engagement activities can help with this.
 
 ### Wednesday 16:00 - Break
 
@@ -160,9 +153,9 @@ How can you make life style choices to reduce your environmental impact?  This s
 
 Join the popular scavenger hunt, with prizes at stake!
 
-### Wednesday 18:00 - Evening activity: Historic walking tour and restaurant
+### Wednesday 18:00 - Evening activity: Botanic garden tour
 
-Take a tour around the historic city of Durham, seeing some little known gems.
+Take a relaxing tour around the Botanic Garden.
 
 
 ## Thursday (AM): Green HPC
@@ -200,7 +193,7 @@ finishing the project well.
 
 A practical session in data management using the JASMIN HPC facility.
 
-### Thursday 14:00 - Case study: My route to becoming a sustainability champion, Jessica Huntley (STFC)
+### Thursday 13:30 - Case study: My route to becoming a sustainability champion, Jessica Huntley (STFC)
 
 In this session I will outline my journey to becoming a sustainability
 champion, beginning with the establishment of a departmental green
@@ -213,7 +206,9 @@ advocating for dedicated time to work on sustainable computing
 initiatives, and how this led to securing funding and becoming a
 NetDRIVE champion.
 
+### Thursday 14:00 - Poster preparation
 
+The final poster preparation session!
 
 ### Thursday 14:30 - Break
 
@@ -229,9 +224,9 @@ Most large HPC facilities will have ways in which the energy consumed by jobs ca
 
 ### Thursday 16:00 - Break
 
-### Thursday 16:30 - Engagement: Planning public engagement materials and activities, Lorna Smith (EPCC)
+### Thursday 16:30 - Engagement: Lifestyle choices, the three Rs, Lorna Smith, Fatima Chami, Alastair Basden (Edinburgh, STFC, Durham)
 
-A practical engagement session looking at how public engagement materials can be developed and used.
+How can you make life style choices to reduce your environmental impact?  This session provides some ideas, and leads you though ways of thinking about this.
 
 
 ### Thursday 17:00 - Practical: Laptop and server repair
