@@ -96,16 +96,38 @@ Dance the evening away!
 
 The balance between science and research outputs, and the environmental cost of HPC can be difficult to achieve, or even determine.  This talk will discuss the societal considerations, the economic benefits of more compute verses the environmental cost, and how we should think about this topic.
 
-### Wednesday 09:25 - Talk: The JASMIN compute facility, Matt Pritchard (JASMIN, STFC)
+### Wednesday 09:25 - Talk: JASMIN: the UK’s environmental data analysis facility, Matt Pritchard (JASMIN, STFC)
 
-An introduction to the JASMIN compute facility, used for environmental sciences.
+JASMIN is a Digital Research Infrastructure designed to enable the
+environmental science community to come together, collaborate and work
+efficiently on large, data-intensive projects that tackle some of
+today’s most challenging questions. It provides large-scale analysis
+compute co-located with curated environmental datasets and flexible
+workspace storage, along with technologies, tools and expertise to
+help scientists work effectively at scale and across disciplines. It
+is designed and operated by STFC on behalf of NERC.  This talk will
+give a brief overview of JASMIN’s role, structure and services.
 
 
-### Wednesday 09:45 - Talk: The CEDA/JASMIN data archive facility, Matt Pritchard (JASMIN, STFC)
 
-An introduction to the CEDA data archive, how to access and store data, and how responsible use of data can reduce emissions.
+### Wednesday 09:45 - Talk: CEDA, the CEDA Archive and its role in the NERC Environmental Data Service,     Matt Pritchard (JASMIN, STFC)
 
-Storage of data has an environmental impact.  Judicious use of storage can impact both embodied and operational CO2 emissions.  The facilities available at JASMIN are presented, along with efforts in sustainability.
+The mission of the Centre for Environmental Data Analysis (CEDA) is to
+provide data and information services for environmental science: this
+includes curation of scientifically important environmental data for
+the long term, facilitation of the use of data by the environmental
+science community, and the operation of data infrastructure needed to
+support those activities.  CEDA is a team of specialists with
+expertise spanning data management and informatics, research software
+engineering and digital research infrastructure engineering. It
+operates the CEDA Archive, a major component of the NERC Environmental
+Data Service, which brings together data spanning environmental
+science disciplines into a single service commissioned by NERC as a
+National Capability.  CEDA also undertakes project work for a range of
+national and international funders, and provides the user-facing
+service of JASMIN, the UK’s data analysis facility for environmental
+science, in which the CEDA Archive is hosted.
+
 
 ### Wednesday 10:10 - Talk: Queen Mary data centre case study, Alex Owen (Queen Mary University London)
 
