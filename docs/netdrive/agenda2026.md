@@ -155,9 +155,13 @@ Continue working on posters
 
 A tour of the DiRAC@Durham Machine Room which hosts the COSMA HPC facility and the HPC Hardware Lab.  The Machine Room is located approximately 5 minutes walk from the summer school venue.
 
-### Wednesday 13:45 Practical: Environmental impact mapping, Marcia Smith (Lancaster)
+### Wednesday 13:45 Practical: Environmental impact mapping, Marcia Smith (Lancaster), Kirsty Blair (UKCEH)
 
-An interactive session focused on mapping of environmental impacts
+In this session, we will map the socio-environmental impacts of
+Digital Research Infrastructures. In groups, participants will draw
+from their own research experiences. We will use the Rebound
+Archetypes Cards to guide us to think systemically about the impacts
+and their potential consequences.
 
 ### Wednesday 14:30 - Break
 
