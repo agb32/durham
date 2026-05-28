@@ -17,6 +17,28 @@ It has a concept of a [research data portal](https://docs.globus.org/guides/reci
 
 (from location in column to location in row)
 
+## Parallelism
+
+Globus can perform data transfers in parallel, both in terms of transferring multiple files simultaneously (concurrency), and in terms of transferring multiple data streams within a file (parallelism). The table below shows the concurrency (first number) and parallelism (second number) that we observed between our sites. Note that these numbers are not shown in the transfer overview in the Globus web application, however they can be found by looking at the earliest event in the event log for a transfer.
+
+| | Durham | Edinburgh | Cambridge | JASMIN | JISC |
+| --- | --- | --- | --- | --- | --- |
+| Durham | | 4, 8 | 2, 4 | 4, 4 | 2, 4 |
+| Edinburgh | 4, 8 | | 4, 8 | 20, 8 | 4, 8 |
+| Cambridge | 2, 4 | 4, 8 | | 4, 4 | 2, 4 |
+| JASMIN | 4, 4 | 20, 8 | 4, 4 | | |
+
+During our parallelism tests the parallelism and concurrency always remained consistent between each pair of sites across repeated transfers, and were also the same in both directions. However, this behaviour is not necessarily guaranteed.
+
+Sites with a paid Globus licence can configure their own settings for preferred and maximum concurrency and parallelism; sites with a free licence are restricted to the default settings, which are shown below.
+
+| Setting | Default value |
+| --- | --- |
+| Maximum concurrency | Number of servers * 4 |
+| Preferred concurrency | Number of servers * 2 |
+| Maximum parallelism | 8 |
+| Preferred parallelism | 4 |
+
 ## Subscriptions
 
 Globus offers a free subscription tier for limited control of data transfer.  However, higher performance transfers are available with a paid subscription.
@@ -37,7 +59,8 @@ The table below shows the availability of Globus at major HPC providers in the U
 | University of York | Yes | High assurance | No |
 | Apocrita (QMUL) | Yes | Standard | No |
 | COSMA (Durham) | Yes | No | No |
-| CSD3 (Cambridge) | Not publicly | Unknown | Unknown |
+| CSD3 (Cambridge) | Yes | Standard | No |
+| JASMIN (RAL) | Yes | Standard | No |
 | Isambard (GW4) | No | n/a | n/a |
 | Sulis (HPC Midlands) | No | n/a | n/a |
 | JADE (Oxford) | No | n/a | n/a |
@@ -45,7 +68,7 @@ The table below shows the availability of Globus at major HPC providers in the U
 | NI-HPC | No | n/a | n/a |
 | Bede (EPSRC) | No | n/a | n/a |
 
-Some sites have a paid Globus licence but do not appear to have configured their endpoint to support parallel transfers (using the `Maximum Concurrency`, `Preferred Concurrency`, `Maximum Parallelism` and `Preferred Parallelism` settings). This is denoted by a "No" in the right hand column of the table. CSD3 is thought to have a Globus endpoint, but it is not currently documented, or discoverable through the Globus search functionality.
+Some sites have a paid Globus licence but do not appear to have configured the parallel transfer settings for their endpoint (using the `Maximum Concurrency`, `Preferred Concurrency`, `Maximum Parallelism` and `Preferred Parallelism` settings). This is denoted by a "No" in the right hand column of the table.
 
 ## COSMA/ARCHER2 Transfer Tests
 
@@ -74,7 +97,7 @@ Transfers from ARCHER2 to COSMA were generally slightly faster than those in the
 
 ## CSD3/ARCHER2 Transfer Tests
 
-We were interested in testing transfer speeds between ARCHER2 and another site in addition to Durham: as Durham does not have a paid Globus licence, it does not allow parallel transfers and we speculated that this may be restricting the transfer performance. CSD3 at Cambridge was selected for this as, like Edinburgh, it does have a paid Globus licence and an endpoint configured to allow parallel transfers.
+We were interested in testing transfer speeds between ARCHER2 and another site in addition to Durham: as Durham does not have a paid Globus licence, we speculated that this may be restricting the transfer performance. CSD3 at Cambridge was selected for this as, like Edinburgh, it does have a paid Globus licence.
 
 Setting up authentication for the Cambridge endpoint was a slightly different process from that at Edinburgh and Durham. First it was necessary to notify the local system administrator, Paul Browne, who granted access to Globus to my CSD3 user account. The next step was to create a Globus ID (a distinct entity from a Globus user account) and use this to authenticate with the Cambridge endpoint. While both Edinburgh and Durham handle Globus authentication through their normal user registration systems, Cambridge uses the Globus ID as an intermediary. However, this was straightforward - the email address associated with my Globus ID was matched to the one registered with my CSD3 user account and I was immediately able to access my files via Globus.
 
@@ -89,9 +112,9 @@ Several transfer tests were then performed, as shown in the table below. Note th
 
 There was no obvious improvement in transfer rate over the previous Edinburgh/Durham transfers. For the Edinburgh/Cambridge tests the transfer rates seemed more variable, perhaps due to the greater distance between Edinburgh and Cambridge. Overall the rates were about the same as between Edinburgh and Durham, which could suggest the speed is limited by something at or near the Edinburgh end of the link.
 
-### Further Tests with Parallelism Enabled
+### Further Tests after CSD3 Upgrade
 
-A few weeks after our initial transfer tests, the CSD3 Globus endpoint was upgraded to a paid Globus licence with parallelism and mandatory encryption enabled. After this change we ran additional tests to check if the transfer rates had improved.
+A few weeks after our initial transfer tests, the CSD3 Globus endpoint was upgraded to a paid Globus licence with mandatory encryption enabled. After this change we ran additional tests to check if the transfer rates had improved.
 
 | Date/time | Source | Destination | Number of files | Size of each file (GB) | Transfer rate (MB/s) |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -113,11 +136,11 @@ For completeness, we also tested transfer rates between COSMA and CSD3. As for t
 | 26/01/2026 10:52 | CSD3 | COSMA | 50 | 10 | 571.67 |
 | 26/01/2026 11:11 | COSMA | CSD3 | 50 | 10 | 693.73 |
 
-This time the transfer rate was noticeably slower than the previous tests between Edinburgh and Durham or Cambridge. This could be due to the fact that Durham has a slower network link than Edinburgh, as well as not having a paid Globus licence meaning that parallel transfers would not be possible. In addition, transfers from Durham to Cambridge were faster than those in the opposite direction, though given that only two tests were run in each direction, this may have just been coincidence.
+This time the transfer rate was noticeably slower than the previous tests between Edinburgh and Durham or Cambridge. This could be due to the fact that Durham has a slower network link than Edinburgh, as well as not having a paid Globus licence. In addition, transfers from Durham to Cambridge were faster than those in the opposite direction, though given that only two tests were run in each direction, this may have just been coincidence.
 
-### Further Tests with Parallelism Enabled
+### Further Tests after Cambridge Upgrade
 
-After parallelism was enabled at Cambridge, we also reran our tests between COSMA and CSD3. While we did not expect the results to have improved as much as the ARCHER2 to CSD3 results due to the lack of paid Globus licence at Durham, we were still interested to see if there was any change.
+After Globus was upgraded at Cambridge, we also reran our tests between COSMA and CSD3. While we did not expect the results to have improved as much as the ARCHER2 to CSD3 results due to the lack of paid Globus licence at Durham, we were still interested to see if there was any change.
 
 | Date/time | Source | Destination | Number of files | Size of each file (GB) | Transfer rate (MB/s) |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
