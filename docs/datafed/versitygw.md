@@ -74,7 +74,8 @@ and verious other rclone commands.
 
 # Flamingo tests
 
-Set up using e.g. `ROOT_ACCESS_KEY="f" ROOT_SECRET_KEY="f" ./versitygw --port :50011 posix /cosma7/data/Eagle/DataRelease/L0100N1504/PE/REFERENCE/data`
+Set up using e.g. `ROOT_ACCESS_KEY="f" ROOT_SECRET_KEY="f" ./versitygw --port :50011 posix /cosma7/data/Eagle/DataRelease/L0100N1504/PE/REFERENCE`
 
-Note: S3 requires bucket names to all be lowercase.  If directories have capital letters in the names, they can all be placed into a single directory, and that used.
+Note: S3 requires bucket names to all be lowercase and cannot contain underscore characters.  If directories have capital letters in the names, they can all be placed into a single directory, and that used.
 
+After appropriate config, `rclone lsf versity-dataweb-50011:` can be used to list.

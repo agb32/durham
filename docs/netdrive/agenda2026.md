@@ -56,11 +56,19 @@ An introduction to the GreenDisk certification scheme, appropriate for everythin
 This session explores evaluation of codes, and introduces the GreenDisk scheme, which can be applied to any DRI infrastructure from small research labs with one or two servers, up to the largest HPC facilities.
 
 
-### Tuesday 11:25 - Talk: Sustainable software - code and carbon optimisation, bugs and the rebound effect, Liz Ing-Simmons (Edinburgh University)
+### Tuesday 11:25 - Talk: Sustainable computing in the research lifecycle, Liz Ing-Simmons (Edinburgh University)
 
-This talk will provide insight into code and carbon optimisation, discuss the impact of software bugs, and how the reboud effect impacts Net-Zero.
+Computational research impacts the environment in multiple ways, and
+therefore there are many possible actions researchers can take to
+reduce their environmental impact. This talk will give an overview of
+some of these practical actions, with an emphasis on actions relevant
+to data analysis and developing efficient software. It will place
+these actions in the context of the lifecycle of a research project,
+from planning, to implementation, and eventual publication. Attendees
+will be encouraged to think about which actions are most relevant to
+their current project and phase of work, and how they could implement
+these into their research workflow.
 
-Developing code to run efficiently is key to reducing emissions.  Advice on how to achieve this is presented, and warnings about the rebound effect given.  Responsible use of HPC systems is also discussed.
 
 ### Tuesday 12:00 - Lunch
 
