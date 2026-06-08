@@ -194,7 +194,20 @@ Take a relaxing tour around the Botanic Garden.
 
 ## Thursday (AM): Green HPC
 
-### Thursday 09:00 - HPC Days joint session: Green Software use on HPC, Andy Turner (EPCC)
+### Thursday 09:00 - Responsible computing plans, Andy Turner (EPCC)
+
+This session will introduce the concept of a responsible computing
+plan for HPC use and the practical actions you can take to reduce
+emissions from your use of HPC. It will cover different stages of the
+project from planning, data management, actions during the project, to
+finishing the project well.
+
+
+
+
+### Thursday 10:30 - Break
+
+### Thursday 11:00 - HPC Days joint session: Green Software use on HPC, Andy Turner (EPCC)
 
 This session will give a taster of the Green Software Use on HPC
 course that is part of the Carpentries Incubator and HPC
@@ -203,19 +216,6 @@ sustainability in the context of HPC, covering sources of emissions,
 carbon awareness, and measuring and monitoring emissions from use of
 HPC. The course is designed to be accessible to all stakeholders in
 HPC - from people who procure HPC services, operators and users.
-
-
-
-
-### Thursday 10:30 - Break
-
-### Thursday 11:00 - Responsible computing plans, Andy Turner (EPCC)
-
-This session will introduce the concept of a responsible computing
-plan for HPC use and the practical actions you can take to reduce
-emissions from your use of HPC. It will cover different stages of the
-project from planning, data management, actions during the project, to
-finishing the project well.
 
 
 ### Thursday 12:00 - Lunch
