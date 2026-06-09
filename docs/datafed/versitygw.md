@@ -79,3 +79,15 @@ Set up using e.g. `ROOT_ACCESS_KEY="f" ROOT_SECRET_KEY="f" ./versitygw --port :5
 Note: S3 requires bucket names to all be lowercase and cannot contain underscore characters.  If directories have capital letters in the names, they can all be placed into a single directory, and that used.
 
 After appropriate config, `rclone lsf versity-dataweb-50011:` can be used to list.
+
+
+## Mounting on a client
+
+The s3fs fusemount command can be used.  To do this, you can e.g.:
+
+```
+echo f:f > .passwd-s3fs
+mkdir mnt
+s3fs data mnt/ -o passwd_file=.passwd-s3fs -o url=http://193.60.196.24:50011 -o use_path_request_style
+```
+
