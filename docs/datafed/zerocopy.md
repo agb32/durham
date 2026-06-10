@@ -14,3 +14,6 @@ S3 has become a standard for object storage.  It is possible to export local POS
 
 - [versitygw](versitygw.md)
 
+## Using StorJ buckets
+
+The [StorJ](storj.md) distributed cloud file system is an S3 compatible object file store.  This can be used to share data.

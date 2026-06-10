@@ -104,21 +104,7 @@ Dance the evening away!
 
 The balance between science and research outputs, and the environmental cost of HPC can be difficult to achieve, or even determine.  This talk will discuss the societal considerations, the economic benefits of more compute verses the environmental cost, and how we should think about this topic.
 
-### Wednesday 09:25 - Talk: JASMIN: the UK’s environmental data analysis facility, Matt Pritchard (JASMIN, STFC)
-
-JASMIN is a Digital Research Infrastructure designed to enable the
-environmental science community to come together, collaborate and work
-efficiently on large, data-intensive projects that tackle some of
-today’s most challenging questions. It provides large-scale analysis
-compute co-located with curated environmental datasets and flexible
-workspace storage, along with technologies, tools and expertise to
-help scientists work effectively at scale and across disciplines. It
-is designed and operated by STFC on behalf of NERC.  This talk will
-give a brief overview of JASMIN’s role, structure and services.
-
-
-
-### Wednesday 09:45 - Talk: CEDA, the CEDA Archive and its role in the NERC Environmental Data Service,     Matt Pritchard (JASMIN, STFC)
+### Wednesday 09:25 - Talk: CEDA, the CEDA Archive and its role in the NERC Environmental Data Service,     Alison Pamment (JASMIN, STFC)
 
 The mission of the Centre for Environmental Data Analysis (CEDA) is to
 provide data and information services for environmental science: this
@@ -135,6 +121,20 @@ National Capability.  CEDA also undertakes project work for a range of
 national and international funders, and provides the user-facing
 service of JASMIN, the UK’s data analysis facility for environmental
 science, in which the CEDA Archive is hosted.
+
+### Wednesday 09:25 - Talk: JASMIN: the UK’s environmental data analysis facility, Matt Pritchard (JASMIN, STFC)
+
+JASMIN is a Digital Research Infrastructure designed to enable the
+environmental science community to come together, collaborate and work
+efficiently on large, data-intensive projects that tackle some of
+today’s most challenging questions. It provides large-scale analysis
+compute co-located with curated environmental datasets and flexible
+workspace storage, along with technologies, tools and expertise to
+help scientists work effectively at scale and across disciplines. It
+is designed and operated by STFC on behalf of NERC.  This talk will
+give a brief overview of JASMIN’s role, structure and services.
+
+
 
 
 ### Wednesday 10:10 - Talk: Queen Mary data centre case study, Alex Owen (Queen Mary University London)

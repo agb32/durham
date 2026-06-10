@@ -91,3 +91,9 @@ mkdir mnt
 s3fs data mnt/ -o passwd_file=.passwd-s3fs -o url=http://193.60.196.24:50011 -o use_path_request_style
 ```
 
+### Testing partial download
+
+During testing of partial download tests, the `file` command was used on a 263MB file on a 20Mbit/s home broadband connection.  The result was returned in 29 seconds, which would equal 70Mbit/s download speed if the whole file was transferred - therefore, only parts of the file were transferred, demonstrating the "zero-copy" data transfer.
+
+
+
