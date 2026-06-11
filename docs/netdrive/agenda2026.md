@@ -33,9 +33,31 @@ Placing Digital Research Infrastructure into the Net-Zero context.  An introduct
 
 ### Monday 16:00 - Break
 
-### Monday 16:30 - Storytelling, Erinma Ochu (UWE, Bristol)
+### Monday 16:30 - Storytelling workshop - Begin at the beginning - What’s your story?, Erinma Ochu (UWE, Bristol)
 
-A storytelling session to help develop public outreach skills, with another such sessions later in the week.
+Change starts with knowing your own story. Across two facilitated sessions, participants will be introduced to storytelling as a tool for
+imagining positive environmental change linked to the sustainable computing agenda.
+
+
+Participants will learn and apply storytelling techniques to focus on how underlying beliefs can shape sustainability mindsets and research
+culture. Participants will begin to develop their own story of how they arrived at sustainable computing, identify and reframe limiting
+beliefs that might hold them back, and strengthening their ability to communicate why this work matters to them. Participants will also engage
+with stories from the NetDRIVE community, including NetDRIVE Principle Investigator, Martin Juckes and NetDRIVE Champion, Kirsty Pringle.
+
+
+By the end of these sessions, participants will have developed the foundations of their own story.
+
+Dr Erinma Ochu is NetDRIVE storytelling champion and Wallscourt Associate Professor of Immersive Media at UWE Bristol. Trained as a biologist
+and storyteller, their practice-based research explores collective consciousness, memory, and environmental action through creative and
+participatory storytelling methods. They have a background in film and TV, held fellowships with NESTA and Wellcome, and currently serve as
+Watershed’s Researcher in Residence and as co-editor of book series, Digital Materialities and Sustainable Futures.
+
+Rosie Stanbury supports people to develop their ideas and themselves. She works as an engagement strategist, facilitator and coach with
+particular expertise in interdisciplinary practice. She spent almost 17 years at Wellcome, Europe’s largest global health foundation, where
+she was on the senior leadership team - leading creative teams for Wellcome Collection. She is Vice Chair of English Touring Theatre and a
+Trustee of SICK! Productions.
+
+
 
 ### Monday 18:00 - Evening activity: Climate board games and quiz
 
@@ -80,7 +102,7 @@ Continuing the HPC Days session around code optimisation.
 
 ### Tuesday 14:30 - Break
 
-### Tuesday 15:00 - Storytelling, Erimna Ochu (UWE, Bristol) and Martin Jukes (Oxford University)
+### Tuesday 15:00 - Storytelling, Erinma Ochu (UWE, Bristol) and Martin Jukes (Oxford University)
 
 Continuing the storytelling session, focusing on how to make yourself
 heard, helping to draw together knowledge gained from the summer
