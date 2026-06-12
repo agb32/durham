@@ -37,3 +37,7 @@ The [agenda is here](ss2026.md#agenda)
 
 Your departure train is booked for Friday afternoon (19th June).
 
+## Code of conduct
+
+We hope participants will follow the Code of Conduct developed by the [Society of Research Software Engineering](https://www.cake.ac.uk/CAKEbox/code-of-conduct/)
+
