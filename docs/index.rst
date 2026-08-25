@@ -16,6 +16,7 @@ Contents
    netdrive/index
    datafed/index
    hpcdays2025/index
+   museum/index
    
 Durham University is a leading High Performance Computing provider to
 the UK research community.
