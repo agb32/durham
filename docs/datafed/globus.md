@@ -221,6 +221,29 @@ After JISC made some of our test datasets available via Globus, we ran several t
 
 Transfer rates were in the same range as those already observed between the other sites. Notably, and slightly surprisingly, the largest dataset (50x100GB files) was generally slightly slower to transfer than the two smaller datasets, although in most cases the speed difference was relatively small.
 
+## Partial Data Transfers
+
+To test the case where a dataset is updated after its initial transfer, or where additional data is added to it later on, I performed some experiments with Globus to determine how it performs in this case. The experiments were as follows:
+
+1. Start with a dataset consisting of 10x100GB files (these were the first ten files from our standard 50x100GB dataset) on COSMA.
+2. Transfer the entire dataset to another site (ARCHER2) using Globus.
+3. Remove two of the files from ARCHER2 and transfer the dataset again.
+4. Replace one file on COSMA with different contents and transfer the dataset again.
+5. Add two additional files on COSMA and transfer the dataset again.
+
+By default, Globus will transfer all of the selected files from source to destination, overwriting any files already present at the destination, even if their content is the same. To handle partial transfers more intelligently it is necessary to check the "apply sync level" box under "Transfer & Timer Options" in the Globus web app. Several different sync levels are available, based on file size, modification time and checksum. For these tests I chose level 2, which will transfer any files with a different file size or a newer modification time on the source machine than on the destination.
+
+The data transfer times observed are recorded in the table below:
+
+| Test | Transfer time (minutes and seconds) |
+| --- | --- |
+| Initial transfer of entire dataset | 22:54 |
+| Transfer with two files removed from destination | 9:18 |
+| Transfer with one source file's contents replaced | 11:35 |
+| Transfer with two additional files at source | 9:00 |
+
+Modifying the sync level setting clearly saves time as none of the partial transfers took as long as the initial transfer of the entire dataset. However, they did take proportionally longer for the amount of data being transferred. For example, the second transfer only had two files to copy but took around 40% of the time taken by the initial full transfer of ten files rather than the 20% that might have been expected based on data volumes. This could be because transferring only one or two files affords fewer opportunities for parallelism than transferring ten files at once.
+
 ## Globus Command Line Interface Usage
 
 Globus transfers can be initiated and monitored through the Globus web interface available at [https://app.globus.org](https://app.globus.org). However, for some use cases (particularly when scripting and automation are desired), the command line interface may be more suitable. This can easily be installed through `pip`:
