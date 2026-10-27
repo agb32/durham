@@ -1,13 +1,11 @@
 # NetDRIVE Summer Schools
 
-We are running two fully-funded [NetDRIVE](https://eng.ox.ac.uk/netdrive) summer schools for PhD students, focused around Net-Zero and responsible research when using Digital Research Infrastructure.  These will be during the summer of 2026, and spring of 2027.
-
-To apply for a place on the waiting list for the 2026 summer school, [please use this form](https://forms.office.com/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlKHkTxd26sdLkOaQl2zCEXpUN0hRTURJM0daWDdORUVNTjVJQ0NINTNBWi4u){:target="_blank"}
+We are running two fully-funded [NetDRIVE](https://eng.ox.ac.uk/netdrive) summer schools for PhD students, focused around Net-Zero and responsible research when using Digital Research Infrastructure.  These will be during the summer of 2026 and 2027.
 
 
 [2026 Summer School](ss2026.md) **15th-19th June 2026, Durham**
 
-[2027 Summer School](ss2027.md) **March 2027 TBC, Edinburgh**
+[2027 Summer School](ss2027.md) **7th-11th June 2027, Edinburgh**
 
 ## Background
 
@@ -30,4 +28,4 @@ We welcome applications from any UK based PhD student whose PhD research involve
 
 ## Organisation
 
-The summer school is funded by the UKRI NetworkPlus activity, NetDRIVE. It is organised by Durham University, EPCC at the University of Edinburgh and NCAS.
+The summer schools are funded by the UKRI NetworkPlus activity, NetDRIVE. It is organised by Durham University, EPCC at the University of Edinburgh and NCAS.
