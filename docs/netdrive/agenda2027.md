@@ -1,1 +1,3 @@
 # Detailed agenda: NetDRIVE Summer School 2027
+
+Coming soon...
